@@ -4,22 +4,26 @@ class Book
 {
     private $author;
     private $title;
+
     public function __construct($title_in, $author_in)
     {
         $this->author = $author_in;
-        $this->title  = $title_in;
+        $this->title = $title_in;
     }
+
     public function getAuthor()
     {
         return $this->author;
     }
+
     public function getTitle()
     {
         return $this->title;
     }
+
     public function getAuthorAndTitle()
     {
-        return $this->getTitle().' by '.$this->getAuthor();
+        return $this->getTitle() . ' by ' . $this->getAuthor();
     }
 }
 
@@ -38,16 +42,17 @@ class ArrayCaseReverse
 {
     private static $uppercase_array =
         array('A', 'B', 'C', 'D', 'E', 'F',
-              'G', 'H', 'I', 'J', 'K', 'L',
-              'M', 'N', 'O', 'P', 'Q', 'R',
-              'S', 'T', 'U', 'V', 'W', 'X',
-              'Y', 'Z');
+            'G', 'H', 'I', 'J', 'K', 'L',
+            'M', 'N', 'O', 'P', 'Q', 'R',
+            'S', 'T', 'U', 'V', 'W', 'X',
+            'Y', 'Z');
     private static $lowercase_array =
         array('a', 'b', 'c', 'd', 'e', 'f',
-              'g', 'h', 'i', 'j', 'k', 'l',
-              'm', 'n', 'o', 'p', 'q', 'r',
-              's', 't', 'u', 'v', 'w', 'x',
-              'y', 'z');
+            'g', 'h', 'i', 'j', 'k', 'l',
+            'm', 'n', 'o', 'p', 'q', 'r',
+            's', 't', 'u', 'v', 'w', 'x',
+            'y', 'z');
+
     public static function reverseCase($arrayIn)
     {
         $array_out = array();
@@ -76,6 +81,7 @@ class ArrayStringFunctions
         }
         return $string_out;
     }
+
     public static function stringToArray($stringIn)
     {
         return str_split($stringIn);

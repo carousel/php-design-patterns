@@ -1,94 +1,104 @@
 <?php
 
 abstract class AbstractBookFactory
-{/*{{{*/
+{
     abstract public function makePHPBook();
+
     abstract public function makeMySQLBook();
-}/*}}}*/
+}
 
 class OReillyBookFactory extends AbstractBookFactory
-{/*{{{*/
+{
     private $context = "OReilly";
+
     public function makeMySQLBook()
     {
         return new OReillyMySQLBook;
     }
+
     public function makePHPBook()
     {
         return new OReillyPHPBook;
     }
-}/*}}}*/
+}
 
 class SamsBookFactory extends AbstractBookFactory
-{/*{{{*/
+{
     private $context = "Sams";
+
     public function makeMySQLBook()
     {
         return new SamsMySQLBook;
     }
+
     public function makePHPBook()
     {
         return new SamsPHPBook;
     }
-}/*}}}*/
-
+}
 
 
 abstract class AbstractMySQLBook
-{/*{{{*/
+{
     private $subject = "MySQL";
-}/*}}}*/
+}
 
 class OReillyMySQLBook extends AbstractMySQLBook
-{/*{{{*/
+{
     private $author;
     private $title;
+
     public function __construct()
     {
         $this->author = 'George Reese, Randy Jay Yarger, and Tim King';
         $this->title = 'Managing and Using MySQL';
     }
+
     public function getAuthor()
     {
         return $this->author;
     }
+
     public function getTitle()
     {
         return $this->title;
     }
-}/*}}}*/
+}
 
 class SamsMySQLBook extends AbstractMySQLBook
-{/*{{{*/
+{
     private $author;
     private $title;
+
     public function __construct()
     {
         $this->author = 'Paul Dubois';
         $this->title = 'MySQL, 3rd Edition';
     }
+
     public function getAuthor()
     {
         return $this->author;
     }
+
     public function getTitle()
     {
         return $this->title;
     }
-}/*}}}*/
-
+}
 
 
 abstract class AbstractPHPBook
-{/*{{{*/
+{
     private $subject = "PHP";
-}/*}}}*/
+}
 
 class OReillyPHPBook extends AbstractPHPBook
-{/*{{{*/
+{
     private $author;
     private $title;
     private static $oddOrEven = 'odd';
+
     public function __construct()
     {
         //alternate between 2 books
@@ -102,20 +112,23 @@ class OReillyPHPBook extends AbstractPHPBook
             self::$oddOrEven = 'odd';
         }
     }
+
     public function getAuthor()
     {
         return $this->author;
     }
+
     public function getTitle()
     {
         return $this->title;
     }
-}/*}}}*/
+}
 
 class SamsPHPBook extends AbstractPHPBook
-{/*{{{*/
+{
     private $author;
     private $title;
+
     public function __construct()
     {
         //alternate randomly between 2 books
@@ -130,12 +143,14 @@ class SamsPHPBook extends AbstractPHPBook
             $this->title = 'PHP Phrasebook';
         }
     }
+
     public function getAuthor()
     {
         return $this->author;
     }
+
     public function getTitle()
     {
         return $this->title;
     }
-}/*}}}*/
+}

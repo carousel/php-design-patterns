@@ -3,10 +3,11 @@
 /*
  *   Singleton classes
  */
+
 class BookSingleton
 {
     private $author = "Gamma, Helm, Johnson, and Vlissides\n";
-    private $title  = "Design Patterns";
+    private $title = "Design Patterns";
     private static $book = null;
     private static $isLoanedOut = false;
 
@@ -47,7 +48,7 @@ class BookSingleton
         return $this->getTitle() . ' by ' . $this->getAuthor();
     }
 }
- 
+
 class BookBorrower
 {
     private $borrowedBook;
