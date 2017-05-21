@@ -46,17 +46,20 @@ class PatternSubject extends AbstractSubject
           }
       }
     }
+
+    public function updateFavorites($newFavorites)
+    {
+        $this->favorites = $newFavorites;
+        $this->notify();
+    }
+
     public function notify()
     {
         foreach ($this->observers as $obs) {
             $obs->update($this);
         }
     }
-    public function updateFavorites($newFavorites)
-    {
-        $this->favorites = $newFavorites;
-        $this->notify();
-    }
+
     public function getFavorites()
     {
         return $this->favorites;

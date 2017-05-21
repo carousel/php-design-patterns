@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6d17df1-9efd-4b1f-8bd9-5ba771bb4c7c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/abstract_factory.php" afterPath="$PROJECT_DIR$/src/creational/abstract_factory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/builder.php" afterPath="$PROJECT_DIR$/src/creational/builder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/factory_method.php" afterPath="$PROJECT_DIR$/src/creational/factory_method.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/prototype.php" afterPath="$PROJECT_DIR$/src/creational/prototype.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/creational/singleton.php" afterPath="$PROJECT_DIR$/src/creational/singleton.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/adapter.php" afterPath="$PROJECT_DIR$/src/structural/adapter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/bridge.php" afterPath="$PROJECT_DIR$/src/structural/bridge.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/composite.php" afterPath="$PROJECT_DIR$/src/structural/composite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/decorator.php" afterPath="$PROJECT_DIR$/src/structural/decorator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/facade.php" afterPath="$PROJECT_DIR$/src/structural/facade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/chain.php" afterPath="$PROJECT_DIR$/src/behavioral/chain.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/command.php" afterPath="$PROJECT_DIR$/src/behavioral/command.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/interpreter.php" afterPath="$PROJECT_DIR$/src/behavioral/interpreter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/iterator.php" afterPath="$PROJECT_DIR$/src/behavioral/iterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/mediator.php" afterPath="$PROJECT_DIR$/src/behavioral/mediator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/memento.php" afterPath="$PROJECT_DIR$/src/behavioral/memento.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/observer.php" afterPath="$PROJECT_DIR$/src/behavioral/observer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/state.php" afterPath="$PROJECT_DIR$/src/behavioral/state.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/strategy.php" afterPath="$PROJECT_DIR$/src/behavioral/strategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/behavioral/template_method.php" afterPath="$PROJECT_DIR$/src/behavioral/template_method.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/neutral/dto.php" afterPath="$PROJECT_DIR$/src/neutral/dto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/flyweight.php" afterPath="$PROJECT_DIR$/src/structural/flyweight.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/proxy.php" afterPath="$PROJECT_DIR$/src/structural/proxy.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +25,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="composite.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/structural/composite.php">
+      <file leaf-file-name="visitor.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/behavioral/visitor.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -55,6 +58,19 @@
         <option value="$PROJECT_DIR$/src/structural/decorator.php" />
         <option value="$PROJECT_DIR$/src/structural/bridge.php" />
         <option value="$PROJECT_DIR$/src/structural/composite.php" />
+        <option value="$PROJECT_DIR$/src/structural/flyweight.php" />
+        <option value="$PROJECT_DIR$/src/structural/proxy.php" />
+        <option value="$PROJECT_DIR$/src/neutral/dto.php" />
+        <option value="$PROJECT_DIR$/src/behavioral/chain.php" />
+        <option value="$PROJECT_DIR$/src/behavioral/command.php" />
+        <option value="$PROJECT_DIR$/src/behavioral/interpreter.php" />
+        <option value="$PROJECT_DIR$/src/behavioral/iterator.php" />
+        <option value="$PROJECT_DIR$/src/behavioral/mediator.php" />
+        <option value="$PROJECT_DIR$/src/behavioral/memento.php" />
+        <option value="$PROJECT_DIR$/src/behavioral/observer.php" />
+        <option value="$PROJECT_DIR$/src/behavioral/state.php" />
+        <option value="$PROJECT_DIR$/src/behavioral/strategy.php" />
+        <option value="$PROJECT_DIR$/src/behavioral/template_method.php" />
       </list>
     </option>
   </component>
@@ -115,10 +131,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="structural" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -131,6 +143,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="behavioral" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,12 +249,12 @@
       <updated>1495298076160</updated>
       <workItem from="1495298077443" duration="1142000" />
       <workItem from="1495359343951" duration="18000" />
-      <workItem from="1495363787750" duration="569000" />
+      <workItem from="1495363787750" duration="1637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1729000" />
+    <option name="totallyTimeSpent" value="2797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-6" width="1920" height="1086" extended-state="6" />
@@ -364,6 +380,126 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/structural/composite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1134">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural/flyweight.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2714">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structural/proxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-882">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/neutral/dto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4032">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/neutral/nullobject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/chain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/command.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/interpreter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/iterator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/mediator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/memento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/observer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/state.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/strategy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/template_method.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/behavioral/visitor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
