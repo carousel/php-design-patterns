@@ -1,7 +1,7 @@
 #DESIGN PATTERNS
-    
+
 ##CREATIONAL
-========================================================================
+
 ###Abstract Factory (factory definition first, family of related objects)
 *   must be subclassed
 *   abstract what is common for all classes
@@ -14,9 +14,7 @@
 ###Prototype (__clone to other slot of memory,delegation)
 ###Singleton (class has only one instance, with global point of access)
 
-##STRUCTURAL(compositional, logic internal to the structure)
-==========================================================
-###WRAPPERS:
+##STRUCTURAL(compositional, logic internal to the structure, wrappers)
 ###Decorator 
 *   smart proxy
 *   wrapped in constructor
@@ -50,9 +48,8 @@
 *   share what is common (intrinsic)
 *   extrinsic
 
-##BEHAVIORAL (DECOMPOSITIONAL,EXTERNAL TO STRUCTURE)
-====================================================
--   SENDER/RECEIVER:
+##Behavioral (decompositional, external to structure, sernder/receiver)
+
 ###Observer 
 *   one to many
 *   observer is registered
