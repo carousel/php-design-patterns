@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6d17df1-9efd-4b1f-8bd9-5ba771bb4c7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/Singleton/BookSBorrower.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/Singleton/singleton.php" afterPath="$PROJECT_DIR$/src/Creational/Singleton/BookSingleton.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/Creational/Singleton.php" afterPath="$PROJECT_DIR$/tests/Creational/SingletonTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,14 +31,27 @@
       <file leaf-file-name="BookSingleton.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Creational/Singleton/BookSingleton.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2058">
+            <state relative-caret-position="1176">
               <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingletonTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingletonTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Creational/SingletonTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -50,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookSBorrower.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Creational/Singleton/BookSBorrower.php">
+      <file leaf-file-name="BookBorrower.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Creational/Singleton/BookBorrower.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,11 +130,11 @@
         <option value="$PROJECT_DIR$/src/Creational/FactoryMethod/OReillyFactoryMethod.php" />
         <option value="$PROJECT_DIR$/tests/Creational/FactoryMethodTest.php" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/Creational/Singleton/BookSBorrower.php" />
         <option value="$PROJECT_DIR$/src/Creational/Singleton/BookSingleton.php" />
         <option value="$PROJECT_DIR$/tests/Creational/Singleton.php" />
         <option value="$PROJECT_DIR$/tests/Creational/SingletonTest.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -196,60 +207,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Creational" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-design-patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-design-patterns" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-design-patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-design-patterns" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Creational" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Singleton" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-design-patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-design-patterns" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -395,7 +352,7 @@
       <workItem from="1495894183129" duration="110000" />
       <workItem from="1495894314666" duration="5265000" />
       <workItem from="1495903795251" duration="3478000" />
-      <workItem from="1495908372877" duration="328000" />
+      <workItem from="1495908372877" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="Running tests for AbstractFactory and FactoryMethod">
       <created>1495904905703</created>
@@ -408,12 +365,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 04m 22s.xml">
-      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 04m 44s.xml">
-      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 04m 57s.xml">
       <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -438,9 +389,15 @@
     <history-entry file="PHP_design_patterns - 2017.05.27 at 20h 10m 32s.xml">
       <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 20h 11m 43s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 20h 12m 11s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14861000" />
+    <option name="totallyTimeSpent" value="15349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -831,27 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../packages/container/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="168">
-            <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="84">
-            <caret line="2" column="91" lean-forward="false" selection-start-line="2" selection-start-column="91" selection-end-line="2" selection-end-column="91" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Creational/AbstractFactoryTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -862,18 +798,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/Singleton/BookSingleton.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2058">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/Singleton/BookSBorrower.php">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Singleton/BookBorrower.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -883,6 +811,36 @@
         <state relative-caret-position="126">
           <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../packages/container/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Singleton/BookSingleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
