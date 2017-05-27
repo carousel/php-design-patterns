@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/carousel/php-design-patterns.svg)](https://travis-ci.org/carousel/php-design-patterns)
 
-#PHP DESIGN PATTERNS
-*   PHP design patterns taken from the [sourcemaking site](htts://sourcemaking.com) and modified to be more readable with additional tests
+Collection of OOP design patterns,implemented in PHP.
 
 miroslav.trninic@gmail.com
