@@ -1,17 +1,27 @@
 {
-    "name": "carousel/php-design-patterns",
-    "description": "PHP design patterns taken and adopted from https://sourcemaking.com",
-    "type": "project",
-    "homepage": "https://github.com/carousel/php-design-patterns",
-    "require": {
-        "phpunit/phpunit": "^6.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Miroslav Trninic",
-            "email": "miroslav.trninic@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev"
+  "name": "carousel/php-design-patterns",
+  "description": "PHP design patterns taken and adopted from https://sourcemaking.com",
+  "type": "project",
+  "homepage": "https://github.com/carousel/php-design-patterns",
+  "require": {
+    "phpunit/phpunit": "6.1.4"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Miroslav Trninic",
+      "email": "miroslav.trninic@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests/"
+    }
+  }
 }
