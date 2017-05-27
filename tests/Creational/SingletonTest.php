@@ -1,8 +1,9 @@
 <?php
 
-require __DIR__  . "../../../src/creational/singleton.php";
+use Src\Creational\Singleton\BookBorrower;
+use Src\Creational\Singleton\BookSingleton;
 
-class Singleton extends \PHPUnit_Framework_TestCase
+class SingletonTest extends \PHPUnit\Framework\TestCase
 {
     /**
     * Instantiate factory method
