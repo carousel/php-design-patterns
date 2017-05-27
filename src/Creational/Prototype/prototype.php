@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\Creational;
+
 class SubObject
 {
     public static $instances = 0;

@@ -2,50 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6d17df1-9efd-4b1f-8bd9-5ba771bb4c7c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/chain.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/chain.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/chain.php" afterPath="$PROJECT_DIR$/src/Behavioral/chain.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/command.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/command.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/command.php" afterPath="$PROJECT_DIR$/src/Behavioral/command.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/interpreter.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/interpreter.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/interpreter.php" afterPath="$PROJECT_DIR$/src/Behavioral/interpreter.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/iterator.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/iterator.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/iterator.php" afterPath="$PROJECT_DIR$/src/Behavioral/iterator.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/mediator.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/mediator.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/mediator.php" afterPath="$PROJECT_DIR$/src/Behavioral/mediator.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/memento.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/memento.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/memento.php" afterPath="$PROJECT_DIR$/src/Behavioral/memento.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/null_object.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/null_object.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/observer.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/observer.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/observer.php" afterPath="$PROJECT_DIR$/src/Behavioral/observer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/overview.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/overview.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/state.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/state.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/state.php" afterPath="$PROJECT_DIR$/src/Behavioral/state.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/strategy.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/strategy.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/strategy.php" afterPath="$PROJECT_DIR$/src/Behavioral/strategy.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/template_method.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/template_method.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/template_method.php" afterPath="$PROJECT_DIR$/src/Behavioral/template_method.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/visitor.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/visitor.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/behavioral/visitor.php" afterPath="$PROJECT_DIR$/src/Behavioral/visitor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/abstract factory.pdf" afterPath="$PROJECT_DIR$/src/Creational/abstract factory.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/abstract_factory.php" afterPath="$PROJECT_DIR$/src/Creational/abstract_factory.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/builder.pdf" afterPath="$PROJECT_DIR$/src/Creational/builder.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/builder.php" afterPath="$PROJECT_DIR$/src/Creational/builder.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/factory_method.pdf" afterPath="$PROJECT_DIR$/src/Creational/factory_method.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/factory_method.php" afterPath="$PROJECT_DIR$/src/Creational/factory_method.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/overview.pdf" afterPath="$PROJECT_DIR$/src/Creational/overview.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/prototype.pdf" afterPath="$PROJECT_DIR$/src/Creational/prototype.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/prototype.php" afterPath="$PROJECT_DIR$/src/Creational/prototype.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/simple_abstract_factory.php" afterPath="$PROJECT_DIR$/src/Creational/simple_abstract_factory.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/singleton.pdf" afterPath="$PROJECT_DIR$/src/Creational/singleton.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creational/singleton.php" afterPath="$PROJECT_DIR$/src/Creational/singleton.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/neutral/.php_cs.cache" afterPath="$PROJECT_DIR$/src/Neutral/.php_cs.cache" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/neutral/dto.pdf" afterPath="$PROJECT_DIR$/src/Neutral/dto.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/neutral/dto.php" afterPath="$PROJECT_DIR$/src/Neutral/dto.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/neutral/nullobject.pdf" afterPath="$PROJECT_DIR$/src/Neutral/nullobject.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/neutral/nullobject.php" afterPath="$PROJECT_DIR$/src/Neutral/nullobject.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/OReillyMySQLBook.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/OReillyPHPBook.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/AbstractFactoryMethod.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/AbstractPHPBook.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/OReillyPHPBook.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/SamsPHPBook.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/abstract factory.pdf" afterPath="$PROJECT_DIR$/docs/creational/abstract factory.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/abstract_factory.php" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/OReillyBookFactory.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/builder.pdf" afterPath="$PROJECT_DIR$/docs/creational/builder.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/builder.php" afterPath="$PROJECT_DIR$/src/Creational/Builder/builder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/factory_method.pdf" afterPath="$PROJECT_DIR$/docs/creational/factory_method.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/factory_method.php" afterPath="$PROJECT_DIR$/src/Creational/FactoryMethod/OReillyFactoryMethod.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/overview.pdf" afterPath="$PROJECT_DIR$/docs/overview.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/prototype.pdf" afterPath="$PROJECT_DIR$/docs/creational/prototype.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/prototype.php" afterPath="$PROJECT_DIR$/src/Creational/Prototype/prototype.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/simple_abstract_factory.php" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/AbstractBookFactory.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/singleton.pdf" afterPath="$PROJECT_DIR$/docs/creational/singleton.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/singleton.php" afterPath="$PROJECT_DIR$/src/Creational/Singleton/singleton.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/Creational/AbstractFactory.php" afterPath="$PROJECT_DIR$/tests/Creational/AbstractFactoryTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/Creational/FactoryMethod.php" afterPath="$PROJECT_DIR$/tests/Creational/FactoryMethodTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/chain.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/chain.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/command.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/command.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/interpreter.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/interpreter.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/iterator.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/iterator.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/mediator.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/mediator.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/memento.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/memento.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/null_object.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/null_object.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/observer.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/observer.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/overview.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/overview.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/state.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/state.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/strategy.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/strategy.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/template_method.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/template_method.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/visitor.pdf" afterPath="$PROJECT_DIR$/src/Behavioral/visitor.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Neutral/dto.pdf" afterPath="$PROJECT_DIR$/src/Neutral/dto.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Neutral/nullobject.pdf" afterPath="$PROJECT_DIR$/src/Neutral/nullobject.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/adapter.pdf" afterPath="$PROJECT_DIR$/src/structural/adapter.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/bridge.pdf" afterPath="$PROJECT_DIR$/src/structural/bridge.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/composite.pdf" afterPath="$PROJECT_DIR$/src/structural/composite.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/decorator.pdf" afterPath="$PROJECT_DIR$/src/structural/decorator.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/facade.pdf" afterPath="$PROJECT_DIR$/src/structural/facade.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/flyweight.pdf" afterPath="$PROJECT_DIR$/src/structural/flyweight.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/overview.pdf" afterPath="$PROJECT_DIR$/src/structural/overview.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/proxy.pdf" afterPath="$PROJECT_DIR$/src/structural/proxy.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php-design-patterns.iml" afterPath="$PROJECT_DIR$/.idea/php-design-patterns.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clasification.md" afterPath="$PROJECT_DIR$/clasification.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/chain.php" afterPath="$PROJECT_DIR$/src/Behavioral/chain.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/command.php" afterPath="$PROJECT_DIR$/src/Behavioral/command.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/interpreter.php" afterPath="$PROJECT_DIR$/src/Behavioral/interpreter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/iterator.php" afterPath="$PROJECT_DIR$/src/Behavioral/iterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/mediator.php" afterPath="$PROJECT_DIR$/src/Behavioral/mediator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/memento.php" afterPath="$PROJECT_DIR$/src/Behavioral/memento.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/observer.php" afterPath="$PROJECT_DIR$/src/Behavioral/observer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/state.php" afterPath="$PROJECT_DIR$/src/Behavioral/state.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/strategy.php" afterPath="$PROJECT_DIR$/src/Behavioral/strategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/template_method.php" afterPath="$PROJECT_DIR$/src/Behavioral/template_method.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Behavioral/visitor.php" afterPath="$PROJECT_DIR$/src/Behavioral/visitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Neutral/.php_cs.cache" afterPath="$PROJECT_DIR$/src/Neutral/.php_cs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Neutral/dto.php" afterPath="$PROJECT_DIR$/src/Neutral/dto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Neutral/nullobject.php" afterPath="$PROJECT_DIR$/src/Neutral/nullobject.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/adapter.php" afterPath="$PROJECT_DIR$/src/structural/adapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/bridge.php" afterPath="$PROJECT_DIR$/src/structural/bridge.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/composite.php" afterPath="$PROJECT_DIR$/src/structural/composite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/decorator.php" afterPath="$PROJECT_DIR$/src/structural/decorator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/facade.php" afterPath="$PROJECT_DIR$/src/structural/facade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/flyweight.php" afterPath="$PROJECT_DIR$/src/structural/flyweight.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structural/proxy.php" afterPath="$PROJECT_DIR$/src/structural/proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Behavioral/Command.php" afterPath="$PROJECT_DIR$/tests/Behavioral/Command.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Behavioral/Mediator.php" afterPath="$PROJECT_DIR$/tests/Behavioral/Mediator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Behavioral/Observer.php" afterPath="$PROJECT_DIR$/tests/Behavioral/Observer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Behavioral/Strategy.php" afterPath="$PROJECT_DIR$/tests/Behavioral/Strategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Creational/Builder.php" afterPath="$PROJECT_DIR$/tests/Creational/Builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Creational/Prototype.php" afterPath="$PROJECT_DIR$/tests/Creational/Prototype.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Creational/Singleton.php" afterPath="$PROJECT_DIR$/tests/Creational/Singleton.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Structural/Adapter.php" afterPath="$PROJECT_DIR$/tests/Structural/Adapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Structural/Bridge.php" afterPath="$PROJECT_DIR$/tests/Structural/Bridge.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Structural/Composite.php" afterPath="$PROJECT_DIR$/tests/Structural/Composite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Structural/Decorator.php" afterPath="$PROJECT_DIR$/tests/Structural/Decorator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Structural/Facade.php" afterPath="$PROJECT_DIR$/tests/Structural/Facade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Structural/Flyweight.php" afterPath="$PROJECT_DIR$/tests/Structural/Flyweight.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Structural/Proxy.php" afterPath="$PROJECT_DIR$/tests/Structural/Proxy.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,9 +95,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" doNotAsk="true" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="php-design-patterns" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -96,6 +148,28 @@
         <option value="$PROJECT_DIR$/src/creational/simple_abstract_factory.php" />
         <option value="$PROJECT_DIR$/clasification.md" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Creational/abstract_factory.php" />
+        <option value="$PROJECT_DIR$/src/Creational/builder.php" />
+        <option value="$PROJECT_DIR$/src/Creational/factory_method.php" />
+        <option value="$PROJECT_DIR$/src/Creational/prototype.php" />
+        <option value="$PROJECT_DIR$/src/Creational/singleton.php" />
+        <option value="$PROJECT_DIR$/src/Creational/simple_abstract_factory.php" />
+        <option value="$PROJECT_DIR$/tests/Creational/AbstractFactory.php" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/src/Creational/AbstractFactory.php" />
+        <option value="$PROJECT_DIR$/src/Creational/AbstractFactory/AbstractFactory.php" />
+        <option value="$PROJECT_DIR$/src/Creational/AbstractFactory/AbstractBookFactory.php" />
+        <option value="$PROJECT_DIR$/src/Creational/AbstractFactory/OReillyMySQLBook.php" />
+        <option value="$PROJECT_DIR$/src/Creational/AbstractFactory/OReillyPHPBook.php" />
+        <option value="$PROJECT_DIR$/src/Creational/AbstractFactory/OReillyBookFactory.php" />
+        <option value="$PROJECT_DIR$/tests/Creational/AbstractFactoryTest.php" />
+        <option value="$PROJECT_DIR$/src/Creational/FactoryMethod/factory_method.php" />
+        <option value="$PROJECT_DIR$/src/Creational/FactoryMethod/AbstractFactoryMethod.php" />
+        <option value="$PROJECT_DIR$/src/Creational/FactoryMethod/OReillyPHPBook.php" />
+        <option value="$PROJECT_DIR$/src/Creational/FactoryMethod/SamsPHPBook.php" />
+        <option value="$PROJECT_DIR$/src/Creational/FactoryMethod/AbstractPHPBook.php" />
+        <option value="$PROJECT_DIR$/src/Creational/FactoryMethod/OReillyFactoryMethod.php" />
+        <option value="$PROJECT_DIR$/tests/Creational/FactoryMethodTest.php" />
       </list>
     </option>
   </component>
@@ -110,9 +184,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="-6" />
-    <option name="width" value="1920" />
-    <option name="height" value="1086" />
+    <option name="x" value="-1" />
+    <option name="y" value="-2" />
+    <option name="width" value="1922" />
+    <option name="height" value="1083" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -129,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,7 +226,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -169,13 +243,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Creational" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -185,7 +256,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../punit/composer.json" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Creational/Singleton" />
+      <recent name="$PROJECT_DIR$/src/Creational/Prototype" />
+      <recent name="$PROJECT_DIR$/src/Creational/FactoryMethof" />
+      <recent name="$PROJECT_DIR$/src/Creational/Builder" />
+      <recent name="$PROJECT_DIR$/docs/creational" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Creational/AbstractFactory" />
       <recent name="$PROJECT_DIR$/src/creational" />
     </key>
   </component>
@@ -201,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.Unnamed">
+  <component name="RunManager" selected="PHPUnit.PHP design patterns">
     <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
       <method />
     </configuration>
@@ -272,12 +351,12 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <configuration default="false" name="PHP design patterns" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner directory="$PROJECT_DIR$/tests" />
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.Unnamed" />
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.PHP design patterns" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -302,42 +381,95 @@
       <workItem from="1495715033757" duration="754000" />
       <workItem from="1495716721690" duration="604000" />
       <workItem from="1495894183129" duration="110000" />
-      <workItem from="1495894314666" duration="832000" />
+      <workItem from="1495894314666" duration="5265000" />
+      <workItem from="1495903795251" duration="1065000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2017.05.27 at 16h 12m 39s.xml">
-      <configuration name="Unnamed" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 18h 59m 56s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.05.27 at 16h 25m 27s.xml">
-      <configuration name="Unnamed" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 00m 20s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 03m 23s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 04m 22s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 04m 44s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 04m 57s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 05m 42s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 05m 44s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 05m 58s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.27 at 19h 06m 05s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6622000" />
+    <option name="totallyTimeSpent" value="12120000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-6" width="1920" height="1086" extended-state="6" />
+    <frame x="-1" y="-2" width="1922" height="1083" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971373" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39980257" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971373" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -350,6 +482,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Creational/FactoryMethod/AbstractFactoryMethod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Creational/FactoryMethodTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/FactoryMethod/OReillyFactoryMethod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -507,53 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/abstract_factory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/factory_method.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/prototype.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/simple_abstract_factory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/singleton.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../punit/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="16" column="14" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="24" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,15 +681,121 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Singleton/singleton.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/prototype.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Creational/AbstractFactory.php">
+    <entry file="file://$PROJECT_DIR$/src/Creational/AbstractFactory/OReillyPHPBook.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/AbstractFactory/AbstractBookFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/AbstractFactory/OReillyMySQLBook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/AbstractFactory/OReillyBookFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Creational/AbstractFactoryTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/simple_abstract_factory.php" />
+    <entry file="file://$PROJECT_DIR$/src/Creational/Builder/builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/FactoryMethod/AbstractFactoryMethod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/FactoryMethod/SamsPHPBook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/FactoryMethod/OReillyPHPBook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-588">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/FactoryMethod/OReillyFactoryMethod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/FactoryMethod/AbstractPHPBook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Creational/FactoryMethodTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#7#61#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

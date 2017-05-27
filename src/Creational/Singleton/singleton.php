@@ -1,8 +1,6 @@
 <?php
 
-/*
- *   Singleton classes
- */
+namespace Src\Creational;
 
 class BookSingleton
 {
