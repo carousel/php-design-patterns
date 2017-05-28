@@ -6,25 +6,22 @@ use Src\Creational\Singleton\BookSingleton;
 class SingletonTest extends \PHPUnit\Framework\TestCase
 {
     /**
-    * Instantiate factory method
-    */
+     * Instantiate factory method
+     */
     public function setUp()
     {
-        $this->bookBorrower1 = new BookBorrower();
-        $this->bookBorrower2 = new BookBorrower();
+        $this->bookBorrower = new BookBorrower();
     }
     /**
      * @test
      */
-    public function singletonInstance()
+    public function bookIsBorrowedAndReturned()
     {
-        $this->assertTrue($this->bookBorrower1 instanceof BookBorrower);
-    }
-    /**
-     * @test
-     */
-    public function singletonInstancesAreEqueal()
-    {
-        $this->assertEquals($this->bookBorrower1,$this->bookBorrower2);
+        $this->bookBorrower->borrowBook();
+        $r = new ReflectionProperty('\Src\Creational\Singleton\BookSingleton', 'isLoanedOut');
+        $r->setAccessible(true);
+        $this->assertTrue($r->getValue());
+        $this->bookBorrower->returnBook();
+        $this->assertFalse($r->getValue());
     }
 }
