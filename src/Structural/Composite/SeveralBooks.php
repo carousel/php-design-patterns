@@ -1,58 +1,8 @@
 <?php
 
-abstract class OnTheBookShelf
-{
-    abstract public function getBookInfo($previousBook);
+namespace Src\Structural\Composite;
 
-    abstract public function getBookCount();
-
-    abstract public function setBookCount($new_count);
-
-    abstract public function addBook($oneBook);
-
-    abstract public function removeBook($oneBook);
-}
-
-class OneBook extends OnTheBookShelf
-{
-    private $title;
-    private $author;
-
-    public function __construct($title, $author)
-    {
-        $this->title = $title;
-        $this->author = $author;
-    }
-
-    public function getBookInfo($bookToGet)
-    {
-        if (1 == $bookToGet) {
-            return $this->title . " by " . $this->author;
-        } else {
-            return false;
-        }
-    }
-
-    public function getBookCount()
-    {
-        return 1;
-    }
-
-    public function setBookCount($newCount)
-    {
-        return false;
-    }
-
-    public function addBook($oneBook)
-    {
-        return false;
-    }
-
-    public function removeBook($oneBook)
-    {
-        return false;
-    }
-}
+use Src\Structural\Composite\OnTheBookShelf;
 
 class SeveralBooks extends OnTheBookShelf
 {

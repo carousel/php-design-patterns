@@ -1,8 +1,9 @@
 <?php
 
-require __DIR__  . "../../../src/structural/composite.php";
+use Src\Structural\Composite\OneBook;
+use Src\Structural\Composite\SeveralBooks;
 
-class Composite extends \PHPUnit_Framework_TestCase
+class CompositeTest extends \PHPUnit\Framework\TestCase
 {
     public function setUp()
     {
@@ -11,12 +12,13 @@ class Composite extends \PHPUnit_Framework_TestCase
         $this->thirdBook = new OneBook('Design Patterns', 'Gamma, Helm, Johnson, and Vlissides');
         $this->books = new SeveralBooks();
     }
+
     /**
      * @test
      *
      * @return void
      */
-    public function compositeTest()
+    public function composite()
     {
         //one book and collection of books have same interface
         $booksCount = $this->books->addBook($this->firstBook);
