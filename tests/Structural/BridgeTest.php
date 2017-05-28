@@ -1,15 +1,16 @@
 <?php
 
-require __DIR__  . "../../../src/structural/bridge.php";
+use Src\Structural\Bridge\BridgeBookAuthorTitle;
+use Src\Structural\Bridge\BridgeBookTitleAuthor;
 
-class Bridge extends \PHPUnit_Framework_TestCase
+class BridgeTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test
      *
      * @return void
      */
-    public function bridgeTest()
+    public function bridge()
     {
         //first implementation with same interface
         $book = new BridgeBookAuthorTitle('Larry Truett', "PHP for Cats", 'CAPS');
