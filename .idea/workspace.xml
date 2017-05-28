@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6d17df1-9efd-4b1f-8bd9-5ba771bb4c7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/Builder/AbstractPageDirector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/Builder/HTMLPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/Builder/HTMLPageBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/Builder/HTMLPageDirector.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/Builder/builder.php" afterPath="$PROJECT_DIR$/src/Creational/Builder/AbstractPageBuilder.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/Creational/Builder.php" afterPath="$PROJECT_DIR$/tests/Creational/BuilderTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/Prototype/SubObject.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/Prototype/prototype.php" afterPath="$PROJECT_DIR$/src/Creational/Prototype/Cloneable.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/Creational/Prototype.php" afterPath="$PROJECT_DIR$/tests/Creational/PrototypeTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,64 +30,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AbstractPageBuilder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Creational/Builder/AbstractPageBuilder.php">
+      <file leaf-file-name="SubObject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/SubObject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractPageDirector.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Creational/Builder/AbstractPageDirector.php">
+      <file leaf-file-name="Cloneable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Cloneable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTMLPageBuilder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Creational/Builder/HTMLPageBuilder.php">
+      <file leaf-file-name="PrototypeTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Creational/PrototypeTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1554">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuilderTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Creational/BuilderTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="436">
+              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
               <folding>
-                <element signature="e#7#50#0#PHP" expanded="true" />
+                <element signature="e#7#46#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLPageDirector.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Creational/Builder/HTMLPageDirector.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLPage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Creational/Builder/HTMLPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -113,10 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/neutral/dto.php" />
-        <option value="$PROJECT_DIR$/src/behavioral/chain.php" />
-        <option value="$PROJECT_DIR$/src/behavioral/command.php" />
-        <option value="$PROJECT_DIR$/src/behavioral/interpreter.php" />
         <option value="$PROJECT_DIR$/src/behavioral/iterator.php" />
         <option value="$PROJECT_DIR$/src/behavioral/mediator.php" />
         <option value="$PROJECT_DIR$/src/behavioral/memento.php" />
@@ -164,6 +127,10 @@
         <option value="$PROJECT_DIR$/src/Creational/Builder/AbstractPageDirector.php" />
         <option value="$PROJECT_DIR$/src/Creational/Builder/HTMLPage.php" />
         <option value="$PROJECT_DIR$/tests/Creational/BuilderTest.php" />
+        <option value="$PROJECT_DIR$/src/Creational/Prototype/SubObject.php" />
+        <option value="$PROJECT_DIR$/src/Creational/Prototype/Cloneable.php" />
+        <option value="$PROJECT_DIR$/tests/Creational/Prototype.php" />
+        <option value="$PROJECT_DIR$/tests/Creational/PrototypeTest.php" />
       </list>
     </option>
   </component>
@@ -276,28 +243,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-design-patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-design-patterns" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Creational" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Builder" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -317,6 +262,7 @@
       <recent name="$PROJECT_DIR$/docs/creational" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Creational/Prototype" />
       <recent name="$PROJECT_DIR$/src/Creational/Builder" />
       <recent name="$PROJECT_DIR$/src/Creational/Singleton" />
       <recent name="$PROJECT_DIR$/src/Creational/AbstractFactory" />
@@ -441,7 +387,7 @@
       <workItem from="1495908372877" duration="816000" />
       <workItem from="1495909724535" duration="2720000" />
       <workItem from="1495952424569" duration="21000" />
-      <workItem from="1495959169867" duration="5026000" />
+      <workItem from="1495959169867" duration="5411000" />
     </task>
     <task id="LOCAL-00001" summary="Running tests for AbstractFactory and FactoryMethod">
       <created>1495904905703</created>
@@ -454,15 +400,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 31m 38s.xml">
-      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 33m 31s.xml">
-      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 34m 30s.xml">
-      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 34m 44s.xml">
       <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -484,9 +421,18 @@
     <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 36m 27s.xml">
       <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 41m 12s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 42m 04s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 42m 36s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23252000" />
+    <option name="totallyTimeSpent" value="23637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,7 +447,7 @@
     <frame x="0" y="-6" width="1920" height="1086" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -556,20 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Behavioral/memento.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Behavioral/observer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Behavioral/state.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -672,13 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/prototype.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -920,6 +845,32 @@
           <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="e#7#50#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/SubObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Cloneable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Creational/PrototypeTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#7#46#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
