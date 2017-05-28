@@ -1,22 +1,23 @@
 <?php
 
-require __DIR__  . "../../../src/structural/flyweight.php";
+use Src\Structural\Flyweight\FlyweightFactory;
 
-class Flyweight extends \PHPUnit_Framework_TestCase
+class FlyweightTest extends \PHPUnit\Framework\TestCase
 {
     /**
-    * Instantiate PHPDelete class
-    */
+     * Instantiate PHPDelete class
+     */
     public function setUp()
     {
         $this->flyweightFactory = new FlyweightFactory();
     }
+
     /**
      * @test
      *
      * @return void
      */
-    public function flyweightTest()
+    public function flyweight()
     {
         //add/create one book
         $this->flyweightBook1 = $this->flyweightFactory->getBook(1);

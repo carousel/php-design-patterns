@@ -1,26 +1,8 @@
 <?php
 
-class FlyweightBook
-{
-    private $author;
-    private $title;
+namespace Src\Structural\Flyweight;
 
-    public function __construct($author_in, $title_in)
-    {
-        $this->author = $author_in;
-        $this->title = $title_in;
-    }
-
-    public function getAuthor()
-    {
-        return $this->author;
-    }
-
-    public function getTitle()
-    {
-        return $this->title;
-    }
-}
+use Src\Structural\Flyweight\FlyweightBook;
 
 class FlyweightFactory
 {
