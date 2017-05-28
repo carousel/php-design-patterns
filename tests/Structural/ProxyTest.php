@@ -1,23 +1,25 @@
 <?php
 
-require __DIR__  . "../../../src/structural/proxy.php";
+use Src\Structural\Proxy\Book;
+use Src\Structural\Proxy\ProxyBookList;
 
-class Proxy extends \PHPUnit_Framework_TestCase
+class ProxyTest extends \PHPUnit\Framework\TestCase
 {
     /**
-    * Instantiate PHPDelete class
-    */
+     * Instantiate PHPDelete class
+     */
     public function setUp()
     {
         $this->proxyBookList = new ProxyBookList();
         $this->inBook = new Book('PHP for Cats', 'Larry Truett');
     }
+
     /**
      * @test
      *
      * @return void
      */
-    public function proxyTest()
+    public function proxy()
     {
         $this->proxyBookList->addBook($this->inBook);
         $this->assertEquals($this->proxyBookList->getBookCount(), 1);

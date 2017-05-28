@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\Structural\Proxy;
+
 class ProxyBookList
 {
     private $bookList = null;
