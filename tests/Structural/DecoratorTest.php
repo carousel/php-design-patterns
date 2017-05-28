@@ -1,12 +1,16 @@
 <?php
 
-require __DIR__  . "../../../src/structural/decorator.php";
+use Src\Structural\Decorator\Book;
+use Src\Structural\Decorator\BookTitleDecorator;
+use Src\Structural\Decorator\BookTitleStarDecorator;
+use Src\Structural\Decorator\BookTitleExclaimDecorator;
 
-class Decorator extends \PHPUnit_Framework_TestCase
+
+class DecoratorTest extends \PHPUnit\Framework\TestCase
 {
     /**
-    * Instantiate PHPDelete class
-    */
+     * Instantiate objects
+     */
     public function setUp()
     {
         $this->patternBook = new Book("Gamma, Helm, Johnson, and Vlissides", 'Design Patterns');
@@ -19,7 +23,7 @@ class Decorator extends \PHPUnit_Framework_TestCase
      *
      * @return void
      */
-    public function decoratorTest()
+    public function decorator()
     {
         $this->assertEquals($this->decorator->showTitle(), "Gamma, Helm, Johnson, and Vlissides");
         $this->exclaimDecorator->exclaimTitle();
