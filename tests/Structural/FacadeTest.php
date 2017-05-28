@@ -1,22 +1,24 @@
 <?php
 
-require __DIR__  . "../../../src/structural/facade.php";
+use Src\Structural\Facade\Book;
+use Src\Structural\Facade\CaseReverseFacade;
 
-class Facade extends \PHPUnit_Framework_TestCase
+class FacadeTest extends \PHPUnit\Framework\TestCase
 {
     /**
-    * Instantiate PHPDelete class
-    */
+     * Instantiate PHPDelete class
+     */
     public function setUp()
     {
         $this->book = new Book('Design Patterns', 'Gamma, Helm, Johnson, and Vlissides');
     }
+
     /**
      * @test
      *
      * @return void
      */
-    public function facadeTest()
+    public function facade()
     {
         $bookTitleReversed = CaseReverseFacade::reverseStringCase($this->book->getTitle());
         $title = $this->book->getTitle();

@@ -1,42 +1,6 @@
 <?php
 
-class Book
-{
-    private $author;
-    private $title;
-
-    public function __construct($title_in, $author_in)
-    {
-        $this->author = $author_in;
-        $this->title = $title_in;
-    }
-
-    public function getAuthor()
-    {
-        return $this->author;
-    }
-
-    public function getTitle()
-    {
-        return $this->title;
-    }
-
-    public function getAuthorAndTitle()
-    {
-        return $this->getTitle() . ' by ' . $this->getAuthor();
-    }
-}
-
-class CaseReverseFacade
-{
-    public static function reverseStringCase($stringIn)
-    {
-        $arrayFromString = ArrayStringFunctions::stringToArray($stringIn);
-        $reversedCaseArray = ArrayCaseReverse::reverseCase($arrayFromString);
-        $reversedCaseString = ArrayStringFunctions::arrayToString($reversedCaseArray);
-        return $reversedCaseString;
-    }
-}
+namespace Src\Structural\Facade;
 
 class ArrayCaseReverse
 {
@@ -71,19 +35,4 @@ class ArrayCaseReverse
     }
 }
 
-class ArrayStringFunctions
-{
-    public static function arrayToString($arrayIn)
-    {
-        $string_out = null;
-        foreach ($arrayIn as $oneChar) {
-            $string_out .= $oneChar;
-        }
-        return $string_out;
-    }
 
-    public static function stringToArray($stringIn)
-    {
-        return str_split($stringIn);
-    }
-}
