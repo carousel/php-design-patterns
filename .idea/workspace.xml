@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6d17df1-9efd-4b1f-8bd9-5ba771bb4c7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Creational/Prototype/SubObject.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Creational/Prototype/prototype.php" afterPath="$PROJECT_DIR$/src/Creational/Prototype/Cloneable.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/Creational/Prototype.php" afterPath="$PROJECT_DIR$/tests/Creational/PrototypeTest.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Neutral/.php_cs.cache" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/overview.pdf" afterPath="$PROJECT_DIR$/docs/creational/overview.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/chain.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/chain.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/command.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/command.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/interpreter.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/interpreter.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/iterator.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/iterator.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/mediator.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/mediator.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/memento.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/memento.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/null_object.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/null_object.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/observer.php" afterPath="$PROJECT_DIR$/docs/behavioral/observer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/state.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/state.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/strategy.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/strategy.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/template_method.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/template_method.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Behavioral/visitor.pdf" afterPath="$PROJECT_DIR$/docs/behavioral/visitor.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Neutral/dto.pdf" afterPath="$PROJECT_DIR$/docs/other/dto.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Neutral/dto.php" afterPath="$PROJECT_DIR$/src/Other/dto.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Neutral/nullobject.pdf" afterPath="$PROJECT_DIR$/docs/other/nullobject.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Neutral/nullobject.php" afterPath="$PROJECT_DIR$/src/Other/nullobject.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/adapter.pdf" afterPath="$PROJECT_DIR$/docs/structural/adapter.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/adapter.php" afterPath="$PROJECT_DIR$/src/Structural/adapter.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/bridge.pdf" afterPath="$PROJECT_DIR$/docs/structural/bridge.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/bridge.php" afterPath="$PROJECT_DIR$/src/Structural/bridge.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/composite.pdf" afterPath="$PROJECT_DIR$/docs/structural/composite.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/composite.php" afterPath="$PROJECT_DIR$/src/Structural/composite.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/decorator.pdf" afterPath="$PROJECT_DIR$/docs/structural/decorator.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/decorator.php" afterPath="$PROJECT_DIR$/src/Structural/decorator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/facade.pdf" afterPath="$PROJECT_DIR$/docs/structural/facade.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/facade.php" afterPath="$PROJECT_DIR$/src/Structural/facade.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/flyweight.pdf" afterPath="$PROJECT_DIR$/docs/structural/flyweight.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/flyweight.php" afterPath="$PROJECT_DIR$/src/Structural/flyweight.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/overview.pdf" afterPath="$PROJECT_DIR$/docs/structural/overview.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/proxy.pdf" afterPath="$PROJECT_DIR$/docs/structural/proxy.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/structural/proxy.php" afterPath="$PROJECT_DIR$/src/Structural/proxy.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,40 +59,7 @@
     <favorites_list name="php-design-patterns" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SubObject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/SubObject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cloneable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Cloneable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrototypeTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Creational/PrototypeTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding>
-                <element signature="e#7#46#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -145,6 +142,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1920" />
     <option name="y" value="-6" />
     <option name="width" value="1920" />
     <option name="height" value="1086" />
@@ -203,24 +201,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Creational" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-design-patterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php-design-patterns" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -235,11 +215,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-design-patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php-design-patterns" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Creational" />
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="other" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -255,11 +249,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Creational/Singleton" />
-      <recent name="$PROJECT_DIR$/src/Creational/Prototype" />
-      <recent name="$PROJECT_DIR$/src/Creational/FactoryMethof" />
-      <recent name="$PROJECT_DIR$/src/Creational/Builder" />
+      <recent name="$PROJECT_DIR$/docs/other" />
+      <recent name="$PROJECT_DIR$/docs/behavioral" />
       <recent name="$PROJECT_DIR$/docs/creational" />
+      <recent name="$PROJECT_DIR$/docs/structural" />
+      <recent name="$PROJECT_DIR$/src/Creational/Singleton" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Creational/Prototype" />
@@ -387,7 +381,7 @@
       <workItem from="1495908372877" duration="816000" />
       <workItem from="1495909724535" duration="2720000" />
       <workItem from="1495952424569" duration="21000" />
-      <workItem from="1495959169867" duration="5411000" />
+      <workItem from="1495959169867" duration="5710000" />
     </task>
     <task id="LOCAL-00001" summary="Running tests for AbstractFactory and FactoryMethod">
       <created>1495904905703</created>
@@ -400,9 +394,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 34m 44s.xml">
-      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 34m 53s.xml">
       <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -430,9 +421,12 @@
     <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 42m 36s.xml">
       <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="PHP_design_patterns - 2017.05.28 at 11h 43m 02s.xml">
+      <configuration name="PHP design patterns" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23637000" />
+    <option name="totallyTimeSpent" value="23936000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,10 +438,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-6" width="1920" height="1086" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1920" y="-6" width="1920" height="1086" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -530,63 +523,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Neutral/nullobject.php">
+    <entry file="file://$PROJECT_DIR$/src/Other/nullobject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Neutral/dto.php">
+    <entry file="file://$PROJECT_DIR$/src/Other/dto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/adapter.php">
+    <entry file="file://$PROJECT_DIR$/src/Structural/adapter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/bridge.php">
+    <entry file="file://$PROJECT_DIR$/src/Structural/bridge.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/composite.php">
+    <entry file="file://$PROJECT_DIR$/src/Structural/composite.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/decorator.php">
+    <entry file="file://$PROJECT_DIR$/src/Structural/decorator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/facade.php">
+    <entry file="file://$PROJECT_DIR$/src/Structural/facade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/flyweight.php">
+    <entry file="file://$PROJECT_DIR$/src/Structural/flyweight.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structural/proxy.php">
+    <entry file="file://$PROJECT_DIR$/src/Structural/proxy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -849,11 +842,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/SubObject.php">
+    <entry file="file://$PROJECT_DIR$/tests/Creational/PrototypeTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="714">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#46#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -865,13 +860,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Creational/PrototypeTest.php">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/SubObject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="e#7#46#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
