@@ -1,5 +1,7 @@
 <?php
 
+namespace Src\Behavioral\Command;
+
 class BookCommandee
 {
     private $author;
@@ -49,30 +51,4 @@ class BookCommandee
     }
 }
 
-abstract class BookCommand
-{
-    protected $bookCommandee;
 
-    public function __construct($bookCommandee_in)
-    {
-        $this->bookCommandee = $bookCommandee_in;
-    }
-
-    abstract public function execute();
-}
-
-class BookStarsOnCommand extends BookCommand
-{
-    public function execute()
-    {
-        $this->bookCommandee->setStarsOn();
-    }
-}
-
-class BookStarsOffCommand extends BookCommand
-{
-    public function execute()
-    {
-        $this->bookCommandee->setStarsOff();
-    }
-}
