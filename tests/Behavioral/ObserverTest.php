@@ -1,24 +1,26 @@
 <?php
 
-require __DIR__  . "../../../src/behavioral/observer.php";
+use Src\Behavioral\Observer\PatternObserver;
+use Src\Behavioral\Observer\PatternSubject;
 
-class Obserser extends \PHPUnit_Framework_TestCase
+class ObserverTest extends \PHPUnit\Framework\TestCase
 {
     /**
-    * Instantiate obserser class class
-    */
+     * Instantiate obserser class class
+     */
     public function setUp()
     {
         $this->patternGossiper = new PatternSubject();
         $this->patternGossipFan = new PatternObserver();
     }
+
     /**
      *
      * @test
      *
      * @return void
      */
-    public function obserserTest()
+    public function observer()
     {
         $this->patternGossiper->attach($this->patternGossipFan);
 

@@ -1,29 +1,6 @@
-
 <?php
 
-abstract class AbstractObserver
-{
-    abstract public function update(AbstractSubject $subject_in);
-}
-
-abstract class AbstractSubject
-{
-    abstract public function attach(AbstractObserver $observer_in);
-    abstract public function detach(AbstractObserver $observer_in);
-    abstract public function notify();
-}
-
-
-class PatternObserver extends AbstractObserver
-{
-    public function __construct()
-    {
-    }
-    public function update(AbstractSubject $subject)
-    {
-        $subject->getFavorites();
-    }
-}
+namespace Src\Behavioral\Observer;
 
 class PatternSubject extends AbstractSubject
 {
