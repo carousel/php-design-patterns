@@ -1,23 +1,24 @@
 <?php
 
-require __DIR__  . "../../../src/behavioral/mediator.php";
+use Src\Behavioral\Mediator\BookMediator;
 
-class Mediator extends \PHPUnit_Framework_TestCase
+class MediatorTest extends \PHPUnit\Framework\TestCase
 {
     /**
-    * Instantiate command class class
-    */
+     * Instantiate command class class
+     */
     public function setUp()
     {
         $this->mediator = new BookMediator('Gamma, Helm, Johnson, and Vlissides', 'Design Patterns');
     }
+
     /**
      *
      * @test
      *
      * @return void
      */
-    public function mediatorTest()
+    public function mediator()
     {
         $author = $this->mediator->getAuthor();
         $title = $this->mediator->getTitle();
