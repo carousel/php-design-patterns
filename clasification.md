@@ -4,7 +4,7 @@
 
 ###Abstract Factory (factory definition first, family of related objects)
 *   must be subclassed
-*   abstract what is common for all classes
+*   abstract what is common for all classesj
 *   client calls concrete class
 ###Factory Method 
 *   without family relation
