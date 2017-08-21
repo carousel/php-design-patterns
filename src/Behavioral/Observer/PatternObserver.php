@@ -12,4 +12,3 @@ class PatternObserver extends AbstractObserver
         $subject->getFavorites();
     }
 }
-

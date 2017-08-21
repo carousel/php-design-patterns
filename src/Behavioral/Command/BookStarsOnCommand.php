@@ -9,5 +9,3 @@ class BookStarsOnCommand extends BookCommand
         $this->bookCommandee->setStarsOn();
     }
 }
-
-

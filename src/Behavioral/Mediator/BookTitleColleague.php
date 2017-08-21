@@ -47,5 +47,3 @@ class BookTitleColleague extends BookColleague
         $this->getMediator()->change($this);
     }
 }
-
-

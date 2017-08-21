@@ -8,4 +8,3 @@ abstract class AbstractSubject
     abstract public function detach(AbstractObserver $observer_in);
     abstract public function notify();
 }
-

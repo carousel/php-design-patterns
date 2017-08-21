@@ -29,4 +29,3 @@ class BookContext
         $this->bookTitleState = $titleState_in;
     }
 }
-

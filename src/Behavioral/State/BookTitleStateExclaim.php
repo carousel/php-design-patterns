@@ -14,4 +14,3 @@ class BookTitleStateExclaim implements BookTitleStateInterface
         return Str_replace(' ', '!', $title);
     }
 }
-
