@@ -1,6 +1,7 @@
 <?php
 
 namespace Src\Creational\FactoryMethod;
+
 use Src\Creational\FactoryMethod\AbstractFactoryMethod;
 
 class OReillyFactoryMethod extends AbstractFactoryMethod
@@ -24,5 +25,3 @@ class OReillyFactoryMethod extends AbstractFactoryMethod
         return $book;
     }
 }
-
-

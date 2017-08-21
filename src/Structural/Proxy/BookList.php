@@ -51,5 +51,3 @@ class BookList
         return $this->getBookCount();
     }
 }
-
-

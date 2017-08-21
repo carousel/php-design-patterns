@@ -13,5 +13,3 @@ abstract class BookCommand
 
     abstract public function execute();
 }
-
-

@@ -24,4 +24,3 @@ class BookTitleDecorator
         return $this->title;
     }
 }
-
