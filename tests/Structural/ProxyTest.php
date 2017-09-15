@@ -1,6 +1,6 @@
 <?php
 
-use Src\Structural\Proxy\Book;
+use Src\HelperClasses\Book;
 use Src\Structural\Proxy\ProxyBookList;
 
 class ProxyTest extends \PHPUnit\Framework\TestCase

@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Structural\Adapter;
+<?php namespace Src\HelperClasses;
 
 class Book
 {
@@ -22,4 +20,11 @@ class Book
     {
         return $this->title;
     }
+    public function getAuthorAndTitle()
+    {
+    }
+    public function getTitleAndAuthor()
+    {
+    }
+
 }

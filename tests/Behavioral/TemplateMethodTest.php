@@ -1,7 +1,7 @@
 <?php
 
 use Src\Behavioral\TemplateMethod\TemplateStars;
-use Src\Behavioral\TemplateMethod\Book;
+use Src\HelperClasses\Book;
 
 class TemplateMethodTest extends \PHPUnit\Framework\TestCase
 {
@@ -10,7 +10,7 @@ class TemplateMethodTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp()
     {
-        $this->book = new Book('PHP for Cats', 'Larry Truett');
+        $this->book = new Book('Larry Truett','PHP for Cats');
         $this->templateStars = new TemplateStars();
     }
 

@@ -1,8 +1,6 @@
-<?php
+<?php namespace Src\Structural\Flyweight;
 
-namespace Src\Structural\Flyweight;
-
-use Src\Structural\Flyweight\FlyweightBook;
+use Src\HelperClasses\Book;
 
 class FlyweightFactory
 {
@@ -29,19 +27,19 @@ class FlyweightFactory
     //does work well.
     public function makeBook1()
     {
-        $book = new FlyweightBook('Larry Truett', 'PHP For Cats');
+        $book = new Book('Larry Truett', 'PHP For Cats');
         return $book;
     }
 
     public function makeBook2()
     {
-        $book = new FlyweightBook('Larry Truett', 'PHP For Dogs');
+        $book = new Book('Larry Truett', 'PHP For Dogs');
         return $book;
     }
 
     public function makeBook3()
     {
-        $book = new FlyweightBook('Larry Truett', 'PHP For Parakeets');
+        $book = new Book('Larry Truett', 'PHP For Parakeets');
         return $book;
     }
 

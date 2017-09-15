@@ -1,7 +1,7 @@
 <?php
 
 use Src\Behavioral\Strategy\StrategyContext;
-use Src\Behavioral\Strategy\Book;
+use Src\HelperClasses\Book;
 
 class StrategyTest extends \PHPUnit\Framework\TestCase
 {
@@ -10,7 +10,7 @@ class StrategyTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp()
     {
-        $this->book = new Book('PHP for Cats', 'Larry Truett');
+        $this->book = new Book('Larry Truett','PHP for Cats');
         $this->strategyContextC = new StrategyContext('C');
         $this->strategyContextE = new StrategyContext('E');
     }

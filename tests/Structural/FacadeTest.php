@@ -1,6 +1,6 @@
 <?php
 
-use Src\Structural\Facade\Book;
+use Src\HelperClasses\Book;
 use Src\Structural\Facade\CaseReverseFacade;
 
 class FacadeTest extends \PHPUnit\Framework\TestCase
@@ -10,7 +10,7 @@ class FacadeTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp()
     {
-        $this->book = new Book('Design Patterns', 'Gamma, Helm, Johnson, and Vlissides');
+        $this->book = new Book("Gamma, Helm, Johnson, and Vlissides", 'Design Patterns');
     }
 
     /**

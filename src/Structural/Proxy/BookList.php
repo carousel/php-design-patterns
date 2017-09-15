@@ -1,6 +1,6 @@
-<?php
+<?php namespace Src\Structural\Proxy;
 
-namespace Src\Structural\Proxy;
+use Src\HelperClasses\Book;
 
 class BookList
 {

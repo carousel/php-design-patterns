@@ -1,7 +1,7 @@
 <?php
 
 use Src\Behavioral\State\BookContext;
-use Src\Behavioral\State\Book;
+use Src\HelperClasses\Book;
 
 class StateTest extends \PHPUnit\Framework\TestCase
 {
@@ -10,7 +10,7 @@ class StateTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp()
     {
-        $this->book = new Book('PHP for Cats', 'Larry Truett');
+        $this->book = new Book('Larry Truett','PHP for Cats');
         $this->bookContext = new BookContext($this->book);
     }
 

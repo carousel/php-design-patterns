@@ -1,6 +1,6 @@
 <?php
 
-use Src\Structural\Adapter\Book;
+use Src\HelperClasses\Book;
 use Src\Structural\Adapter\BookAdapter;
 
 class AdapterTest extends \PHPUnit\Framework\TestCase

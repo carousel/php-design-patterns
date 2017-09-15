@@ -80,3 +80,31 @@
 ###Visitor (define new operation without changing classes/recursive structure)
 ###Interpreter
 
+
+#MY EXPLANATIONS
+
+##Creational
+###Abstract Factory
+*   Expose abstract method factory name (to client) 
+*   Encapsulate creation process (hidden from client)
+*   Required subclassing
+*   Client is calling subclass (which encapsulate instantiation of objects)
+###Factory method
+*   Similar to abstract factory 
+*   Subclass has more freedom (what to instantiate)
+*   Choice is given to client
+###Builder
+*   Build object in steps
+*   Director and builder
+*   Builder is calling dependente object (what to build)
+*   Director is calling builder
+*   Client is calling director
+###Singleton
+*   Only one instance 
+*   Global access (static)
+
+##Structural
+###Adapter
+*   True wrapper example (encapsulation)
+*   Wrapper for dependency object
+*   Client calls wrapper methods which forwards to adapted code

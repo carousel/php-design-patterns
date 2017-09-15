@@ -1,6 +1,6 @@
-<?php
+<?php namespace Src\Structural\Adapter;
 
-namespace Src\Structural\Adapter;
+use Src\HelperClasses\Book;
 
 class BookAdapter
 {

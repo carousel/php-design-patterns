@@ -1,9 +1,10 @@
 <?php
 
-use Src\Structural\Decorator\Book;
+use Src\HelperClasses\Book;
 use Src\Structural\Decorator\BookTitleDecorator;
 use Src\Structural\Decorator\BookTitleStarDecorator;
 use Src\Structural\Decorator\BookTitleExclaimDecorator;
+
 
 
 class DecoratorTest extends \PHPUnit\Framework\TestCase
@@ -25,8 +26,8 @@ class DecoratorTest extends \PHPUnit\Framework\TestCase
      */
     public function decorator()
     {
-        $this->assertEquals($this->decorator->showTitle(), "Gamma, Helm, Johnson, and Vlissides");
+        $this->assertEquals($this->decorator->showTitle(), "Design Patterns");
         $this->exclaimDecorator->exclaimTitle();
-        $this->assertEquals($this->decorator->showTitle(), "!Gamma, Helm, Johnson, and Vlissides!");
+        $this->assertEquals($this->decorator->showTitle(), "!Design Patterns!");
     }
 }

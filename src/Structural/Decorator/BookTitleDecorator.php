@@ -1,6 +1,6 @@
-<?php
+<?php namespace Src\Structural\Decorator;
 
-namespace Src\Structural\Decorator;
+use Src\HelperClasses\Book;
 
 class BookTitleDecorator
 {
