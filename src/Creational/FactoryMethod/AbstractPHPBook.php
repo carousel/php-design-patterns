@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Creational\FactoryMethod;
+<?php namespace Src\Creational\FactoryMethod;
 
 abstract class AbstractPHPBook
 {

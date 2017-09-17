@@ -1,6 +1,5 @@
-<?php
+<?php namespace Src\Creational\FactoryMethod;
 
-namespace Src\Creational\FactoryMethod;
 use Src\Creational\FactoryMethod\AbstractFactoryMethod;
 
 class OReillyFactoryMethod extends AbstractFactoryMethod

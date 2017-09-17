@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Creational\FactoryMethod;
+<?php namespace Src\Creational\FactoryMethod;
 
 use Src\Creational\FactoryMethod\AbstractPHPBook;
 
