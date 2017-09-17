@@ -26,28 +26,32 @@
 *   same interface as wrapped class
 *   alternative to subclassing
 *   must be a subclass of wrapped interface/object
-###Proxy 
-*   limit access
-*   surrogate for another object/
-*   same interface as wrapped class
-*   wrapped may not exist
-*   no object in constructor
 ###Bridge 
+*   decouple an abstraction from its implementation so that the two can vary independently
 *   more complex variation of adapter
 *   run-time binding of the implementation
 *   makes things work before design
 *   common interface
 *   decouple an abstraction from implementation/orthogonal
+###Proxy 
+*   provide a surrogate or placeholder for another object to control access to it
+*   limit access
+*   surrogate for another object/
+*   same interface as wrapped class
+*   wrapped may not exist
+*   no object in constructor
 ###Facade 
+*   provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use
 *   higher level interface (for one or many objects)
 *   different interface 
 ###Composite (composite/leaf, recursive composition)
+*   compose objects into tree structures to represent whole-part hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly
 ###Flyweight (sharing expensive resources)
+*   use sharing to support large numbers of fine-grained objects efficiently
 *   share what is common (intrinsic)
 *   extrinsic
 
-##Behavioral (decompositional, external to structure, sernder/receiver)
-
+##BEHAVIORAL (decompositional, external to structure, sernder/receiver)
 ###Observer 
 *   one to many
 *   observer is registered

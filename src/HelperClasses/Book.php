@@ -22,9 +22,11 @@ class Book
     }
     public function getAuthorAndTitle()
     {
+        return $this->getAuthor() . " " . $this->getTitle();
     }
     public function getTitleAndAuthor()
     {
+        return $this->getTitle() . " " . $this->getAuthor();
     }
 
 }
