@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Structural\Bridge;
+<?php namespace Src\Structural\Bridge;
 
 class BridgeBookAuthorTitle extends BridgeBook
 {

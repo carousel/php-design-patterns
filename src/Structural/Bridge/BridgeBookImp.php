@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Structural\Bridge;
+<?php namespace Src\Structural\Bridge;
 
 abstract class BridgeBookImp
 {

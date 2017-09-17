@@ -1,21 +1,23 @@
 #DESIGN PATTERNS
 
 ##CREATIONAL
-
-###Abstract Factory (factory definition first, family of related objects)
-*   must be subclassed
-*   abstract what is common for all classesj
-*   client calls concrete class
+###Abstract Factory
+*   Provide an interface for creating families of related or dependent objects without specifying their concrete classes
 ###Factory Method 
-*   without family relation
-*   let subclass decide what to instantiate
+*   Define an interface for creating an object, but let subclasses decide which class to instantiate
 ###Builder    
-*   build complex object in steps with common instructions
+*   Separate the construction of a complex object from its representation so that the same construction process can create different representations
+###Singleton 
+*   Ensure a class has only one instance, and provide a global point of access to it
 ###Prototype (__clone to other slot of memory,delegation)
-###Singleton (class has only one instance, with global point of access)
 
 ##STRUCTURAL(compositional, logic internal to the structure, wrappers)
+###Adapter 
+*   convert interface into one that clients expect (for one or many objects)
+*   different interface from wrapped class(derived)
+*   exposes only releveant methods to client
 ###Decorator 
+*   Attach additional responsibilities to an object dynamically
 *   smart proxy
 *   wrapped in constructor
 *   inheritance is not feasible because it is static and applies to an entire class
@@ -36,10 +38,6 @@
 *   makes things work before design
 *   common interface
 *   decouple an abstraction from implementation/orthogonal
-###Adapter 
-*   convert interface into one that clients expect (for one or many objects)
-*   different interface from wrapped class(derived)
-*   exposes only releveant methods to client
 ###Facade 
 *   higher level interface (for one or many objects)
 *   different interface 
