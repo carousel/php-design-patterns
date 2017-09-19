@@ -1,4 +1,15 @@
 #DESIGN PATTERNS
+* object-oriented designs often end up with classes that have no counterparts in the real world
+* strict modeling of the real world leads to a system that reflects today's realities but not necessarily tomorrow's
+* an object may have many types, and widely different objects can share a type.
+* an object's class defines how the object is implemented.
+* In contrast, an object's type only refers to its interface—the set of requests to which it can respond.
+* An object's interface characterizes the complete set of requests that can be sent to the object
+* A type is a name used to denote a particular interface.
+* Don't declare variables to be instances of particular concrete classes
+* An object may have many types, and widely different objects can share a type
+* The run-time association of a request to an object and one of its operations is known as dynamic binding
+* Type vs implementation
 
 ##CREATIONAL
 ###Abstract Factory
@@ -110,3 +121,20 @@
 *   True wrapper example (encapsulation)
 *   Wrapper for dependency object
 *   Client calls wrapper methods which forwards to adapted code
+
+#TOP LEVEL PATTERNS CLASIFICATION
+##By purpose (what pattern does)
+*   Creational (class,object)
+*   Structural (class,object)
+*   Behavioral (class,object)
+##By scope (to classes or objects)
+*   class scope (static, inheritance)
+*   object scope (dynamic,run-time)
+
+*   identify (less obvious) abstractions
+*   object granularity (size)
+*   run time (dynamic binding)
+
+
+#There are many different approaches
+*   
