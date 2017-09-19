@@ -10,6 +10,8 @@
 * An object may have many types, and widely different objects can share a type
 * The run-time association of a request to an object and one of its operations is known as dynamic binding
 * Type vs implementation
+* An object's implementation is defined by its class
+* Of course,there's a close relationship between class and type. Because a class defines the operations an object can perform, it also defines the object's type.
 
 ##CREATIONAL
 ###Abstract Factory
