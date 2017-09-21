@@ -12,6 +12,32 @@
 * Type vs implementation
 * An object's implementation is defined by its class
 * Of course,there's a close relationship between class and type. Because a class defines the operations an object can perform, it also defines the object's type.
+* Reusing concept
+* Reuse by subclassing (compile type) is often referred to as white-box reuse. The term "white-box" refers to visibility
+* Reuse by composition (run time) is called black-box reuse, because no internal details of objects are visible
+* Implementation inheritance problem
+* Inheritance's ability to define families of objects with identical interfaces
+* Object composition == more objects, less class hierarchies
+* Assembling existing components (never quite rich)
+* Inheritance (new object from old ones, $this)
+* Delegation is a way of making composition as powerful for reuse as inheritance (self)
+* Delegation (reference to object)
+* In delegation, two objects are involved in handling a request: a receiving object delegates operations to its delegate,which is analogous to subclasses deferring requests to parent classes.
+* The code structure is frozen at compile-time;
+* A program's run-time structure consists of rapidly changing networks of communicating objects
+* Aggregation implies that an aggregate object and its owner have identical lifetimes.
+* Aggregation relationships tend to be fewer and more permanent than acquaintance. Acquaintances, in contrast, are made and remade more frequently, sometimes existing only for the duration of an operation
+* The system's run-time structure must be imposed more by the designer than the language.
+* the run-time structures aren't clear from the code until you understand the patterns.
+* Aggregation relationships tend to be fewer and more permanent than acquaintance.
+* Heavy use of object composition can make designs harder to understand.
+#Three kind of software 
+##Application programs
+##Toolkits
+##Frameworks
+
+
+
 
 ##CREATIONAL
 ###Abstract Factory
