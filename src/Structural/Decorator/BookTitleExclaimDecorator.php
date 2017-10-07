@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Structural\Decorator;
+<?php namespace Src\Structural\Decorator;
 
 class BookTitleExclaimDecorator extends BookTitleDecorator
 {
