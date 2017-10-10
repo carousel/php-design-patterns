@@ -1,7 +1,8 @@
-<?php
+<?php namespace Src\Structural\Composite;
 
-namespace Src\Structural\Composite;
-
+/**
+ * Composite interface
+ */
 abstract class OnTheBookShelf
 {
     abstract public function getBookInfo($previousBook);

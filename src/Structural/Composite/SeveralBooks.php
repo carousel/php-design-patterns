@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Structural\Composite;
+<?php namespace Src\Structural\Composite;
 
 use Src\Structural\Composite\OnTheBookShelf;
 

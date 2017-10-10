@@ -34,6 +34,7 @@
 * Heavy use of object composition can make designs harder to understand.
 * Since the framework's main contribution to an application is the architecture it defines. Therefore it's imperative to design the framework to be as flexible and extensible as possible.
 * Design patterns are smaller, more abstract and less specialized then framework
+* safety and transparency (where to define operations?)
 
 ##Creational
 *   Creational patterns become important as systems evolve to depend more on object composition than class inheritance.
@@ -67,10 +68,10 @@
 
 
 ##CREATIONAL
-###Abstract Factory
+###Abstract Factory (known as kit)
 *   Provide an interface for creating families of related or dependent objects without specifying their concrete classes
 *   Clients manipulate instances through their abstract interfaces
-###Factory Method 
+###Factory Method (known as virtial constructor)
 *   Define an interface for creating an object, but let subclasses decide which class to instantiate
 ###Builder    
 *   Separate the construction of a complex object from its representation so that the same construction process can create different representations
@@ -79,13 +80,17 @@
 ###Prototype (__clone to other slot of memory,delegation)
 
 ##STRUCTURAL(compositional, logic internal to the structure, wrappers)
-###Adapter 
+###Adapter (known as wrapper)
 *   convert interface into one that clients expect (for one or many objects)
 *   different interface from wrapped class(derived)
 *   exposes only releveant methods to client
-###Decorator 
-*   transparent enclosure
+###Decorator (known as wrapper) 
+*   change skin
+*   transparent enclosure (to client)
 *   client doesn't know difference
+*   decorator forwards request to its component object
+*   conform to component interface
+*   lightweight component
 *   Attach additional responsibilities to an object dynamically
 *   smart proxy
 *   wrapped in constructor
@@ -95,12 +100,15 @@
 *   same interface as wrapped class
 *   alternative to subclassing
 *   must be a subclass of wrapped interface/object
-###Bridge 
+*   example: grahical embellishment
+###Bridge (handle/body) 
 *   decouple an abstraction from its implementation so that the two can vary independently
+*   allow layering
+*   abstraction and implementation can be extended differently
 *   more complex variation of adapter
 *   run-time binding of the implementation
 *   makes things work before design
-*   common interface
+*   common interface for implementation
 *   decouple an abstraction from implementation/orthogonal
 ###Proxy 
 *   provide a surrogate or placeholder for another object to control access to it
@@ -114,7 +122,13 @@
 *   higher level interface (for one or many objects)
 *   different interface 
 ###Composite (composite/leaf, recursive composition)
-*   compose objects into tree structures to represent whole-part hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly
+*   compose objects into tree structures to represent whole-part hierarchies. 
+*   composite lets clients treat individual objects and compositions of objects uniformly
+*   treat primitive and composite objects same
+*   part-whole hierarchies as object
+*   client use component class interface
+*   composite implements component interface
+*   nearly every user interface toolkit or framework uses a composite (from original Smalltalk MVC view implementation)
 ###Flyweight (sharing expensive resources)
 *   use sharing to support large numbers of fine-grained objects efficiently
 *   share what is common (intrinsic)
@@ -130,6 +144,7 @@
 ###Mediator 
 *   encapsulates communication between multiple objects
 ###Strategy (interchangeable algorithms)
+*   change guts
 *   code to an interface (different algorithm implementation?)
 *   key is to design interfaces for strategy and its context
 ###Command 
@@ -156,6 +171,7 @@
 #MY EXPLANATIONS
 
 ##Creational
+##A class creational pattern uses inheritance to vary the class that's instantiated, whereas an object creational pattern will delegate instantiation to another object.
 ###Abstract Factory
 *   Create objects at run-time
 *   Expose abstract method factory name (to client) 
@@ -176,11 +192,14 @@
 *   Only one instance 
 *   Global access (static)
 
-##Structural
+##Structural(structural patterns are concerned with how classes and objects are composed to form larger structures)
+##structural class patterns use inheritance to compose interfaces or implementations.
+##structural object patterns describe ways to compose objects to realize new functionality
 ###Adapter
 *   True wrapper example (encapsulation)
 *   Wrapper for dependency object
 *   Client calls wrapper methods which forwards to adapted code
+*   Not transparent to client
 
 #TOP LEVEL PATTERNS CLASIFICATION
 ##By purpose (what pattern does)
@@ -195,6 +214,7 @@
 *   object granularity (size)
 *   run time (dynamic binding)
 
+##Classification
+    -class based (relies on inheritance distribution) 
+    -object based (relies on composition distribution)
 
-#There are many different approaches
-*   
