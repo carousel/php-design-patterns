@@ -86,6 +86,7 @@
 *   exposes only releveant methods to client
 ###Decorator (known as wrapper) 
 *   change skin
+*   focus embellishment
 *   transparent enclosure (to client)
 *   client doesn't know difference
 *   decorator forwards request to its component object
@@ -102,15 +103,15 @@
 *   must be a subclass of wrapped interface/object
 *   example: grahical embellishment
 ###Bridge (handle/body) 
-*   decouple an abstraction from its implementation so that the two can vary independently
+*   decouple an abstraction from its implementation so that the two can vary independently (orthogonal)
 *   allow layering
 *   abstraction and implementation can be extended differently
 *   more complex variation of adapter
 *   run-time binding of the implementation
 *   makes things work before design
 *   common interface for implementation
-*   decouple an abstraction from implementation/orthogonal
 ###Proxy 
+*   only one relationship (static?)
 *   provide a surrogate or placeholder for another object to control access to it
 *   limit access
 *   surrogate for another object/
@@ -122,6 +123,7 @@
 *   higher level interface (for one or many objects)
 *   different interface 
 ###Composite (composite/leaf, recursive composition)
+*   representation
 *   compose objects into tree structures to represent whole-part hierarchies. 
 *   composite lets clients treat individual objects and compositions of objects uniformly
 *   treat primitive and composite objects same
@@ -133,6 +135,7 @@
 *   use sharing to support large numbers of fine-grained objects efficiently
 *   share what is common (intrinsic)
 *   extrinsic
+*   Flyweight context
 
 ##BEHAVIORAL (decompositional, external to structure, sernder/receiver)
 ###Observer 
@@ -143,15 +146,24 @@
 *   pull
 ###Mediator 
 *   encapsulates communication between multiple objects
+*   system looks like monolithic
 ###Strategy (interchangeable algorithms)
 *   change guts
 *   code to an interface (different algorithm implementation?)
 *   key is to design interfaces for strategy and its context
 ###Command 
+*   encapsulate request as object (known as action/transaction)
+*   absrtact command class which encapsulates interface for executing operations
+*   commands are OO replacement for callbacks
 *   invoker/receiver paradigm
 *   execute command on receiver
 ###Chain (multiple handlers for request/next)
-###Iterator (access aggregate object without internals)
+*   avoid coupling the sender of a request to receiver by giving more then one object change to handle request
+*   pass the object along the chain
+###Iterator (known as cursor)
+*   access aggregate object without internals
+*   iterator and data structure are coupled
+
 ###Memento 
 *   bookmark
 *   capture objects internal state/for restoring state

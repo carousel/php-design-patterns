@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Behavioral\Command;
+<?php namespace Src\Behavioral\Command;
 
 class BookCommandee
 {
