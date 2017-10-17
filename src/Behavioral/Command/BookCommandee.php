@@ -48,5 +48,3 @@ class BookCommandee
         return $this->getTitle() . ' by ' . $this->getAuthor();
     }
 }
-
-

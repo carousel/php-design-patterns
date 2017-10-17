@@ -3,7 +3,6 @@
 use Src\Structural\Bridge\BridgeBookStarsImp;
 use Src\Structural\Bridge\BridgeBookCapsImp;
 
-
 abstract class BridgeBook
 {
     private $bbAuthor;
@@ -31,5 +30,3 @@ abstract class BridgeBook
         return $this->bbImp->showTitle($this->bbTitle);
     }
 }
-
-

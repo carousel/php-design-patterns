@@ -8,11 +8,6 @@ class ProxyBookList
 {
     private $bookList = null;
 
-    //bookList is not instantiated at construct time
-    public function __construct()
-    {
-    }
-
     public function getBookCount()
     {
         if (null == $this->bookList) {
@@ -50,5 +45,12 @@ class ProxyBookList
     {
         $this->bookList = new BookList();
     }
+    public function getAuthor($bookNumber)
+    {
+        if($bookNumber == 1){
+            return 'Access forbidden!!!';
+        }else{
+            return $this->getBook($bookNumber)->getAuthor();
+        }
+    }
 }
-

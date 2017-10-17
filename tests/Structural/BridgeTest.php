@@ -14,10 +14,10 @@ class BridgeTest extends \PHPUnit\Framework\TestCase
     {
         //first implementation with same interface
         $book = new BridgeBookAuthorTitle('Larry Truett', "PHP for Cats", 'CAPS');
-        $this->assertEquals($book->showAuthorTitle(), "LARRY TRUETT's PHP FOR CATS");
+        $this->assertEquals($book->showAuthor(), "LARRY TRUETT");
 
         //second implementation with same interface
         $book = new BridgeBookTitleAuthor('Larry Truett', "PHP for Cats", 'STARS');
-        $this->assertEquals($book->showTitleAuthor(), "PHP*for*Cats by Larry*Truett");
+        $this->assertEquals($book->showAuthor(), "Larry*Truett");
     }
 }

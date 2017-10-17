@@ -1,4 +1,4 @@
-<?php
+<?php namespace Test\Creational;
 
 use Src\Creational\Prototype\Cloneable;
 use Src\Creational\Prototype\SubObject;
@@ -19,7 +19,7 @@ class PrototypeTest extends \PHPUnit\Framework\TestCase
     /**
      * @test
      */
-    public function prototypeInstancesAreEqueal()
+    public function prototypeInstancesAreEqual()
     {
         $this->assertEquals($this->obj->object2, $this->obj->object2);
     }

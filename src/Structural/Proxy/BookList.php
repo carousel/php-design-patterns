@@ -7,10 +7,6 @@ class BookList
     private $books = array();
     private $bookCount = 0;
 
-    public function __construct()
-    {
-    }
-
     public function getBookCount()
     {
         return $this->bookCount;
@@ -50,6 +46,5 @@ class BookList
         }
         return $this->getBookCount();
     }
+    
 }
-
-

@@ -1,4 +1,4 @@
-<?php
+<?php namespace Test\Creational;
 
 use Src\Creational\Singleton\BookBorrower;
 use Src\Creational\Singleton\BookSingleton;
@@ -18,10 +18,14 @@ class SingletonTest extends \PHPUnit\Framework\TestCase
     public function bookIsBorrowedAndReturned()
     {
         $this->bookBorrower->borrowBook();
-        $r = new ReflectionProperty('\Src\Creational\Singleton\BookSingleton', 'isLoanedOut');
+        $firstBook = new \ReflectionProperty('\Src\Creational\Singleton\BookBorrower', 'borrowedBook');
+        $r = new \ReflectionProperty('\Src\Creational\Singleton\BookSingleton', 'isLoanedOut');
         $r->setAccessible(true);
         $this->assertTrue($r->getValue());
+        $secondBook = new \ReflectionProperty('\Src\Creational\Singleton\BookBorrower', 'borrowedBook');
         $this->bookBorrower->returnBook();
         $this->assertFalse($r->getValue());
+        //check that singletons are equals
+        $this->assertEquals($firstBook, $secondBook);
     }
 }

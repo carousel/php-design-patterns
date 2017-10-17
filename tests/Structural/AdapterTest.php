@@ -5,7 +5,6 @@ use Src\Structural\Adapter\BookAdapter;
 
 class AdapterTest extends \PHPUnit\Framework\TestCase
 {
-
     public function setUp()
     {
         $this->book = new Book("Gamma, Helm, Johnson, and Vlissides", "Design Patterns");
@@ -21,4 +20,3 @@ class AdapterTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals($this->book->getTitle() . " by " . $this->book->getAuthor(), $result);
     }
 }
-

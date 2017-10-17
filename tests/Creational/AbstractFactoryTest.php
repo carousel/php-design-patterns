@@ -1,6 +1,4 @@
-<?php
-
-namespace Test\Creational;
+<?php namespace Test\Creational;
 
 use Src\Creational\AbstractFactory\OReillyBookFactory;
 use Src\Creational\AbstractFactory\OReillyMySQLBook;

@@ -5,8 +5,6 @@ use Src\Structural\Decorator\BookTitleDecorator;
 use Src\Structural\Decorator\BookTitleStarDecorator;
 use Src\Structural\Decorator\BookTitleExclaimDecorator;
 
-
-
 class DecoratorTest extends \PHPUnit\Framework\TestCase
 {
     /**

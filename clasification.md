@@ -122,6 +122,7 @@
 *   provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use
 *   higher level interface (for one or many objects)
 *   different interface 
+*   unidirectional protocol
 ###Composite (composite/leaf, recursive composition)
 *   representation
 *   compose objects into tree structures to represent whole-part hierarchies. 
@@ -138,36 +139,41 @@
 *   Flyweight context
 
 ##BEHAVIORAL (decompositional, external to structure, sernder/receiver)
-###Observer 
-*   one to many
-*   observer is registered
-*   view example
-*   query for subject state
-*   pull
-###Mediator 
-*   encapsulates communication between multiple objects
-*   system looks like monolithic
-###Strategy (interchangeable algorithms)
-*   change guts
-*   code to an interface (different algorithm implementation?)
-*   key is to design interfaces for strategy and its context
+###Chain of responsibility(multiple handlers for request/next)
+*   avoid coupling the sender of a request to receiver by giving more then one object change to handle request
+*   pass the object along the chain
+*   successor reference
 ###Command 
 *   encapsulate request as object (known as action/transaction)
 *   absrtact command class which encapsulates interface for executing operations
 *   commands are OO replacement for callbacks
 *   invoker/receiver paradigm
 *   execute command on receiver
-###Chain (multiple handlers for request/next)
-*   avoid coupling the sender of a request to receiver by giving more then one object change to handle request
-*   pass the object along the chain
 ###Iterator (known as cursor)
 *   access aggregate object without internals
 *   iterator and data structure are coupled
-
-###Memento 
+###Mediator 
+*   encapsulates communication between multiple objects
+*   avoid system looks like monolithic
+*   controlling and coordinating the interactions of a group of objects
+*   indirect communication
+*   lozalized behavior
+*   replaces many-to-many with one-to-many
+*   mediator encapsulate protocols
+###Memento (known as token)
 *   bookmark
-*   capture objects internal state/for restoring state
+*   capture and record objects internal state/for restoring state
 *   snapshot
+###Strategy (interchangeable algorithms)
+*   change guts
+*   code to an interface (different algorithm implementation?)
+*   key is to design interfaces for strategy and its context
+###Observer 
+*   one to many
+*   observer is registered
+*   view example
+*   query for subject state
+*   pull
 ###State 
 *   in a context
 *   finite numbet of states
