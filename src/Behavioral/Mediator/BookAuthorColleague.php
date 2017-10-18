@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Behavioral\Mediator;
+<?php namespace Src\Behavioral\Mediator;
 
 class BookAuthorColleague extends BookColleague
 {
