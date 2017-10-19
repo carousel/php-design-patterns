@@ -1,4 +1,4 @@
-#DESIGN PATTERNS
+#DESIGN PATTERNS NOTES
 * object-oriented designs often end up with classes that have no counterparts in the real world
 * strict modeling of the real world leads to a system that reflects today's realities but not necessarily tomorrow's
 * an object may have many types, and widely different objects can share a type.
@@ -36,8 +36,6 @@
 * Design patterns are smaller, more abstract and less specialized then framework
 * safety and transparency (where to define operations?)
 
-##Creational
-*   Creational patterns become important as systems evolve to depend more on object composition than class inheritance.
 
 #THREE KIND OF SOFTWARE 
 ##Application programs (internal reuse)
@@ -67,23 +65,29 @@
 
 
 
-##CREATIONAL
+##CREATIONAL (Creational patterns become important as systems evolve to depend more on object composition than class inheritance)
 ###Abstract Factory (known as kit)
 *   Provide an interface for creating families of related or dependent objects without specifying their concrete classes
 *   Clients manipulate instances through their abstract interfaces
+*   Participants (Abstract/ConcreteFactory, Abstract/ConcreteProduct,Client)
 ###Factory Method (known as virtial constructor)
 *   Define an interface for creating an object, but let subclasses decide which class to instantiate
+*   Participants (ProductInterface/ConcreteProduct, Abstract/ConcreteProduct,Client)
 ###Builder    
 *   Separate the construction of a complex object from its representation so that the same construction process can create different representations
 ###Singleton 
 *   Ensure a class has only one instance, and provide a global point of access to it
 ###Prototype (__clone to other slot of memory,delegation)
 
+
+
+
 ##STRUCTURAL(compositional, logic internal to the structure, wrappers)
 ###Adapter (known as wrapper)
 *   convert interface into one that clients expect (for one or many objects)
 *   different interface from wrapped class(derived)
 *   exposes only releveant methods to client
+*   Participants (Adapter,Adaptee,Target,Client)
 ###Decorator (known as wrapper) 
 *   change skin
 *   focus embellishment
@@ -145,10 +149,16 @@
 *   successor reference
 ###Command 
 *   encapsulate request as object (known as action/transaction)
+*   request is object
+*   client sets receiver and insantiate command 
 *   absrtact command class which encapsulates interface for executing operations
+*   attach command to invoker
+*   invoker issues request by calling execute method
 *   commands are OO replacement for callbacks
+*   command is implementation of interface
 *   invoker/receiver paradigm
 *   execute command on receiver
+*   undo operation (reverse)
 ###Iterator (known as cursor)
 *   access aggregate object without internals
 *   iterator and data structure are coupled
@@ -164,16 +174,17 @@
 *   bookmark
 *   capture and record objects internal state/for restoring state
 *   snapshot
+*   memento and originator are tightly coupled
+###Observer (known as publish/subscribe)
+*   define one to many dependency
+*   subject and observer (arent tightly coupled together)
+*   MVC as example(view is observer, model is subject)
+*   query for subject state
+*   push/pull
 ###Strategy (interchangeable algorithms)
 *   change guts
 *   code to an interface (different algorithm implementation?)
 *   key is to design interfaces for strategy and its context
-###Observer 
-*   one to many
-*   observer is registered
-*   view example
-*   query for subject state
-*   pull
 ###State 
 *   in a context
 *   finite numbet of states
@@ -236,3 +247,8 @@
     -class based (relies on inheritance distribution) 
     -object based (relies on composition distribution)
 
+#UML
+*   dependency
+*   association (related,not dependent)
+*   aggregation/composition (has)
+*   inheritance

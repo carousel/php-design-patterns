@@ -1,4 +1,4 @@
-<?php
+<?php namespace Src\Behavioral\Chain;
 
 abstract class AbstractBookTopic
 {

@@ -1,13 +1,15 @@
-<?php
+<?php namespace Src\Behavioral\Chain;
 
-class BookTopic extends AbstractBookTopic
+class BookSubTopic extends AbstractBookTopic
 {
     private $topic;
+    private $parentTopic;
     private $title;
 
-    public function __construct($topic_in)
+    public function __construct($topic_in, BookTopic $parentTopic_in)
     {
         $this->topic = $topic_in;
+        $this->parentTopic = $parentTopic_in;
         $this->title = null;
     }
 
@@ -16,13 +18,17 @@ class BookTopic extends AbstractBookTopic
         return $this->topic;
     }
 
-    //this is the end of the chain - returns title or says there is none
+    public function getParentTopic()
+    {
+        return $this->parentTopic;
+    }
+
     public function getTitle()
     {
         if (null != $this->title) {
             return $this->title;
         } else {
-            return 'there is no title avaialble';
+            return $this->parentTopic->getTitle();
         }
     }
 

@@ -1,12 +1,12 @@
-<?php
+<?php namespace Src\Behavioral\Chain;
 
-class BookSubTopic extends AbstractBookTopic
+class BookSubSubTopic extends AbstractBookTopic
 {
     private $topic;
     private $parentTopic;
     private $title;
 
-    public function __construct($topic_in, BookTopic $parentTopic_in)
+    public function __construct($topic_in, BookSubTopic $parentTopic_in)
     {
         $this->topic = $topic_in;
         $this->parentTopic = $parentTopic_in;
@@ -37,3 +37,4 @@ class BookSubTopic extends AbstractBookTopic
         $this->title = $title_in;
     }
 }
+
