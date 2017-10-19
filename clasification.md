@@ -160,7 +160,7 @@
 *   execute command on receiver
 *   undo operation (reverse)
 ###Iterator (known as cursor)
-*   access aggregate object without internals
+*   access aggregate object sequentially without exposing internals
 *   iterator and data structure are coupled
 ###Mediator 
 *   encapsulates communication between multiple objects
