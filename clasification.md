@@ -187,6 +187,9 @@
 *   key is to design interfaces for strategy and its context
 ###State 
 *   in a context
+*   context delegates state specific request to concrete state class
+*   context is primary interface for client
+*   delegation (context to state)
 *   finite numbet of states
 *   change behaviour depending on state
 *   extract state into different classes

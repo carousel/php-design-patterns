@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Behavioral\State;
+<?php namespace Src\Behavioral\State;
 
 class BookTitleStateStars implements BookTitleStateInterface
 {
@@ -10,10 +8,9 @@ class BookTitleStateStars implements BookTitleStateInterface
     {
         $title = $context_in->getBook()->getTitle();
         $this->titleCount++;
-        if (1 < $this->titleCount) {
-            $context_in->setTitleState(new BookTitleStateStars);
-        }
+        //if (1 < $this->titleCount) {
+            $context_in->setTitleState(new BookTitleStateExclaim);
+        //}
         return Str_replace(' ', '*', $title);
     }
 }
-

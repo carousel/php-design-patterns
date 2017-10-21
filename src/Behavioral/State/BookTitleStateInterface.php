@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Behavioral\State;
+<?php namespace Src\Behavioral\State;
 
 interface BookTitleStateInterface
 {

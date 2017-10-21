@@ -2,7 +2,7 @@
 
 class Engine
 {
-    public function start ()
+    public function start()
     {
         return 'Starting a car';
     }
@@ -20,7 +20,6 @@ class Car
 
 class DummyTest extends \PHPUnit\Framework\TestCase
 {
-
     protected function setUp()
     {
         $mock = $this->getMockBuilder('Engine')
@@ -39,4 +38,3 @@ class DummyTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals('Starting', $this->car->engine->start());
     }
 }
-

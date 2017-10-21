@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Behavioral\State;
+<?php namespace Src\Behavioral\State;
 
 class BookContext
 {
@@ -8,15 +6,19 @@ class BookContext
     private $bookTitleState = null;
 
     //bookList is not instantiated at construct time
-    public function __construct($book_in)
+    public function __construct($book_in,$stateObject)
     {
         $this->book = $book_in;
-        $this->setTitleState(new BookTitleStateStars());
+        $this->setTitleState($stateObject);
     }
 
     public function getBookTitle()
     {
         return $this->bookTitleState->showTitle($this);
+    }
+    public function getBookTitleState()
+    {
+        return $this->bookTitleState;
     }
 
     public function getBook()
@@ -29,4 +31,3 @@ class BookContext
         $this->bookTitleState = $titleState_in;
     }
 }
-
