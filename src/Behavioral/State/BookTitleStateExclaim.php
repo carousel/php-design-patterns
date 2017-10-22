@@ -7,8 +7,7 @@ class BookTitleStateExclaim implements BookTitleStateInterface
     public function showTitle($context_in)
     {
         $title = $context_in->getBook()->getTitle();
-        $this->titleCount++;
-        $context_in->setTitleState(new BookTitleStateStars());
+        $context_in->setTitleState(new BookTitleStateQuestionMark());
         return Str_replace(' ', '!', $title);
     }
 }

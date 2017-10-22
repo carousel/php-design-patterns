@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Behavioral\Strategy;
+<?php namespace Src\Behavioral\Strategy;
 
 class StrategyContext
 {

@@ -181,13 +181,10 @@
 *   MVC as example(view is observer, model is subject)
 *   query for subject state
 *   push/pull
-###Strategy (interchangeable algorithms)
-*   change guts
-*   code to an interface (different algorithm implementation?)
-*   key is to design interfaces for strategy and its context
 ###State 
 *   in a context
 *   context delegates state specific request to concrete state class
+*   The State pattern puts each branch of the conditional in a separate class.
 *   context is primary interface for client
 *   delegation (context to state)
 *   finite numbet of states
@@ -195,6 +192,12 @@
 *   extract state into different classes
 *   order of state change
 *   transition to state
+###Strategy (known as policy)
+*   interchangeable algorithms
+*   many related classes differ only in their behavior
+*   change guts
+*   code to an interface (different algorithm implementation?)
+*   key is to design interfaces for strategy and its context
 ###Template Method (algorithm skeleton in a base class)
 ###Visitor (define new operation without changing classes/recursive structure)
 ###Interpreter
