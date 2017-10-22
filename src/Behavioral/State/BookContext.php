@@ -20,6 +20,10 @@ class BookContext
     {
         return $this->bookTitleState;
     }
+    public function getInitialState()
+    {
+        return 'PHP book title initial';
+    }
 
     public function getBook()
     {
