@@ -183,6 +183,7 @@
 *   push/pull
 ###State 
 *   in a context
+*   transition from state to state (defined by context)
 *   context delegates state specific request to concrete state class
 *   The State pattern puts each branch of the conditional in a separate class.
 *   context is primary interface for client
@@ -192,13 +193,21 @@
 *   extract state into different classes
 *   order of state change
 *   transition to state
+*   vs strategy
 ###Strategy (known as policy)
+*   delegation
+*   vs state
 *   interchangeable algorithms
 *   many related classes differ only in their behavior
 *   change guts
 *   code to an interface (different algorithm implementation?)
 *   key is to design interfaces for strategy and its context
 ###Template Method (algorithm skeleton in a base class)
+*   implement invariant part of algorithm
+*   localize common behavior
+*   fundamental method for code reuse
+*   used in frameworks
+*   "the Hollywood principle," that is, "Don't call us, we'll call you"
 ###Visitor (define new operation without changing classes/recursive structure)
 ###Interpreter
 

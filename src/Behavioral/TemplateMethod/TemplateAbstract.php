@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Behavioral\TemplateMethod;
+<?php namespace Src\Behavioral\TemplateMethod;
 
 abstract class TemplateAbstract
 {

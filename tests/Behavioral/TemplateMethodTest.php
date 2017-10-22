@@ -6,11 +6,11 @@ use Src\HelperClasses\Book;
 class TemplateMethodTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * Instantiate strategy classes class
+     * Instantiate template method setup classes
      */
     public function setUp()
     {
-        $this->book = new Book('Larry Truett','PHP for Cats');
+        $this->book = new Book('Larry Truett', 'PHP for Cats');
         $this->templateStars = new TemplateStars();
     }
 
@@ -22,6 +22,6 @@ class TemplateMethodTest extends \PHPUnit\Framework\TestCase
      */
     public function templateMethod()
     {
-        $this->assertEquals($this->templateStars->showBookTitleInfo($this->book), 'PHP*for*Cats');
+        $this->assertEquals($this->templateStars->showBookTitleInfo($this->book), 'PHP*for*Cats by Larry Truett');
     }
 }
