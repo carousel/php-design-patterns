@@ -1,4 +1,6 @@
-<?php namespace Src\Behavioral\Strategy;
+<?php
+
+namespace Src\Behavioral\Strategy;
 
 class StrategyExclaim implements StrategyInterface
 {
@@ -11,5 +13,3 @@ class StrategyExclaim implements StrategyInterface
         return Str_replace(' ', '!', $title);
     }
 }
-
-

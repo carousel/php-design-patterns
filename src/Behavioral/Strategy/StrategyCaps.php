@@ -11,6 +11,3 @@ class StrategyCaps implements StrategyInterface
         return strtoupper($title);
     }
 }
-
-
-

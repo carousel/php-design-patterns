@@ -6,7 +6,7 @@ class BookContext
     private $bookTitleState = null;
 
     //bookList is not instantiated at construct time
-    public function __construct($book_in,$stateObject)
+    public function __construct($book_in, $stateObject)
     {
         $this->book = $book_in;
         $this->setTitleState($stateObject);

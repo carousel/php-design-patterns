@@ -166,6 +166,7 @@
 *   avoid coupling the sender of a request to receiver by giving more then one object change to handle request
 *   pass the object along the chain
 *   successor reference
+*   open ended number of objects
 ###Command 
 *   encapsulate request as object (known as action/transaction)
 *   request is object

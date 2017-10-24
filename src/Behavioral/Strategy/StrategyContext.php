@@ -22,6 +22,3 @@ class StrategyContext
         return $this->strategy->showTitle($book);
     }
 }
-
-
-
