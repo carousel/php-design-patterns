@@ -35,6 +35,19 @@
 * Since the framework's main contribution to an application is the architecture it defines. Therefore it's imperative to design the framework to be as flexible and extensible as possible.
 * Design patterns are smaller, more abstract and less specialized then framework
 * safety and transparency (where to define operations?)
+* identify (less obvious) abstractions
+* object granularity (size)
+* run time (dynamic binding)
+
+
+#TOP LEVEL PATTERNS CLASIFICATION
+##By purpose (what pattern does)
+*   Creational (class,object)
+*   Structural (class,object)
+*   Behavioral (class,object)
+##By scope (to classes or objects)
+*   class scope (inheritance,static)
+*   object scope (composition,dynamic,run-time)
 
 
 #THREE KIND OF SOFTWARE 
@@ -42,45 +55,41 @@
 ##Toolkits (like subroutine libraries, write the code/call toolkit)
 ##Frameworks (design reuse over code reuse,reuse the framework/call the code,inversion of control)
 
-#CASE STUDY (lexi editor)
-##Document structure,representation,recursive composition,hierarchy(composite)
-*   my example?
-##formatting (Strategy)
-*   my example?
-##Embelishment (Decorator)
-*   my example?
-##Create families of objects (Abstract factory)
-*   my example?
-##Allow differnt hierarchies to work even if they evolve independently,decouple interface abstraction from implementatnin abstraction(Brigde)
-*   my example?
-##Command (encapsulate request,centralized access to functionality scattered throughout application)
-*   my example?
-##Iterator
-##Captures techniques for supporting access and traversal over different object (Iterator,store their own copy of the state of traversal)
-* my example   
-##Different analysis often require same kind of traversal
-
 
 
 
 
 
 ##CREATIONAL (Creational patterns become important as systems evolve to depend more on object composition than class inheritance)
-###Abstract Factory (known as kit)
+##A class creational pattern uses inheritance to vary the class that's instantiated, whereas an object creational pattern will delegate instantiation to another object.
+###Abstract Factory
 *   Provide an interface for creating families of related or dependent objects without specifying their concrete classes
 *   Clients manipulate instances through their abstract interfaces
 *   Participants (Abstract/ConcreteFactory, Abstract/ConcreteProduct,Client)
-###Factory Method (known as virtial constructor)
+*   the difference is that the intended purpose of the class containing a factory method is not to create objects, while an abstract factory should only be used to create objects.
+*   Create objects at run-time
+*   Expose abstract method factory name (to client) 
+*   Encapsulate creation process (hidden from client)
+*   Required subclassing
+*   Client is calling subclass (which encapsulate instantiation of objects)
+###Factory method
+*   the difference is that the intended purpose of the class containing a factory method is not to create objects, while an abstract factory should only be used to create objects.
 *   Define an interface for creating an object, but let subclasses decide which class to instantiate
 *   Participants (ProductInterface/ConcreteProduct, Abstract/ConcreteProduct,Client)
-###Builder    
+*   Similar to abstract factory 
+*   Subclass has more freedom (what to instantiate)
+*   Choice is given to client
+###Builder
 *   Separate the construction of a complex object from its representation so that the same construction process can create different representations
-###Singleton 
+*   Build object in steps
+*   Director and builder
+*   Builder is calling dependente object (what to build)
+*   Director is calling builder
+*   Client is calling director
+###Singleton
 *   Ensure a class has only one instance, and provide a global point of access to it
-###Prototype (__clone to other slot of memory,delegation)
-
-
-
+###Prototype 
+*   __clone to other slot of memory,delegation
 
 ##STRUCTURAL(compositional, logic internal to the structure, wrappers)
 ###Adapter (known as wrapper)
@@ -88,7 +97,14 @@
 *   different interface from wrapped class(derived)
 *   exposes only releveant methods to client
 *   Participants (Adapter,Adaptee,Target,Client)
+*   make things work after they are designed
+*   True wrapper example (encapsulation)
+*   Wrapper for dependency object
+*   Client calls wrapper methods which forwards to adapted code
+*   Not transparent to client
 ###Decorator (known as wrapper) 
+*   recursive composition
+*   open ended number of objects
 *   change skin
 *   focus embellishment
 *   transparent enclosure (to client)
@@ -114,6 +130,7 @@
 *   run-time binding of the implementation
 *   makes things work before design
 *   common interface for implementation
+*   make things work after they are designed
 ###Proxy 
 *   only one relationship (static?)
 *   provide a surrogate or placeholder for another object to control access to it
@@ -125,9 +142,11 @@
 ###Facade 
 *   provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use
 *   higher level interface (for one or many objects)
-*   different interface 
+*   different interface,new interface
 *   unidirectional protocol
-###Composite (composite/leaf, recursive composition)
+###Composite (composite/leaf)
+*   recursive composition
+*   open ended number of objects
 *   representation
 *   compose objects into tree structures to represent whole-part hierarchies. 
 *   composite lets clients treat individual objects and compositions of objects uniformly
@@ -142,7 +161,7 @@
 *   extrinsic
 *   Flyweight context
 
-##BEHAVIORAL (decompositional, external to structure, sernder/receiver)
+##BEHAVIORAL (decompositional, external to structure, sender/receiver,find what varies and encapsulate it)
 ###Chain of responsibility(multiple handlers for request/next)
 *   avoid coupling the sender of a request to receiver by giving more then one object change to handle request
 *   pass the object along the chain
@@ -195,7 +214,7 @@
 *   transition to state
 *   vs strategy
 ###Strategy (known as policy)
-*   delegation
+*   delegation?
 *   vs state
 *   interchangeable algorithms
 *   many related classes differ only in their behavior
@@ -209,58 +228,33 @@
 *   used in frameworks
 *   "the Hollywood principle," that is, "Don't call us, we'll call you"
 ###Visitor (define new operation without changing classes/recursive structure)
+*   operation on elements of structure
+*   "accepts" the visitor
+*   makes adding new operations easy
+*   gathers related operatons and separates unrelated
+*   is elements class hierarchy stable?
+*   double dispatch (depends on two elements, request and receiver)
 ###Interpreter
 
 
-#MY EXPLANATIONS
+#CASE STUDY (lexi editor)
+##Document structure,representation,recursive composition,hierarchy(composite)
+*   my example?
+##formatting (Strategy)
+*   my example?
+##Embelishment (Decorator)
+*   my example?
+##Create families of objects (Abstract factory)
+*   my example?
+##Allow differnt hierarchies to work even if they evolve independently,decouple interface abstraction from implementatnin abstraction(Brigde)
+*   my example?
+##Command (encapsulate request,centralized access to functionality scattered throughout application)
+*   my example?
+##Iterator
+##Captures techniques for supporting access and traversal over different object (Iterator,store their own copy of the state of traversal)
+* my example   
+##Different analysis often require same kind of traversal
 
-##Creational
-##A class creational pattern uses inheritance to vary the class that's instantiated, whereas an object creational pattern will delegate instantiation to another object.
-###Abstract Factory
-*   Create objects at run-time
-*   Expose abstract method factory name (to client) 
-*   Encapsulate creation process (hidden from client)
-*   Required subclassing
-*   Client is calling subclass (which encapsulate instantiation of objects)
-###Factory method
-*   Similar to abstract factory 
-*   Subclass has more freedom (what to instantiate)
-*   Choice is given to client
-###Builder
-*   Build object in steps
-*   Director and builder
-*   Builder is calling dependente object (what to build)
-*   Director is calling builder
-*   Client is calling director
-###Singleton
-*   Only one instance 
-*   Global access (static)
-
-##Structural(structural patterns are concerned with how classes and objects are composed to form larger structures)
-##structural class patterns use inheritance to compose interfaces or implementations.
-##structural object patterns describe ways to compose objects to realize new functionality
-###Adapter
-*   True wrapper example (encapsulation)
-*   Wrapper for dependency object
-*   Client calls wrapper methods which forwards to adapted code
-*   Not transparent to client
-
-#TOP LEVEL PATTERNS CLASIFICATION
-##By purpose (what pattern does)
-*   Creational (class,object)
-*   Structural (class,object)
-*   Behavioral (class,object)
-##By scope (to classes or objects)
-*   class scope (static, inheritance)
-*   object scope (dynamic,run-time)
-
-*   identify (less obvious) abstractions
-*   object granularity (size)
-*   run time (dynamic binding)
-
-##Classification
-    -class based (relies on inheritance distribution) 
-    -object based (relies on composition distribution)
 
 #UML
 *   dependency
