@@ -2,7 +2,6 @@
 * object-oriented designs often end up with classes that have no counterparts in the real world
 * strict modeling of the real world leads to a system that reflects today's realities but not necessarily tomorrow's
 * an object may have many types, and widely different objects can share a type.
-* an object's class defines how the object is implemented.
 * In contrast, an object's type only refers to its interface—the set of requests to which it can respond.
 * An object's interface characterizes the complete set of requests that can be sent to the object
 * A type is a name used to denote a particular interface.
@@ -27,7 +26,7 @@
 * A program's run-time structure consists of rapidly changing networks of communicating objects
 * Aggregation implies that an aggregate object and its owner have identical lifetimes.
 * Aggregation relationships tend to be fewer and more permanent than acquaintance. 
-* Acquaintances, in contrast, are made and remade more frequently, sometimes existing only for the duration of an operation
+* Acquaintances, in contrast, are made and remain more frequently, sometimes existing only for the duration of an operation
 * The system's run-time structure must be imposed more by the designer than the language.
 * The run-time structures aren't clear from the code until you understand the patterns.
 * Encapsulating the concept that varies (change without redesign)
@@ -236,6 +235,17 @@
 *   is elements class hierarchy stable?
 *   double dispatch (depends on two elements, request and receiver)
 ###Interpreter
+
+
+
+#COMPARISON
+
+
+
+
+
+
+
 
 
 #CASE STUDY (lexi editor)
