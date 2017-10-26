@@ -23,5 +23,3 @@ class FancyDescriptionVisitor extends Visitor
             '...www website !**! at http://'.$softwareVisiteeIn->getSoftwareCompanyURL());
     }
 }
-
- 
