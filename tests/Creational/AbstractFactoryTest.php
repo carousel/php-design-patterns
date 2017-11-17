@@ -4,8 +4,6 @@ use Src\Creational\AbstractFactory\OReillyBookFactory;
 use Src\Creational\AbstractFactory\OReillyMySQLBook;
 use Src\Creational\AbstractFactory\OReillyPHPBook;
 
-
-
 class AbstractFactoryTest extends \PHPUnit\Framework\TestCase
 {
     public function setUp()
@@ -23,5 +21,4 @@ class AbstractFactoryTest extends \PHPUnit\Framework\TestCase
         $this->assertTrue($this->orielly->makeMySQLBook() instanceof OReillyMySQLBook);
         $this->assertTrue($this->orielly->makePHPBook() instanceof OReillyPHPBook);
     }
-
 }

@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Creational\AbstractFactory;
+<?php namespace Src\Creational\AbstractFactory;
 
 class OReillyMySQLBook
 {
@@ -23,7 +21,3 @@ class OReillyMySQLBook
         return $this->title;
     }
 }
-
-
-
-

@@ -1,6 +1,5 @@
 <?php namespace Src\Creational\AbstractFactory;
 
-
 class OReillyPHPBook
 {
     private $author;
@@ -10,7 +9,7 @@ class OReillyPHPBook
 
     public function __construct()
     {
-//alternate between 2 books
+        //alternate between 2 books
         if ('odd' == self::$oddOrEven) {
             $this->author = 'Rasmus Lerdorf and Kevin Tatroe';
             $this->title = 'Programming PHP';

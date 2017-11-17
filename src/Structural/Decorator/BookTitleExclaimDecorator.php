@@ -11,7 +11,7 @@ class BookTitleExclaimDecorator extends BookTitleDecorator
 
     public function exclaimTitle()
     {
-        $this->btd->title = "!" . $this->btd->title . "!";
+        $this->title = "!" . $this->btd->title . "!";
     }
 }
 

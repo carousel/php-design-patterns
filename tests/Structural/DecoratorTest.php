@@ -26,6 +26,6 @@ class DecoratorTest extends \PHPUnit\Framework\TestCase
     {
         $this->assertEquals($this->decorator->showTitle(), "Design Patterns");
         $this->exclaimDecorator->exclaimTitle();
-        $this->assertEquals($this->decorator->showTitle(), "!Design Patterns!");
+        $this->assertEquals($this->exclaimDecorator->showTitle(), "!Design Patterns!");
     }
 }
