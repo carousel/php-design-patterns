@@ -11,6 +11,7 @@ class BookTitleStarDecorator extends BookTitleDecorator
 
     public function starTitle()
     {
-        $this->title = Str_replace(" ", "*", $this->btd->title);
+        $this->title = "***" . $this->btd->title . "***";
+        return $this;
     }
 }

@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Creational\Builder;
+<?php namespace Src\Creational\Builder;
 
 abstract class AbstractPageDirector
 {

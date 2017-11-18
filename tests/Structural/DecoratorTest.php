@@ -15,7 +15,8 @@ class DecoratorTest extends \PHPUnit\Framework\TestCase
         $this->patternBook = new Book("Gamma, Helm, Johnson, and Vlissides", 'Design Patterns');
         $this->decorator = new BookTitleDecorator($this->patternBook);
         $this->starDecorator = new BookTitleStarDecorator($this->decorator);
-        $this->exclaimDecorator = new BookTitleExclaimDecorator($this->decorator);
+        //$this->starDecorator = new BookTitleStarDecorator($this->exclaimDecorator->exclaimTitle());
+        $this->exclaimDecorator = new BookTitleExclaimDecorator($this->starDecorator->starTitle());
     }
     /**
      * @test
@@ -26,6 +27,6 @@ class DecoratorTest extends \PHPUnit\Framework\TestCase
     {
         $this->assertEquals($this->decorator->showTitle(), "Design Patterns");
         $this->exclaimDecorator->exclaimTitle();
-        $this->assertEquals($this->exclaimDecorator->showTitle(), "!Design Patterns!");
+        $this->assertEquals($this->exclaimDecorator->showTitle(), "!!!***Design Patterns***!!!");
     }
 }

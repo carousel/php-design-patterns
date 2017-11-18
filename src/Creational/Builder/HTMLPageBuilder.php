@@ -1,6 +1,4 @@
-<?php
-
-namespace Src\Creational\Builder;
+<?php namespace Src\Creational\Builder;
 
 class HTMLPageBuilder extends AbstractPageBuilder
 {
