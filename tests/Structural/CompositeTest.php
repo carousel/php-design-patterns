@@ -34,6 +34,12 @@ class CompositeTest extends \PHPUnit\Framework\TestCase
         $booksCount = $this->books->addBook($this->thirdBook);
         $this->assertEquals($booksCount, 3);
         $thirdBookCount = $this->thirdBook->getBookCount();
+        $this->assertFalse($this->thirdBook->setBookCount(123));
+        $this->assertFalse($this->thirdBook->addBook($this->firstBook));
+        $this->assertFalse($this->thirdBook->removeBook($this->firstBook));
+        $this->assertFalse($this->thirdBook->getBookInfo(112));
+        $this->assertEquals($this->books->getBookInfo(1),'Core PHP Programming, Third Edition by Atkinson and Suraski');
+        $this->assertFalse($this->books->getBookInfo(123));
         $this->assertEquals($thirdBookCount, 1);
 
         $booksCount = $this->books->removeBook($this->thirdBook);

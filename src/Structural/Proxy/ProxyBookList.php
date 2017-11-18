@@ -45,11 +45,15 @@ class ProxyBookList
     {
         $this->bookList = new BookList();
     }
+    public function removeBookList()
+    {
+        $this->bookList = null;
+    }
     public function getAuthor($bookNumber)
     {
-        if($bookNumber == 1){
+        if ($bookNumber == 1) {
             return 'Access forbidden!!!';
-        }else{
+        } else {
             return $this->getBook($bookNumber)->getAuthor();
         }
     }

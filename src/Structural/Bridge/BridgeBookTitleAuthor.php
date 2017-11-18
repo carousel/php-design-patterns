@@ -2,8 +2,9 @@
 
 class BridgeBookTitleAuthor extends BridgeBook
 {
-    public function showTitleAuthor()
+    public function showAuthorTitle()
     {
-        return $this->showTitle() . ' by ' . $this->showAuthor();
+        return $this->showAuthor() . "'s " . $this->showTitle();
     }
 }
+

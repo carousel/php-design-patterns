@@ -23,4 +23,12 @@ class FactoryMethodTest extends \PHPUnit\Framework\TestCase
         $this->assertTrue($this->factoryMethod->makePHPBook("oreilly") instanceof OReillyPHPBook);
         $this->assertTrue($this->factoryMethod->makePHPBook("sams") instanceof SamsPHPBook);
     }
+    /**
+     * @test
+     */
+    public function returnResults()
+    {
+        $this->assertEquals($this->factoryMethod->makePHPBook("oreilly"), new OReillyPHPBook);
+        $this->assertEquals($this->factoryMethod->makePHPBook("sams"), new SamsPHPBook);
+    }
 }

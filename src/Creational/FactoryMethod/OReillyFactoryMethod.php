@@ -4,24 +4,14 @@ use Src\Creational\FactoryMethod\AbstractFactoryMethod;
 
 class OReillyFactoryMethod extends AbstractFactoryMethod
 {
-    private $context = "OReilly";
-
     public function makePHPBook($param)
     {
-        $book = null;
-        switch ($param) {
-            case "oreilly":
-                $book = new OReillyPHPBook;
-                break;
-            case "sams":
-                $book = new SamsPHPBook;
-                break;
-            default:
-                $book = new OReillyPHPBook;
-                break;
+        if ($param == "oreilly") {
+            $book = new OReillyPHPBook;
         }
-        return $book;
+        if ($param == "sams") {
+            $book = new SamsPHPBook;
+        }
+            return $book;
     }
 }
-
-

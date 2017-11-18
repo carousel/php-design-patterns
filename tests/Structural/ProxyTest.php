@@ -23,20 +23,27 @@ class ProxyTest extends \PHPUnit\Framework\TestCase
     public function proxy()
     {
         $this->proxyBookList->addBook($this->firstBook);
-        $this->assertEquals($this->proxyBookList->getBookCount(), 1);
-        $firstBook = $this->proxyBookList->getBook(1);
+        $this->proxyBookList->removeBookList();
+        $this->assertEquals($this->proxyBookList->getBookCount(), 0);
 
-        $this->proxyBookList->addBook($this->secondBook);
-        $this->assertEquals($this->proxyBookList->getBookCount(), 2);
-        $secondBook = $this->proxyBookList->getBook(2);
+        //$this->proxyBookList->addBook($this->firstBook);
+        $this->proxyBookList->removeBookList();
+        $firstBook = $this->proxyBookList->getBook(1);
+        $this->assertEquals($this->proxyBookList->getBookCount(), 0);
+        $this->proxyBookList->addBook($this->firstBook);
+
 
         //proxy on first book
         $this->assertEquals($this->proxyBookList->getAuthor(1), 'Access forbidden!!!');
         //second book doesn't have proxy (bypass)
+        $this->proxyBookList->addBook($this->secondBook);
         $this->assertEquals($this->proxyBookList->getAuthor(2), 'Larry Truett');
+        $this->proxyBookList->removeBook($this->secondBook);
 
+        $firstBook = $this->proxyBookList->getBook(1);
+        $this->proxyBookList->removeBookList();
         $this->proxyBookList->removeBook($firstBook);
-        $this->assertEquals($this->proxyBookList->getBookCount(), 1);
+        $this->assertEquals($this->proxyBookList->getBookCount(), 0);
 
     }
 }

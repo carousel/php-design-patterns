@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/packages/php-design-patterns/src/Behavioral</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../.css/bootstrap.min.css" rel="stylesheet">
+  <link href="../.css/nv.d3.min.css" rel="stylesheet">
+  <link href="../.css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../.js/html5shiv.min.js"></script>
+  <script src="../.js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/var/www/packages/php-design-patterns/src</a></li>
+        <li><a href="index.html">Behavioral</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="_Interpreter/interpreter.php.html#64">BookList</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Iterator/BookListReverseIterator.php.html#3">BookListReverseIterator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#3">Interpreter</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#118">Book</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Chain/BookSubSubTopic.php.html#3">BookSubSubTopic</a></td><td class="text-right">45%</td></tr>
+       <tr><td><a href="Mediator/BookColleague.php.html#3">BookColleague</a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="Chain/BookTopic.php.html#3">BookTopic</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Iterator/BookListIterator.php.html#3">BookListIterator</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Mediator/BookMediator.php.html#3">BookMediator</a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="Mediator/BookAuthorColleague.php.html#3">BookAuthorColleague</a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="Mediator/BookTitleColleague.php.html#3">BookTitleColleague</a></td><td class="text-right">76%</td></tr>
+       <tr><td><a href="TemplateMethod/TemplateAbstract.php.html#3">TemplateAbstract</a></td><td class="text-right">77%</td></tr>
+       <tr><td><a href="Memento/Bookmark.php.html#3">Bookmark</a></td><td class="text-right">81%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="_Interpreter/interpreter.php.html#3">Interpreter</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#64">BookList</a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="Iterator/BookListReverseIterator.php.html#3">BookListReverseIterator</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Mediator/BookMediator.php.html#3">BookMediator</a></td><td class="text-right">17</td></tr>
+       <tr><td><a href="Chain/BookSubSubTopic.php.html#3">BookSubSubTopic</a></td><td class="text-right">11</td></tr>
+       <tr><td><a href="Iterator/BookListIterator.php.html#3">BookListIterator</a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="Chain/BookTopic.php.html#3">BookTopic</a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="TemplateMethod/TemplateAbstract.php.html#3">TemplateAbstract</a></td><td class="text-right">4</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Chain/BookSubSubTopic.php.html#21"><abbr title="BookSubSubTopic::getParentTopic">getParentTopic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Chain/BookSubSubTopic.php.html#26"><abbr title="BookSubSubTopic::getTitle">getTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#134"><abbr title="Book::getTitle">getTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#129"><abbr title="Book::getAuthor">getAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#123"><abbr title="Book::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#12"><abbr title="Interpreter::interpret">interpret</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#7"><abbr title="Interpreter::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="TemplateMethod/TemplateAbstract.php.html#34"><abbr title="TemplateAbstract::processAuthor">processAuthor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Memento/Bookmark.php.html#24"><abbr title="Bookmark::getTitle">getTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mediator/BookTitleColleague.php.html#34"><abbr title="BookTitleColleague::setTitleUpperCase">setTitleUpperCase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mediator/BookColleague.php.html#17"><abbr title="BookColleague::changed">changed</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Mediator/BookAuthorColleague.php.html#34"><abbr title="BookAuthorColleague::setAuthorUpperCase">setAuthorUpperCase</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Iterator/BookListReverseIterator.php.html#20"><abbr title="BookListReverseIterator::hasNextBook">hasNextBook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Iterator/BookListReverseIterator.php.html#11"><abbr title="BookListReverseIterator::getNextBook">getNextBook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Iterator/BookListReverseIterator.php.html#5"><abbr title="BookListReverseIterator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#139"><abbr title="Book::getAuthorAndTitle">getAuthorAndTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#69"><abbr title="BookList::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Chain/BookSubSubTopic.php.html#35"><abbr title="BookSubSubTopic::setTitle">setTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Chain/BookSubTopic.php.html#21"><abbr title="BookSubTopic::getParentTopic">getParentTopic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Chain/BookTopic.php.html#29"><abbr title="BookTopic::setTitle">setTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Command/BookCommandee.php.html#46"><abbr title="BookCommandee::getAuthorAndTitle">getAuthorAndTitle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#73"><abbr title="BookList::getBookCount">getBookCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#78"><abbr title="BookList::setBookCount">setBookCount</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#83"><abbr title="BookList::getBook">getBook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#94"><abbr title="BookList::addBook">addBook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#101"><abbr title="BookList::removeBook">removeBook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Iterator/BookListIterator.php.html#22"><abbr title="BookListIterator::getNextBook">getNextBook</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Mediator/BookMediator.php.html#25"><abbr title="BookMediator::change">change</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Chain/BookTopic.php.html#20"><abbr title="BookTopic::getTitle">getTitle</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Iterator/BookListIterator.php.html#31"><abbr title="BookListIterator::hasNextBook">hasNextBook</abbr></a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Iterator/BookListIterator.php.html#13"><abbr title="BookListIterator::getCurrentBook">getCurrentBook</abbr></a></td><td class="text-right">75%</td></tr>
+       <tr><td><a href="TemplateMethod/TemplateAbstract.php.html#9"><abbr title="TemplateAbstract::showBookTitleInfo">showBookTitleInfo</abbr></a></td><td class="text-right">87%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="_Interpreter/interpreter.php.html#12"><abbr title="Interpreter::interpret">interpret</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#101"><abbr title="BookList::removeBook">removeBook</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Mediator/BookMediator.php.html#25"><abbr title="BookMediator::change">change</abbr></a></td><td class="text-right">15</td></tr>
+       <tr><td><a href="_Interpreter/interpreter.php.html#83"><abbr title="BookList::getBook">getBook</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Chain/BookSubSubTopic.php.html#26"><abbr title="BookSubSubTopic::getTitle">getTitle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Iterator/BookListReverseIterator.php.html#11"><abbr title="BookListReverseIterator::getNextBook">getNextBook</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Iterator/BookListReverseIterator.php.html#20"><abbr title="BookListReverseIterator::hasNextBook">hasNextBook</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Iterator/BookListIterator.php.html#13"><abbr title="BookListIterator::getCurrentBook">getCurrentBook</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="Chain/BookTopic.php.html#20"><abbr title="BookTopic::getTitle">getTitle</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Iterator/BookListIterator.php.html#22"><abbr title="BookListIterator::getNextBook">getNextBook</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="Iterator/BookListIterator.php.html#31"><abbr title="BookListIterator::hasNextBook">hasNextBook</abbr></a></td><td class="text-right">2</td></tr>
+       <tr><td><a href="TemplateMethod/TemplateAbstract.php.html#9"><abbr title="TemplateAbstract::showBookTitleInfo">showBookTitleInfo</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.2.1</a> using <a href="https://secure.php.net/" target="_top">PHP 7.1.11-1+ubuntu16.04.1+deb.sury.org+1</a> with <a href="https://xdebug.org/">Xdebug 2.5.5</a> and <a href="https://phpunit.de/">PHPUnit 6.1.4</a> at Sat Nov 18 13:42:00 UTC 2017.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../.js/jquery.min.js" type="text/javascript"></script>
+  <script src="../.js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../.js/holder.min.js" type="text/javascript"></script>
+  <script src="../.js/d3.min.js" type="text/javascript"></script>
+  <script src="../.js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([4,0,0,0,0,1,0,2,5,1,2,23], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([26,0,0,0,0,0,0,4,1,1,0,97], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,3,"<a href=\"Chain\/AbstractBookTopic.php.html#3\">AbstractBookTopic<\/a>"],[45.45454545454545,6,"<a href=\"Chain\/BookSubSubTopic.php.html#3\">BookSubSubTopic<\/a>"],[90.9090909090909,6,"<a href=\"Chain\/BookSubTopic.php.html#3\">BookSubTopic<\/a>"],[66.66666666666666,5,"<a href=\"Chain\/BookTopic.php.html#3\">BookTopic<\/a>"],[100,2,"<a href=\"Command\/BookCommand.php.html#3\">BookCommand<\/a>"],[93.75,8,"<a href=\"Command\/BookCommandee.php.html#3\">BookCommandee<\/a>"],[100,1,"<a href=\"Command\/BookStarsOffCommand.php.html#3\">BookStarsOffCommand<\/a>"],[100,1,"<a href=\"Command\/BookStarsOnCommand.php.html#3\">BookStarsOnCommand<\/a>"],[0,11,"<a href=\"_Interpreter\/interpreter.php.html#64\">BookList<\/a>"],[75,8,"<a href=\"Iterator\/BookListIterator.php.html#3\">BookListIterator<\/a>"],[0,5,"<a href=\"Iterator\/BookListReverseIterator.php.html#3\">BookListReverseIterator<\/a>"],[76.47058823529412,7,"<a href=\"Mediator\/BookAuthorColleague.php.html#3\">BookAuthorColleague<\/a>"],[60,3,"<a href=\"Mediator\/BookColleague.php.html#3\">BookColleague<\/a>"],[75,14,"<a href=\"Mediator\/BookMediator.php.html#3\">BookMediator<\/a>"],[76.47058823529412,7,"<a href=\"Mediator\/BookTitleColleague.php.html#3\">BookTitleColleague<\/a>"],[100,5,"<a href=\"Memento\/BookReader.php.html#3\">BookReader<\/a>"],[81.81818181818183,5,"<a href=\"Memento\/Bookmark.php.html#3\">Bookmark<\/a>"],[100,1,"<a href=\"Observer\/AbstractObserver.php.html#5\">AbstractObserver<\/a>"],[100,3,"<a href=\"Observer\/AbstractSubject.php.html#5\">AbstractSubject<\/a>"],[100,2,"<a href=\"Observer\/PatternObserver.php.html#5\">PatternObserver<\/a>"],[100,9,"<a href=\"Observer\/PatternSubject.php.html#3\">PatternSubject<\/a>"],[100,6,"<a href=\"State\/BookContext.php.html#3\">BookContext<\/a>"],[100,1,"<a href=\"State\/BookTitleStateExclaim.php.html#3\">BookTitleStateExclaim<\/a>"],[100,1,"<a href=\"State\/BookTitleStateQuestionMark.php.html#3\">BookTitleStateQuestionMark<\/a>"],[100,1,"<a href=\"State\/BookTitleStateStars.php.html#3\">BookTitleStateStars<\/a>"],[100,1,"<a href=\"Strategy\/StrategyCaps.php.html#3\">StrategyCaps<\/a>"],[100,4,"<a href=\"Strategy\/StrategyContext.php.html#3\">StrategyContext<\/a>"],[100,1,"<a href=\"Strategy\/StrategyExclaim.php.html#5\">StrategyExclaim<\/a>"],[77.77777777777779,4,"<a href=\"TemplateMethod\/TemplateAbstract.php.html#3\">TemplateAbstract<\/a>"],[100,2,"<a href=\"TemplateMethod\/TemplateStars.php.html#3\">TemplateStars<\/a>"],[100,4,"<a href=\"Visitor\/BookVisitee.php.html#3\">BookVisitee<\/a>"],[100,4,"<a href=\"Visitor\/FancyDescriptionVisitor.php.html#3\">FancyDescriptionVisitor<\/a>"],[100,4,"<a href=\"Visitor\/PlainDescriptionVisitor.php.html#3\">PlainDescriptionVisitor<\/a>"],[100,5,"<a href=\"Visitor\/SoftwareVisitee.php.html#4\">SoftwareVisitee<\/a>"],[100,1,"<a href=\"Visitor\/Visitee.php.html#3\">Visitee<\/a>"],[100,2,"<a href=\"Visitor\/Visitor.php.html#3\">Visitor<\/a>"],[0,12,"<a href=\"_Interpreter\/interpreter.php.html#3\">Interpreter<\/a>"],[0,4,"<a href=\"_Interpreter\/interpreter.php.html#118\">Book<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Chain\/AbstractBookTopic.php.html#5\">AbstractBookTopic::getTopic<\/a>"],[100,1,"<a href=\"Chain\/AbstractBookTopic.php.html#7\">AbstractBookTopic::getTitle<\/a>"],[100,1,"<a href=\"Chain\/AbstractBookTopic.php.html#9\">AbstractBookTopic::setTitle<\/a>"],[100,1,"<a href=\"Chain\/BookSubSubTopic.php.html#9\">BookSubSubTopic::__construct<\/a>"],[100,1,"<a href=\"Chain\/BookSubSubTopic.php.html#16\">BookSubSubTopic::getTopic<\/a>"],[0,1,"<a href=\"Chain\/BookSubSubTopic.php.html#21\">BookSubSubTopic::getParentTopic<\/a>"],[0,2,"<a href=\"Chain\/BookSubSubTopic.php.html#26\">BookSubSubTopic::getTitle<\/a>"],[0,1,"<a href=\"Chain\/BookSubSubTopic.php.html#35\">BookSubSubTopic::setTitle<\/a>"],[100,1,"<a href=\"Chain\/BookSubTopic.php.html#9\">BookSubTopic::__construct<\/a>"],[100,1,"<a href=\"Chain\/BookSubTopic.php.html#16\">BookSubTopic::getTopic<\/a>"],[0,1,"<a href=\"Chain\/BookSubTopic.php.html#21\">BookSubTopic::getParentTopic<\/a>"],[100,2,"<a href=\"Chain\/BookSubTopic.php.html#26\">BookSubTopic::getTitle<\/a>"],[100,1,"<a href=\"Chain\/BookSubTopic.php.html#35\">BookSubTopic::setTitle<\/a>"],[100,1,"<a href=\"Chain\/BookTopic.php.html#8\">BookTopic::__construct<\/a>"],[100,1,"<a href=\"Chain\/BookTopic.php.html#14\">BookTopic::getTopic<\/a>"],[66.66666666666666,2,"<a href=\"Chain\/BookTopic.php.html#20\">BookTopic::getTitle<\/a>"],[0,1,"<a href=\"Chain\/BookTopic.php.html#29\">BookTopic::setTitle<\/a>"],[100,1,"<a href=\"Command\/BookCommand.php.html#7\">BookCommand::__construct<\/a>"],[100,1,"<a href=\"Command\/BookCommand.php.html#12\">BookCommand::execute<\/a>"],[100,1,"<a href=\"Command\/BookCommandee.php.html#8\">BookCommandee::__construct<\/a>"],[100,1,"<a href=\"Command\/BookCommandee.php.html#14\">BookCommandee::getAuthor<\/a>"],[100,1,"<a href=\"Command\/BookCommandee.php.html#19\">BookCommandee::setAuthor<\/a>"],[100,1,"<a href=\"Command\/BookCommandee.php.html#24\">BookCommandee::getTitle<\/a>"],[100,1,"<a href=\"Command\/BookCommandee.php.html#29\">BookCommandee::setTitle<\/a>"],[100,1,"<a href=\"Command\/BookCommandee.php.html#34\">BookCommandee::setStarsOn<\/a>"],[100,1,"<a href=\"Command\/BookCommandee.php.html#40\">BookCommandee::setStarsOff<\/a>"],[0,1,"<a href=\"Command\/BookCommandee.php.html#46\">BookCommandee::getAuthorAndTitle<\/a>"],[100,1,"<a href=\"Command\/BookStarsOffCommand.php.html#5\">BookStarsOffCommand::execute<\/a>"],[100,1,"<a href=\"Command\/BookStarsOnCommand.php.html#5\">BookStarsOnCommand::execute<\/a>"],[0,1,"<a href=\"_Interpreter\/interpreter.php.html#69\">BookList::__construct<\/a>"],[0,1,"<a href=\"_Interpreter\/interpreter.php.html#73\">BookList::getBookCount<\/a>"],[0,1,"<a href=\"_Interpreter\/interpreter.php.html#78\">BookList::setBookCount<\/a>"],[0,3,"<a href=\"_Interpreter\/interpreter.php.html#83\">BookList::getBook<\/a>"],[0,1,"<a href=\"_Interpreter\/interpreter.php.html#94\">BookList::addBook<\/a>"],[0,4,"<a href=\"_Interpreter\/interpreter.php.html#101\">BookList::removeBook<\/a>"],[100,1,"<a href=\"Iterator\/BookListIterator.php.html#8\">BookListIterator::__construct<\/a>"],[75,3,"<a href=\"Iterator\/BookListIterator.php.html#13\">BookListIterator::getCurrentBook<\/a>"],[66.66666666666666,2,"<a href=\"Iterator\/BookListIterator.php.html#22\">BookListIterator::getNextBook<\/a>"],[66.66666666666666,2,"<a href=\"Iterator\/BookListIterator.php.html#31\">BookListIterator::hasNextBook<\/a>"],[0,1,"<a href=\"Iterator\/BookListReverseIterator.php.html#5\">BookListReverseIterator::__construct<\/a>"],[0,2,"<a href=\"Iterator\/BookListReverseIterator.php.html#11\">BookListReverseIterator::getNextBook<\/a>"],[0,2,"<a href=\"Iterator\/BookListReverseIterator.php.html#20\">BookListReverseIterator::hasNextBook<\/a>"],[100,1,"<a href=\"Mediator\/BookAuthorColleague.php.html#8\">BookAuthorColleague::__construct<\/a>"],[100,1,"<a href=\"Mediator\/BookAuthorColleague.php.html#14\">BookAuthorColleague::getAuthor<\/a>"],[100,1,"<a href=\"Mediator\/BookAuthorColleague.php.html#19\">BookAuthorColleague::setAuthor<\/a>"],[100,1,"<a href=\"Mediator\/BookAuthorColleague.php.html#24\">BookAuthorColleague::getState<\/a>"],[100,1,"<a href=\"Mediator\/BookAuthorColleague.php.html#29\">BookAuthorColleague::setState<\/a>"],[0,1,"<a href=\"Mediator\/BookAuthorColleague.php.html#34\">BookAuthorColleague::setAuthorUpperCase<\/a>"],[100,1,"<a href=\"Mediator\/BookAuthorColleague.php.html#41\">BookAuthorColleague::setAuthorLowerCase<\/a>"],[100,1,"<a href=\"Mediator\/BookColleague.php.html#7\">BookColleague::__construct<\/a>"],[100,1,"<a href=\"Mediator\/BookColleague.php.html#12\">BookColleague::getMediator<\/a>"],[0,1,"<a href=\"Mediator\/BookColleague.php.html#17\">BookColleague::changed<\/a>"],[100,1,"<a href=\"Mediator\/BookMediator.php.html#8\">BookMediator::__construct<\/a>"],[100,1,"<a href=\"Mediator\/BookMediator.php.html#14\">BookMediator::getAuthor<\/a>"],[100,1,"<a href=\"Mediator\/BookMediator.php.html#19\">BookMediator::getTitle<\/a>"],[66.66666666666666,11,"<a href=\"Mediator\/BookMediator.php.html#25\">BookMediator::change<\/a>"],[100,1,"<a href=\"Mediator\/BookTitleColleague.php.html#8\">BookTitleColleague::__construct<\/a>"],[100,1,"<a href=\"Mediator\/BookTitleColleague.php.html#14\">BookTitleColleague::getTitle<\/a>"],[100,1,"<a href=\"Mediator\/BookTitleColleague.php.html#19\">BookTitleColleague::setTitle<\/a>"],[100,1,"<a href=\"Mediator\/BookTitleColleague.php.html#24\">BookTitleColleague::getState<\/a>"],[100,1,"<a href=\"Mediator\/BookTitleColleague.php.html#29\">BookTitleColleague::setState<\/a>"],[0,1,"<a href=\"Mediator\/BookTitleColleague.php.html#34\">BookTitleColleague::setTitleUpperCase<\/a>"],[100,1,"<a href=\"Mediator\/BookTitleColleague.php.html#41\">BookTitleColleague::setTitleLowerCase<\/a>"],[100,1,"<a href=\"Memento\/BookReader.php.html#8\">BookReader::__construct<\/a>"],[100,1,"<a href=\"Memento\/BookReader.php.html#14\">BookReader::getPage<\/a>"],[100,1,"<a href=\"Memento\/BookReader.php.html#19\">BookReader::setPage<\/a>"],[100,1,"<a href=\"Memento\/BookReader.php.html#24\">BookReader::getTitle<\/a>"],[100,1,"<a href=\"Memento\/BookReader.php.html#29\">BookReader::setTitle<\/a>"],[100,1,"<a href=\"Memento\/Bookmark.php.html#8\">Bookmark::__construct<\/a>"],[100,1,"<a href=\"Memento\/Bookmark.php.html#14\">Bookmark::getPage<\/a>"],[100,1,"<a href=\"Memento\/Bookmark.php.html#19\">Bookmark::setPage<\/a>"],[0,1,"<a href=\"Memento\/Bookmark.php.html#24\">Bookmark::getTitle<\/a>"],[100,1,"<a href=\"Memento\/Bookmark.php.html#29\">Bookmark::setTitle<\/a>"],[100,1,"<a href=\"Observer\/AbstractObserver.php.html#7\">AbstractObserver::update<\/a>"],[100,1,"<a href=\"Observer\/AbstractSubject.php.html#7\">AbstractSubject::attach<\/a>"],[100,1,"<a href=\"Observer\/AbstractSubject.php.html#8\">AbstractSubject::detach<\/a>"],[100,1,"<a href=\"Observer\/AbstractSubject.php.html#9\">AbstractSubject::notify<\/a>"],[100,1,"<a href=\"Observer\/PatternObserver.php.html#7\">PatternObserver::__construct<\/a>"],[100,1,"<a href=\"Observer\/PatternObserver.php.html#10\">PatternObserver::update<\/a>"],[100,1,"<a href=\"Observer\/PatternSubject.php.html#7\">PatternSubject::__construct<\/a>"],[100,1,"<a href=\"Observer\/PatternSubject.php.html#10\">PatternSubject::attach<\/a>"],[100,3,"<a href=\"Observer\/PatternSubject.php.html#15\">PatternSubject::detach<\/a>"],[100,1,"<a href=\"Observer\/PatternSubject.php.html#24\">PatternSubject::updateFavorites<\/a>"],[100,2,"<a href=\"Observer\/PatternSubject.php.html#30\">PatternSubject::notify<\/a>"],[100,1,"<a href=\"Observer\/PatternSubject.php.html#37\">PatternSubject::getFavorites<\/a>"],[100,1,"<a href=\"State\/BookContext.php.html#9\">BookContext::__construct<\/a>"],[100,1,"<a href=\"State\/BookContext.php.html#15\">BookContext::getBookTitle<\/a>"],[100,1,"<a href=\"State\/BookContext.php.html#19\">BookContext::getBookTitleState<\/a>"],[100,1,"<a href=\"State\/BookContext.php.html#23\">BookContext::getInitialState<\/a>"],[100,1,"<a href=\"State\/BookContext.php.html#28\">BookContext::getBook<\/a>"],[100,1,"<a href=\"State\/BookContext.php.html#33\">BookContext::setTitleState<\/a>"],[100,1,"<a href=\"State\/BookTitleStateExclaim.php.html#7\">BookTitleStateExclaim::showTitle<\/a>"],[100,1,"<a href=\"State\/BookTitleStateQuestionMark.php.html#7\">BookTitleStateQuestionMark::showTitle<\/a>"],[100,1,"<a href=\"State\/BookTitleStateStars.php.html#7\">BookTitleStateStars::showTitle<\/a>"],[100,1,"<a href=\"Strategy\/StrategyCaps.php.html#7\">StrategyCaps::showTitle<\/a>"],[100,3,"<a href=\"Strategy\/StrategyContext.php.html#8\">StrategyContext::__construct<\/a>"],[100,1,"<a href=\"Strategy\/StrategyContext.php.html#20\">StrategyContext::showBookTitle<\/a>"],[100,1,"<a href=\"Strategy\/StrategyExclaim.php.html#9\">StrategyExclaim::showTitle<\/a>"],[87.5,2,"<a href=\"TemplateMethod\/TemplateAbstract.php.html#9\">TemplateAbstract::showBookTitleInfo<\/a>"],[100,1,"<a href=\"TemplateMethod\/TemplateAbstract.php.html#27\">TemplateAbstract::processTitle<\/a>"],[0,1,"<a href=\"TemplateMethod\/TemplateAbstract.php.html#34\">TemplateAbstract::processAuthor<\/a>"],[100,1,"<a href=\"TemplateMethod\/TemplateStars.php.html#5\">TemplateStars::processTitle<\/a>"],[100,1,"<a href=\"TemplateMethod\/TemplateStars.php.html#9\">TemplateStars::processAuthor<\/a>"],[100,1,"<a href=\"Visitor\/BookVisitee.php.html#7\">BookVisitee::__construct<\/a>"],[100,1,"<a href=\"Visitor\/BookVisitee.php.html#12\">BookVisitee::getAuthor<\/a>"],[100,1,"<a href=\"Visitor\/BookVisitee.php.html#16\">BookVisitee::getTitle<\/a>"],[100,1,"<a href=\"Visitor\/BookVisitee.php.html#20\">BookVisitee::accept<\/a>"],[100,1,"<a href=\"Visitor\/FancyDescriptionVisitor.php.html#6\">FancyDescriptionVisitor::getDescription<\/a>"],[100,1,"<a href=\"Visitor\/FancyDescriptionVisitor.php.html#10\">FancyDescriptionVisitor::setDescription<\/a>"],[100,1,"<a href=\"Visitor\/FancyDescriptionVisitor.php.html#14\">FancyDescriptionVisitor::visitBook<\/a>"],[100,1,"<a href=\"Visitor\/FancyDescriptionVisitor.php.html#19\">FancyDescriptionVisitor::visitSoftware<\/a>"],[100,1,"<a href=\"Visitor\/PlainDescriptionVisitor.php.html#6\">PlainDescriptionVisitor::getDescription<\/a>"],[100,1,"<a href=\"Visitor\/PlainDescriptionVisitor.php.html#10\">PlainDescriptionVisitor::setDescription<\/a>"],[100,1,"<a href=\"Visitor\/PlainDescriptionVisitor.php.html#14\">PlainDescriptionVisitor::visitBook<\/a>"],[100,1,"<a href=\"Visitor\/PlainDescriptionVisitor.php.html#18\">PlainDescriptionVisitor::visitSoftware<\/a>"],[100,1,"<a href=\"Visitor\/SoftwareVisitee.php.html#9\">SoftwareVisitee::__construct<\/a>"],[100,1,"<a href=\"Visitor\/SoftwareVisitee.php.html#15\">SoftwareVisitee::getSoftwareCompany<\/a>"],[100,1,"<a href=\"Visitor\/SoftwareVisitee.php.html#19\">SoftwareVisitee::getSoftwareCompanyURL<\/a>"],[100,1,"<a href=\"Visitor\/SoftwareVisitee.php.html#23\">SoftwareVisitee::getTitle<\/a>"],[100,1,"<a href=\"Visitor\/SoftwareVisitee.php.html#27\">SoftwareVisitee::accept<\/a>"],[100,1,"<a href=\"Visitor\/Visitee.php.html#5\">Visitee::accept<\/a>"],[100,1,"<a href=\"Visitor\/Visitor.php.html#5\">Visitor::visitBook<\/a>"],[100,1,"<a href=\"Visitor\/Visitor.php.html#6\">Visitor::visitSoftware<\/a>"],[0,1,"<a href=\"_Interpreter\/interpreter.php.html#7\">Interpreter::__construct<\/a>"],[0,11,"<a href=\"_Interpreter\/interpreter.php.html#12\">Interpreter::interpret<\/a>"],[0,1,"<a href=\"_Interpreter\/interpreter.php.html#123\">Book::__construct<\/a>"],[0,1,"<a href=\"_Interpreter\/interpreter.php.html#129\">Book::getAuthor<\/a>"],[0,1,"<a href=\"_Interpreter\/interpreter.php.html#134\">Book::getTitle<\/a>"],[0,1,"<a href=\"_Interpreter\/interpreter.php.html#139\">Book::getAuthorAndTitle<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
