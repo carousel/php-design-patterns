@@ -22,7 +22,7 @@ class BookMediator
     }
     // when title or author change case, this makes sure the other
     // stays in sync
-    public function change(BookColleague $changingClassIn)
+    public function change($changingClassIn)
     {
         if ($changingClassIn instanceof BookAuthorColleague) {
             if ('upper' == $changingClassIn->getState()) {

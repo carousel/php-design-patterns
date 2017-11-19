@@ -1,6 +1,6 @@
 <?php namespace Src\Behavioral\Mediator;
 
-class BookAuthorColleague extends BookColleague
+class BookAuthorColleague
 {
     private $author;
     private $state;
@@ -8,7 +8,8 @@ class BookAuthorColleague extends BookColleague
     public function __construct($author_in, $mediator_in)
     {
         $this->author = $author_in;
-        parent::__construct($mediator_in);
+        $this->mediator = $mediator_in;
+        //parent::__construct($mediator_in);
     }
 
     public function getAuthor()
@@ -43,6 +44,10 @@ class BookAuthorColleague extends BookColleague
         $this->setAuthor(strtolower($this->getAuthor()));
         $this->setState('lower');
         $this->getMediator()->change($this);
+    }
+    public function getMediator()
+    {
+        return $this->mediator;
     }
 }
 
