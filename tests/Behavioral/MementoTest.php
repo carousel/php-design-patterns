@@ -29,5 +29,6 @@ class MementoTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals($this->bookReader->getPage(),'104');
         $this->bookMark->getPage($this->bookReader);
         $this->assertEquals($this->bookReader->getPage(),'103');
+        $this->bookMark->getTitle($this->bookReader);
     }
 }

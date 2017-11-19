@@ -37,12 +37,6 @@ class FlyweightFactory
         return $book;
     }
 
-    public function makeBook3()
-    {
-        $book = new Book('Larry Truett', 'PHP For Parakeets');
-        return $book;
-    }
-
     public function getBooksCount()
     {
         return count($this->books);

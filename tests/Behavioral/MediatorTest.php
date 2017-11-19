@@ -28,7 +28,13 @@ class MediatorTest extends \PHPUnit\Framework\TestCase
         $author->setAuthorLowerCase();
         $this->assertEquals($author->getAuthor(), 'gamma, helm, johnson, and vlissides');
 
+        $author->setAuthorUpperCase();
+        $this->assertEquals($author->getAuthor(), 'GAMMA, HELM, JOHNSON, AND VLISSIDES');
+
         $title->setTitleLowerCase();
         $this->assertEquals($title->getTitle(), 'design patterns');
+
+        $title->setTitleUpperCase();
+        $this->assertEquals($title->getTitle(), 'DESIGN PATTERNS');
     }
 }

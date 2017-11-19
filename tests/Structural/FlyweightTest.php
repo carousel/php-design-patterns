@@ -28,6 +28,7 @@ class FlyweightTest extends \PHPUnit\Framework\TestCase
         $this->assertEquals(count($this->flyweightFactory->getBooks()), 1);
 
         $this->flyweightBook2 = $this->flyweightFactory->getBook(2);
-        $this->assertEquals(count($this->flyweightFactory->getBooks()), 2);
+        $this->assertEquals($this->flyweightFactory->getBooksCount(), 3);
+
     }
 }

@@ -10,12 +10,6 @@ class HTMLPage
     public function __construct()
     {
     }
-
-    public function showPage()
-    {
-        return $this->page;
-    }
-
     public function setTitle($title_in)
     {
         $this->page_title = $title_in;
