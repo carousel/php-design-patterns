@@ -1,5 +1,7 @@
 <?php namespace Src\Behavioral\Iterator;
 
+use Src\HelperClasses\Book;
+
 class BookList
 {
     private $books = array();
@@ -53,4 +55,3 @@ class BookList
         return $this->getBookCount();
     }
 }
-

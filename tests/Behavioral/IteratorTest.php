@@ -15,12 +15,12 @@ class IteratorTest extends \PHPUnit\Framework\TestCase
         $this->firstBook = new Book('Core PHP Programming, Third Edition', 'Atkinson and Suraski');
         $this->secondBook = new Book('PHP Bible', 'Converse and Park');
         $this->thirdBook = new Book('Design Patterns', 'Gamma, Helm, Johnson, and Vlissides');
-        $books = new BookList();
-        $books->addBook($this->firstBook);
-        $books->addBook($this->secondBook);
-        $books->addBook($this->thirdBook);
-        $this->booksIterator = new BookListIterator($books);
-        $this->booksReverseIterator = new BookListReverseIterator($books);
+        $this->books = new BookList();
+        $this->books->addBook($this->firstBook);
+        $this->books->addBook($this->secondBook);
+        $this->books->addBook($this->thirdBook);
+        $this->booksIterator = new BookListIterator($this->books);
+        $this->booksReverseIterator = new BookListReverseIterator($this->books);
     }
 
     /**
@@ -40,5 +40,32 @@ class IteratorTest extends \PHPUnit\Framework\TestCase
         $this->assertNull($currentReverse);
         $reverseNext = $this->booksReverseIterator->getNextBook();
         $this->assertEquals($reverseNext->getTitle(), 'Gamma, Helm, Johnson, and Vlissides');
+        $this->assertNull($this->books->getBook('Hello World'));
+        $this->booksIterator->getCurrentBook();
+        $this->books->removeBook($this->booksIterator->getNextBook());
+    }
+    /**
+    * has next book
+    *
+    * @test
+    */
+    public function hasNextBook()
+    {
+        $this->books->removeBook($this->booksIterator->getNextBook());
+        $this->books->removeBook($this->booksIterator->getNextBook());
+        $this->assertNull($this->booksIterator->getNextBook());
+    }
+    /**
+    * reverse iterator has next book
+    *
+    * @test
+    */
+    public function reverseIteratorhasNextBook()
+    {
+        $this->books->removeBook($this->booksIterator->getNextBook());
+        $this->books->removeBook($this->booksIterator->getNextBook());
+        //var_dump($this->booksReverseIterator->hasNextBook());
+        $this->booksReverseIterator->resetBooks();
+        $this->assertNull($this->booksReverseIterator->getNextBook());
     }
 }

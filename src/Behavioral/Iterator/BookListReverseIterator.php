@@ -13,54 +13,20 @@ class BookListReverseIterator extends BookListIterator
         if ($this->hasNextBook()) {
             return $this->bookList->getBook(--$this->currentBook);
         } else {
-            return NULL;
+            return null;
         }
     }
 
     public function hasNextBook()
     {
         if (1 < $this->currentBook) {
-            return TRUE;
+            return true;
         } else {
-            return FALSE;
+            return false;
         }
     }
+    public function resetBooks()
+    {
+        $this->currentBook = 0;
+    }
 }
-
-
-
-//while ($booksIterator->hasNextBook()) {
-    //$book = $booksIterator->getNextBook();
-    //writeln('getting next book with iterator :');
-    //writeln($book->getAuthorAndTitle());
-    //writeln('');
-//}
-
-//$book = $booksIterator->getCurrentBook();
-//writeln('getting current book with iterator :');
-//writeln($book->getAuthorAndTitle());
-//writeln('');
-
-//writeln('Testing the Reverse Iterator');
-
-//$booksReverseIterator = new BookListReverseIterator($books);
-
-//while ($booksReverseIterator->hasNextBook()) {
-    //$book = $booksReverseIterator->getNextBook();
-    //writeln('getting next book with reverse iterator :');
-    //writeln($book->getAuthorAndTitle());
-    //writeln('');
-//}
-
-//$book = $booksReverseIterator->getCurrentBook();
-//writeln('getting current book with reverse iterator :');
-//writeln($book->getAuthorAndTitle());
-//writeln('');
-
-//writeln('END TESTING ITERATOR PATTERN');
-
-//function writeln($line_in)
-//{
-    //echo $line_in . "<br/>";
-//}
-
