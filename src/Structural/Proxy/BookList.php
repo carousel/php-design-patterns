@@ -38,13 +38,9 @@ class BookList
         $counter = 0;
         while (++$counter <= $this->getBookCount()) {
             if ($book_in->getAuthorAndTitle() == $this->books[$counter]->getAuthorAndTitle()) {
-                for ($x = $counter; $x < $this->getBookCount(); $x++) {
-                    $this->books[$x] = $this->books[$x + 1];
-                }
                 $this->setBookCount($this->getBookCount() - 1);
             }
         }
         return $this->getBookCount();
     }
-    
 }
