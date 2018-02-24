@@ -12,6 +12,6 @@ class OReillyFactoryMethod extends AbstractFactoryMethod
         if ($param == "sams") {
             $book = new SamsPHPBook;
         }
-            return $book;
+        return $book;
     }
 }
