@@ -4,9 +4,12 @@ abstract class BookCommand
 {
     protected $bookCommandee;
 
-    public function __construct($bookCommandee_in)
+    /**
+     * BookCommand constructor.
+     */
+    public function __construct($bookCommandeeIn)
     {
-        $this->bookCommandee = $bookCommandee_in;
+        $this->bookCommandee = $bookCommandeeIn;
     }
 
     abstract public function execute();
