@@ -1,7 +1,7 @@
 <?php
 
-use Src\HelperClasses\Book;
-use Src\Structural\Facade\CaseReverseFacade;
+use Structural\Facade\CaseReverseFacade;
+use Helpers\Book;
 
 class FacadeTest extends \PHPUnit\Framework\TestCase
 {

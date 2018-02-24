@@ -1,7 +1,7 @@
 <?php
 
-use Src\Structural\Composite\OneBook;
-use Src\Structural\Composite\SeveralBooks;
+use Structural\Composite\OneBook;
+use Structural\Composite\SeveralBooks;
 
 class CompositeTest extends \PHPUnit\Framework\TestCase
 {

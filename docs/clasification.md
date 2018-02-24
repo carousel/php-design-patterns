@@ -1,4 +1,6 @@
-#DESIGN PATTERNS NOTES
+ DESIGN PATTERNS NOTES
+ =====================
+
 * object-oriented designs often end up with classes that have no counterparts in the real world
 * strict modeling of the real world leads to a system that reflects today's realities but not necessarily tomorrow's
 * an object may have many types, and widely different objects can share a type.
@@ -53,11 +55,6 @@
 ##Application programs (internal reuse)
 ##Toolkits (like subroutine libraries, write the code/call toolkit)
 ##Frameworks (design reuse over code reuse,reuse the framework/call the code,inversion of control)
-
-
-
-
-
 
 ##CREATIONAL (Creational patterns become important as systems evolve to depend more on object composition than class inheritance)
 ##A class creational pattern uses inheritance to vary the class that's instantiated, whereas an object creational pattern will delegate instantiation to another object.
@@ -236,18 +233,7 @@
 *   double dispatch (depends on two elements, request and receiver)
 ###Interpreter
 
-
-
 #COMPARISON
-
-
-
-
-
-
-
-
-
 #CASE STUDY (lexi editor)
 ##Document structure,representation,recursive composition,hierarchy(composite)
 *   my example?

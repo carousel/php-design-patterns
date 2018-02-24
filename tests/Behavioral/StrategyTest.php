@@ -1,7 +1,8 @@
 <?php
 
-use Src\Behavioral\Strategy\StrategyContext;
-use Src\HelperClasses\Book;
+use Behavioral\Strategy\StrategyContext;
+use Helpers\Book;
+
 
 class StrategyTest extends \PHPUnit\Framework\TestCase
 {

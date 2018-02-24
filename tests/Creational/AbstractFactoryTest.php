@@ -1,8 +1,8 @@
 <?php namespace Test\Creational;
 
-use Src\Creational\AbstractFactory\OReillyBookFactory;
-use Src\Creational\AbstractFactory\OReillyMySQLBook;
-use Src\Creational\AbstractFactory\OReillyPHPBook;
+use Creational\AbstractFactory\OReillyBookFactory;
+use Creational\AbstractFactory\OReillyMySQLBook;
+use Creational\AbstractFactory\OReillyPHPBook;
 
 class AbstractFactoryTest extends \PHPUnit\Framework\TestCase
 {
@@ -21,6 +21,7 @@ class AbstractFactoryTest extends \PHPUnit\Framework\TestCase
         $this->assertTrue($this->orielly->makeMySQLBook() instanceof OReillyMySQLBook);
         $this->assertTrue($this->orielly->makePHPBook() instanceof OReillyPHPBook);
     }
+
     /**
      * Check do we have correct instances (subclassing)?
      *

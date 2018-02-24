@@ -1,7 +1,7 @@
 <?php
 
-use Src\Behavioral\Observer\PatternObserver;
-use Src\Behavioral\Observer\PatternSubject;
+use Behavioral\Observer\PatternObserver;
+use Behavioral\Observer\PatternSubject;
 
 class ObserverTest extends \PHPUnit\Framework\TestCase
 {

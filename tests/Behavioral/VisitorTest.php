@@ -1,9 +1,9 @@
 <?php
 
-use Src\Behavioral\Visitor\SoftwareVisitee;
-use Src\Behavioral\Visitor\BookVisitee;
-use Src\Behavioral\Visitor\PlainDescriptionVisitor;
-use Src\Behavioral\Visitor\FancyDescriptionVisitor;
+use Behavioral\Visitor\SoftwareVisitee;
+use Behavioral\Visitor\BookVisitee;
+use Behavioral\Visitor\PlainDescriptionVisitor;
+use Behavioral\Visitor\FancyDescriptionVisitor;
 
 class VisitorTest extends \PHPUnit\Framework\TestCase
 {

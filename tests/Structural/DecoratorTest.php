@@ -1,9 +1,9 @@
 <?php
 
-use Src\HelperClasses\Book;
-use Src\Structural\Decorator\BookTitleDecorator;
-use Src\Structural\Decorator\BookTitleStarDecorator;
-use Src\Structural\Decorator\BookTitleExclaimDecorator;
+use Structural\Decorator\BookTitleDecorator;
+use Structural\Decorator\BookTitleStarDecorator;
+use Structural\Decorator\BookTitleExclaimDecorator;
+use Helpers\Book;
 
 class DecoratorTest extends \PHPUnit\Framework\TestCase
 {

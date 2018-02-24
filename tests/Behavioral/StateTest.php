@@ -1,10 +1,11 @@
 <?php
 
-use Src\Behavioral\State\BookContext;
-use Src\Behavioral\State\BookTitleStateStars;
-use Src\Behavioral\State\BookTitleStateExclaim;
-use Src\Behavioral\State\BookTitleStateQuestionMark;
-use Src\HelperClasses\Book;
+use Behavioral\State\BookContext;
+use Behavioral\State\BookTitleStateStars;
+use Behavioral\State\BookTitleStateExclaim;
+use Behavioral\State\BookTitleStateQuestionMark;
+use Helpers\Book;
+
 
 class StateTest extends \PHPUnit\Framework\TestCase
 {
@@ -30,14 +31,14 @@ class StateTest extends \PHPUnit\Framework\TestCase
         //check state of title
         $this->assertEquals($this->bookContext->getBookTitle(), 'PHP*book*title*initial');
         //check correct state instance
-        $this->assertInstanceOf( 'Src\Behavioral\State\BookTitleStateExclaim',$this->bookContext->getBookTitleState());
+        $this->assertInstanceOf( 'Behavioral\State\BookTitleStateExclaim',$this->bookContext->getBookTitleState());
         //check state of title
         $this->assertEquals($this->bookContext1->getBookTitle(), 'PHP!book!title!initial');
         //check correct state instance
-        $this->assertInstanceOf( 'Src\Behavioral\State\BookTitleStateQuestionMark',$this->bookContext1->getBookTitleState());
+        $this->assertInstanceOf( 'Behavioral\State\BookTitleStateQuestionMark',$this->bookContext1->getBookTitleState());
         //check state of title
         $this->assertEquals($this->bookContext2->getBookTitle(), 'PHP?book?title?initial');
         //check correct state instance
-        $this->assertInstanceOf( 'Src\Behavioral\State\BookTitleStateQuestionMark',$this->bookContext2->getBookTitleState());
+        $this->assertInstanceOf( 'Behavioral\State\BookTitleStateQuestionMark',$this->bookContext2->getBookTitleState());
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
-use Src\Behavioral\Memento\Bookmark;
-use Src\Behavioral\Memento\BookReader;
+use Behavioral\Memento\Bookmark;
+use Behavioral\Memento\BookReader;
 
 class MementoTest extends \PHPUnit\Framework\TestCase
 {

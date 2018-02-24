@@ -1,6 +1,6 @@
 <?php
 
-use Src\Behavioral\Mediator\BookMediator;
+use Behavioral\Mediator\BookMediator;
 
 class MediatorTest extends \PHPUnit\Framework\TestCase
 {

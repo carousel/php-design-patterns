@@ -1,8 +1,8 @@
 <?php namespace Test\Creational;
 
-use Src\Creational\Builder\HTMLPageBuilder;
-use Src\Creational\Builder\HTMLPageDirector;
-use Src\Creational\Builder\HTMLPage;
+use Creational\Builder\HTMLPageBuilder;
+use Creational\Builder\HTMLPageDirector;
+use Creational\Builder\HTMLPage;
 
 class BuilderTest extends \PHPUnit\Framework\TestCase
 {
@@ -11,17 +11,17 @@ class BuilderTest extends \PHPUnit\Framework\TestCase
      */
     public function setUp()
     {
-        $pageBuilder = new HTMLPageBuilder();
-        $this->pageDirector = new HTMLPageDirector($pageBuilder);
+        $this->pageBuilder = new HTMLPageBuilder();
+        $this->pageDirector = new HTMLPageDirector($this->pageBuilder);
     }
 
     /**
      * @test
      */
-    public function finalBuiltObjectIsIsCorrectInstance()
+    public function finalBuiltObjectIsCorrectInstance()
     {
         $this->pageDirector->buildPage();
-        $page = $this->pageDirector->getPage();
-        $this->assertTrue($page instanceof HTMLPage);
+        $this->page = $this->pageDirector->getPage();
+        $this->assertTrue($this->page instanceof HTMLPage);
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-use Src\Structural\Flyweight\FlyweightFactory;
+use Structural\Flyweight\FlyweightFactory;
 
 class FlyweightTest extends \PHPUnit\Framework\TestCase
 {

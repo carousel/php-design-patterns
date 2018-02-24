@@ -1,7 +1,7 @@
 <?php
 
-use Src\HelperClasses\Book;
-use Src\Structural\Adapter\BookAdapter;
+use Structural\Adapter\BookAdapter;
+use Helpers\Book;
 
 class AdapterTest extends \PHPUnit\Framework\TestCase
 {
@@ -16,10 +16,10 @@ class AdapterTest extends \PHPUnit\Framework\TestCase
      */
     public function adapter()
     {
-        $result = $this->bookAdapter->getAuthorAndTitle();
-        $stub = $this->createMock(BookAdapter::class);
-        $stub->method('getAuthorAndTitle')->willReturn("Design Patterns by Gamma, Helm, Johnson, and Vlissides");
-        $this->assertEquals($this->book->getTitle() . " by " . $this->book->getAuthor(), $stub->getAuthorAndTitle());
-        $this->assertEquals($this->book->getTitle() . " by " . $this->book->getAuthor(), $result);
+        $this->result = $this->bookAdapter->getAuthorAndTitle();
+        $this->stub = $this->createMock(BookAdapter::class);
+        $this->stub->method('getAuthorAndTitle')->willReturn("Design Patterns by Gamma, Helm, Johnson, and Vlissides");
+        $this->assertEquals($this->book->getTitle() . " by " . $this->book->getAuthor(), $this->stub->getAuthorAndTitle());
+        $this->assertEquals($this->book->getTitle() . " by " . $this->book->getAuthor(), $this->result);
     }
 }

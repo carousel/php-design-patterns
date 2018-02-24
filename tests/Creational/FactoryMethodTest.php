@@ -1,8 +1,8 @@
 <?php namespace Test\Creational;
 
-use Src\Creational\FactoryMethod\OReillyFactoryMethod;
-use Src\Creational\FactoryMethod\OReillyPHPBook;
-use Src\Creational\FactoryMethod\SamsPHPBook;
+use Creational\FactoryMethod\OReillyFactoryMethod;
+use Creational\FactoryMethod\OReillyPHPBook;
+use Creational\FactoryMethod\SamsPHPBook;
 
 class FactoryMethodTest extends \PHPUnit\Framework\TestCase
 {

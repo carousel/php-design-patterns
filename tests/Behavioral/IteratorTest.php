@@ -1,9 +1,10 @@
 <?php
 
-use Src\Behavioral\Iterator\BookList;
-use Src\Behavioral\Iterator\BookListIterator;
-use Src\Behavioral\Iterator\BookListReverseIterator;
-use Src\HelperClasses\Book;
+use Behavioral\Iterator\BookList;
+use Behavioral\Iterator\BookListIterator;
+use Behavioral\Iterator\BookListReverseIterator;
+use Helpers\Book;
+
 
 class IteratorTest extends \PHPUnit\Framework\TestCase
 {

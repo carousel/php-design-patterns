@@ -1,9 +1,9 @@
 <?php
 
-use Src\Behavioral\Chain\BookTopic;
-use Src\Behavioral\Chain\BookSubTopic;
-use Src\Behavioral\Chain\BookSubSubTopic;
-use Src\HelperClasses\Book;
+use Behavioral\Chain\BookTopic;
+use Behavioral\Chain\BookSubTopic;
+use Behavioral\Chain\BookSubSubTopic;
+
 
 class ChainTest extends \PHPUnit\Framework\TestCase
 {

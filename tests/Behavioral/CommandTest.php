@@ -1,9 +1,9 @@
 <?php
 
-use Src\Behavioral\Command\BookCommand;
-use Src\Behavioral\Command\BookCommandee;
-use Src\Behavioral\Command\BookStarsOnCommand;
-use Src\Behavioral\Command\BookStarsOffCommand;
+use Behavioral\Command\BookCommand;
+use Behavioral\Command\BookCommandee;
+use Behavioral\Command\BookStarsOnCommand;
+use Behavioral\Command\BookStarsOffCommand;
 
 class CommandTest extends \PHPUnit\Framework\TestCase
 {

@@ -1,7 +1,8 @@
 <?php
 
-use Src\Behavioral\TemplateMethod\TemplateStars;
-use Src\HelperClasses\Book;
+use Behavioral\TemplateMethod\TemplateStars;
+use Helpers\Book;
+
 
 class TemplateMethodTest extends \PHPUnit\Framework\TestCase
 {

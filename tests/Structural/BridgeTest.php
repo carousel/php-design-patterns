@@ -1,7 +1,7 @@
 <?php
 
-use Src\Structural\Bridge\BridgeBookAuthorTitle;
-use Src\Structural\Bridge\BridgeBookTitleAuthor;
+use Structural\Bridge\BridgeBookAuthorTitle;
+use Structural\Bridge\BridgeBookTitleAuthor;
 
 class BridgeTest extends \PHPUnit\Framework\TestCase
 {
