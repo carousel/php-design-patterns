@@ -21,7 +21,9 @@
       "Structural\\": "src/structural",
       "Behavioral\\": "src/behavioral",
       "Helpers\\": "src/helpers",
-      "Hub\\": "src/hub"
+      "Hub\\Creational\\": "src/hub/creational",
+      "Hub\\Structural\\": "src/hub/structural",
+      "Hub\\Behavioral\\": "src/hub/behavioral"
     }
   },
   "autoload-dev": {

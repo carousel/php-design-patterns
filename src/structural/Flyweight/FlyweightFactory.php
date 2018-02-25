@@ -1,6 +1,7 @@
 <?php
 
 namespace Structural\Flyweight;
+
 use Helpers\Book;
 
 class FlyweightFactory

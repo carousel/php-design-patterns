@@ -2,4 +2,4 @@ vendor
 .idea
 coverage
 src/hub
-
+hubtests

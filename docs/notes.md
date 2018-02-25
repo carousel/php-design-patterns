@@ -14,8 +14,8 @@
 * An object's implementation is defined by its class
 * Of course,there's a close relationship between class and type. Because a class defines the operations an object can perform, it also defines the object's type.
 * REUSING CONCEPT
-* Reuse by subclassing (compile type) is often referred to as white-box reuse. The term "white-box" refers to visibility
-* Reuse by composition (run time) is called black-box reuse, because no internal details of objects are visible
+* Reuse by subclassing (compile type) is often referred to as WHITE-BOX reuse. The term "white-box" refers to visibility
+* Reuse by composition (run time) is called BLACK-BOX reuse, because no internal details of objects are visible
 * Implementation inheritance problem
 * Inheritance's ability to define families of objects with identical interfaces
 * Object composition == more objects, less class hierarchies
@@ -124,9 +124,9 @@
 *   abstraction and implementation can be extended differently
 *   more complex variation of adapter
 *   run-time binding of the implementation
-*   makes things work before design
+*   adapter makes things work before design 
 *   common interface for implementation
-*   make things work after they are designed
+*   bridge make things work after they are designed
 ###Proxy 
 *   only one relationship (static?)
 *   provide a surrogate or placeholder for another object to control access to it
@@ -200,7 +200,7 @@
 ###State 
 *   in a context
 *   transition from state to state (defined by context)
-*   context delegates state specific request to concrete state class
+*   context DELEGATES state specific request to concrete state class
 *   The State pattern puts each branch of the conditional in a separate class.
 *   context is primary interface for client
 *   delegation (context to state)

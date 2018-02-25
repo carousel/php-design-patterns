@@ -1,6 +1,7 @@
 <?php
 
 namespace Structural\Proxy;
+
 use Helpers\Book;
 
 class BookList

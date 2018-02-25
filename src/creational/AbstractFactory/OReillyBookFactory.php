@@ -2,20 +2,21 @@
 
 namespace Creational\AbstractFactory;
 
+
 class OReillyBookFactory extends AbstractBookFactory
 {
     private $context = "OReilly";
 
     /**
-     * @return \Src\Creational\AbstractFactory\OReillyMySQLBook
+     * @return OReillyMySQLBook
      */
     public function makeMySQLBook()
     {
-        return new OReillyMySQLBook;
+        return new OReillyMySQLBook();
     }
 
     /**
-     * @return \Src\Creational\AbstractFactory\OReillyPHPBook
+     * @return OReillyPHPBook
      */
     public function makePHPBook()
     {
