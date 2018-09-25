@@ -1,21 +1,20 @@
- DESIGN PATTERNS NOTES
- =====================
-
+DESIGN PATTERNS NOTES
+======================
+## Strict modelling
 * object-oriented designs often end up with classes that have no counterparts in the real world
 * strict modeling of the real world leads to a system that reflects today's realities but not necessarily tomorrow's
+--------------------------------------------------------------------------------------------------------
+## Type
 * an object may have many types, and widely different objects can share a type.
 * In contrast, an object's type only refers to its interface—the set of requests to which it can respond.
-* An object's interface characterizes the complete set of requests that can be sent to the object
 * A type is a name used to denote a particular interface.
+* An object's interface characterizes the complete set of requests that can be sent to the object
 * An object may have many types, and widely different objects can share a type
 * Don't declare variables to be instances of particular concrete classes
-* The run-time association of a request to an object and one of its operations is known as dynamic binding
-* Type vs implementation
-* An object's implementation is defined by its class
+* Type vs implementation - an object's implementation is defined by its class
 * Of course,there's a close relationship between class and type. Because a class defines the operations an object can perform, it also defines the object's type.
-* REUSING CONCEPT
-* Reuse by subclassing (compile type) is often referred to as WHITE-BOX reuse. The term "white-box" refers to visibility
-* Reuse by composition (run time) is called BLACK-BOX reuse, because no internal details of objects are visible
+--------------------------------------------------------------------------------------------------------
+## Reuse
 * Implementation inheritance problem
 * Inheritance's ability to define families of objects with identical interfaces
 * Object composition == more objects, less class hierarchies
@@ -24,21 +23,27 @@
 * Delegation is a way of making composition as powerful for reuse as inheritance (self)
 * Delegation (reference to object)
 * In delegation, two objects are involved in handling a request: a receiving object delegates operations to its delegate,which is analogous to subclasses deferring requests to parent classes.
+--------------------------------------------------------------------------------------------------------
+## Run time
+* run time (dynamic binding)
+* Reuse by composition (run time) is called BLACK-BOX reuse, because no internal details of objects are visible
+* Reuse by subclassing (compile type) is often referred to as WHITE-BOX reuse. The term "white-box" refers to visibility
+* The run-time association of a request to an object and one of its operations is known as dynamic binding
 * The code structure is frozen at compile-time;
 * A program's run-time structure consists of rapidly changing networks of communicating objects
+* The system's run-time structure must be imposed more by the designer than the language.
+* The run-time structures aren't clear from the code until you understand the patterns.
+--------------------------------------------------------------------------------------------------------
+## Random
 * Aggregation implies that an aggregate object and its owner have identical lifetimes.
 * Aggregation relationships tend to be fewer and more permanent than acquaintance. 
 * Acquaintances, in contrast, are made and remain more frequently, sometimes existing only for the duration of an operation
-* The system's run-time structure must be imposed more by the designer than the language.
-* The run-time structures aren't clear from the code until you understand the patterns.
 * Encapsulating the concept that varies (change without redesign)
 * Heavy use of object composition can make designs harder to understand.
 * Since the framework's main contribution to an application is the architecture it defines. Therefore it's imperative to design the framework to be as flexible and extensible as possible.
 * Design patterns are smaller, more abstract and less specialized then framework
-* safety and transparency (where to define operations?)
 * identify (less obvious) abstractions
 * object granularity (size)
-* run time (dynamic binding)
 
 
 #TOP LEVEL PATTERNS CLASIFICATION
@@ -236,24 +241,23 @@
 #COMPARISON
 #CASE STUDY (lexi editor)
 ##Document structure,representation,recursive composition,hierarchy(composite)
-*   my example?
+* My example?
 ##formatting (Strategy)
-*   my example?
+* My example?
 ##Embelishment (Decorator)
-*   my example?
+* My example?
 ##Create families of objects (Abstract factory)
-*   my example?
+* My example?
 ##Allow differnt hierarchies to work even if they evolve independently,decouple interface abstraction from implementatnin abstraction(Brigde)
-*   my example?
+* My example?
 ##Command (encapsulate request,centralized access to functionality scattered throughout application)
-*   my example?
+* My example?
 ##Iterator
 ##Captures techniques for supporting access and traversal over different object (Iterator,store their own copy of the state of traversal)
-* my example   
+* My example   
 ##Different analysis often require same kind of traversal
 
-
-#UML
+# UML
 *   dependency
 *   association (related,not dependent)
 *   aggregation/composition (has)
