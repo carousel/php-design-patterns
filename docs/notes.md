@@ -44,9 +44,90 @@ DESIGN PATTERNS NOTES
 * Design patterns are smaller, more abstract and less specialized then framework
 * identify (less obvious) abstractions
 * object granularity (size)
+--------------------------------------------------------------------------------------------------------
+Functional programming
+======================
 
+PROBLEMS WITH OOP
+=================
+In many ways, well crafted object-oriented code converges upon a functional style
+OOP problem binding data structure to behavior is a mechanisms of state encapsulation which hides the underlying problem instead of solving it
+Optimizing for data structure encapsulation not only weakens composition characteristics, but also hides the underlying problem of explicit state
+Adding methods to a class exerts pressure on the single-responsibility principle
+In functional programming, given that a function has a single input and a single output, functions naturally have a single responsibility
+In a functional language, functions can be substituted at will and as such, there is no need to “design” for extensibility
+Closure is attained by encapsulation, or rather by the hiding of moving part
+As a matter of course, the declarative and side-effect free nature of functional programming provide for dependency inversion
+In object-oriented programming, high-level modules depend on infrastructure modules primarily to invoke side-effects
+Heavy reliance on state in object-oriented programming makes references or pointers a first class citizen rather than the structure of the data itself
+Since functional programming is more declarative, function names and interfaces tend to be more focused on intent rather than the the underlying mechanics
+Unlike imperative programming, functional programming makes side effects an explicitly designated exception
+Where it fits, define an operation whose return type is the same as the type of its argument(s)
 
-#TOP LEVEL PATTERNS CLASIFICATION
+Concepts
+--------
+*   functional vs oop (column vs row example from coursera)
+*   rows are operations, columns are types
+*   Explicit management of state is avoided through immutability
+*   Explicit return values are favored over implicit side effects
+*   The culmination of these characteristics is a more declarative paradigm
+*   Powerful composition facilities promote reuse without compromising encapsulation
+*   service objects are pure functions (in functional sense with one public object)
+*   immutable variables are not variables
+*   reduces action on distance
+*   bugs comes from state
+*   map/reduce 
+*   apply (to another context)
+*   currying (partial application)
+*   memoization
+*   WHAT not HOW
+*   composition
+*   monads
+*   lazy evaluation
+*   abstraction (no details)
+*   request/response vs input/output
+*   use case (request)
+*   concept of type in functional programming (input/output)
+*   induction (from specific to general) vs deduction (from general to specific)
+*   recursion (test,base case, recursive case)
+*   recursion (keep track of deferred operations, put things of stack)
+
+Process/procedural vs functional
+================================
+*   process/procedure (doesn't return value) 
+*   function (returns value)
+*   function rely on others, collaboration, delegation
+*   function is WHAT
+*   process is HOW
+*   process is algorithm, workflow, scope, steps, deadlines, OOP, encapsulation for complexity problem, state, variables, side effects
+*   from function (functional) to process (procedural, behavior no coupled to data) and methods (object, behavior coupled to state) 
+
+HINT - IN ALGORITHM TERMS, IS FUNCTIONAL CONSTANT AND PROCEDURAL DEPENDENT ON INPUT?
+===================================================================================
+HINT - HOW TO CONNECT VALUE BASED THINKING, FUNCTIONAL THINKING, BIG O ?
+===================================================================================
+
+Immutability (PHP roundtable)
+-----------------------------
+*   state (captured in moment)
+*   state emphasys order (variables)
+*   context in which variable exists (environment,class context...)
+*   OOP is state in context (encapsulated)
+*   functional context (all data explicit)
+*   GLOBALS scope (visible from all context space/time)
+*   TIME IS IMPLICIT PARAMETER
+*   make HTTP request immutable (instead pass message?)
+*   primitives are immutable automatically
+*   structured objects are muttable
+*   build things in USER SPACE that supports functional concepts
+*   eliminate temporary variables
+*   change based only on input (I/O everywhere)
+*   never change input
+*   code as relationships/mapping
+--------------------------------------------------------------------------------------------------------
+PATTERNS
+=========
+## Top level patterns clasification
 ##By purpose (what pattern does)
 *   Creational (class,object)
 *   Structural (class,object)
@@ -56,7 +137,8 @@ DESIGN PATTERNS NOTES
 *   object scope (composition,dynamic,run-time)
 
 
-#THREE KIND OF SOFTWARE 
+THREE KIND OF SOFTWARE 
+======================
 ##Application programs (internal reuse)
 ##Toolkits (like subroutine libraries, write the code/call toolkit)
 ##Frameworks (design reuse over code reuse,reuse the framework/call the code,inversion of control)
@@ -238,8 +320,9 @@ DESIGN PATTERNS NOTES
 *   double dispatch (depends on two elements, request and receiver)
 ###Interpreter
 
-#COMPARISON
-#CASE STUDY (lexi editor)
+COMPARISON
+==========
+## CASE STUDY (lexi editor)
 ##Document structure,representation,recursive composition,hierarchy(composite)
 * My example?
 ##formatting (Strategy)
@@ -257,7 +340,8 @@ DESIGN PATTERNS NOTES
 * My example   
 ##Different analysis often require same kind of traversal
 
-# UML
+UML
+===
 *   dependency
 *   association (related,not dependent)
 *   aggregation/composition (has)
