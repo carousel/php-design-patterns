@@ -1,4 +1,4 @@
-<?php namespace Test\Creational;
+<?php
 
 use Creational\FactoryMethod\OReillyFactoryMethod;
 use Creational\FactoryMethod\OReillyPHPBook;

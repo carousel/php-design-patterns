@@ -1,4 +1,4 @@
-<?php namespace Test\Creational;
+<?php 
 
 use Creational\Builder\HTMLPageBuilder;
 use Creational\Builder\HTMLPageDirector;

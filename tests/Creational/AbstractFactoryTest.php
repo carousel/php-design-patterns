@@ -1,4 +1,4 @@
-<?php namespace Test\Creational;
+<?php 
 
 use Creational\AbstractFactory\OReillyBookFactory;
 use Creational\AbstractFactory\OReillyMySQLBook;
