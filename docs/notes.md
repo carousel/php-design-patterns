@@ -346,3 +346,17 @@ UML
 *   association (related,not dependent)
 *   aggregation/composition (has)
 *   inheritance
+
+#   Describing
+    name
+    intent
+    motivation
+    structure
+    participants
+    collaborators
+    consenquences
+    implementation
+    known uses
+    related patterns
+
+   
