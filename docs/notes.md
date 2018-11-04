@@ -40,8 +40,6 @@ DESIGN PATTERNS NOTES
 * Acquaintances, in contrast, are made and remain more frequently, sometimes existing only for the duration of an operation
 * Encapsulating the concept that varies (change without redesign)
 * Heavy use of object composition can make designs harder to understand.
-* Since the framework's main contribution to an application is the architecture it defines. Therefore it's imperative to design the framework to be as flexible and extensible as possible.
-* Design patterns are smaller, more abstract and less specialized then framework
 * identify (less obvious) abstractions
 * object granularity (size)
 --------------------------------------------------------------------------------------------------------
@@ -133,7 +131,7 @@ PATTERNS
 *   Structural (class,object)
 *   Behavioral (class,object)
 ##By scope (to classes or objects)
-*   class scope (inheritance,static)
+*   class scope (inheritance,static,compile-time)
 *   object scope (composition,dynamic,run-time)
 
 
@@ -359,4 +357,21 @@ UML
     known uses
     related patterns
 
-   
+# FRAMEWORK
+    IoC
+    Your code is guest (framework is calling your code)
+    Since the framework's main contribution to an application is the architecture it defines. Therefore it's imperative to design the framework to be as flexible and extensible as possible.
+    Design patterns are smaller, more abstract and less specialized then framework
+    Frameworks (design reuse over code reuse,reuse the framework/call the code,inversion of control)
+    nearly every user interface toolkit or framework uses a composite (from original Smalltalk MVC view implementation)
+# LIBRARY
+    You are calling library code 
+    Collection of functions
+
+# PATTERN IN FRAMEWORKS
+    IoC
+    MVC 
+        ORM
+        Templating
+        Router
+    
