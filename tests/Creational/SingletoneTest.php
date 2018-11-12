@@ -1,14 +1,19 @@
 <?php 
 
+use Creational\Singleton\BookSingleton;
+use Creational\Singleton\BookBorrower;
 
 class SingletoneTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test
      */
-    public function setUp()
+    public function instanceIsSame()
     {
-        $this->assertTrue(true,1);
+        $bookBorrower = new BookBorrower();
+        $firstBook = $bookBorrower->borrowBook();
+        $secondBook = $bookBorrower->borrowBook();
+        $this->assertEquals(null, $secondBook);
     }
 
 }

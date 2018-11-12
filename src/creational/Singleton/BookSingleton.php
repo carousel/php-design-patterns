@@ -1,4 +1,6 @@
-<?php namespace Src\Creational\Singleton;
+<?php
+
+namespace Creational\Singleton;
 
 class BookSingleton
 {
@@ -21,6 +23,11 @@ class BookSingleton
     public function returnBook()
     {
         self::$isLoanedOut = false;
+    }
+
+    public function isLoanedOut()
+    {
+        return self::isLoanedOut;
     }
 }
 

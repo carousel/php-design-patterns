@@ -1,4 +1,6 @@
-<?php namespace Src\Creational\Singleton;
+<?php
+
+namespace Creational\Singleton;
 
 class BookBorrower
 {
