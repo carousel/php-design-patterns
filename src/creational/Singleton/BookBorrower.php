@@ -5,19 +5,6 @@ class BookBorrower
     private $borrowedBook;
     private $haveBook = false;
 
-    public function __construct()
-    {
-    }
-
-    public function getAuthorAndTitle()
-    {
-        if (true == $this->haveBook) {
-            return $this->borrowedBook->getAuthorAndTitle();
-        } else {
-            return "I don't have the book\n";
-        }
-    }
-
     public function borrowBook()
     {
         $this->borrowedBook = BookSingleton::borrowBook();
@@ -30,6 +17,10 @@ class BookBorrower
 
     public function returnBook()
     {
-        $this->borrowedBook->returnBook($this->borrowedBook);
+        if($this->borrowedBook){
+            $this->borrowedBook->returnBook($this->borrowedBook);
+        }else{
+            return null;
+        }
     }
 }
