@@ -195,14 +195,16 @@ Three kind of software
        must be a subclass of wrapped interface/object
        example: grahical embellishment
 ###Bridge (handle/body) (service)
-       decouple an abstraction from its implementation so that the two can vary independently (orthogonal)
-       allow layering
-       abstraction and implementation can be extended differently
-       more complex variation of adapter
-       run-time binding of the implementation
-       adapter makes things work before design 
-       common interface for implementation
-       bridge make things work after they are designed
+    avoid constructor pollution
+    avoid telescoping constructor
+    decouple an abstraction from its implementation so that the two can vary independently (orthogonal)
+    allow layering
+    abstraction and implementation can be extended differently
+    more complex variation of adapter
+    run-time binding of the implementation
+    adapter makes things work before design 
+    common interface for implementation
+    bridge make things work after they are designed
 ###Proxy (service)
        only one relationship (static?)
        provide a surrogate or placeholder for another object to control access to it
@@ -363,4 +365,9 @@ UML
         ORM
         Templating
         Router
-    
+
+Important concepts
+-
+    client
+    visual representation
+    execution
