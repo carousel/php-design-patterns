@@ -152,6 +152,8 @@ Three kind of software
     Subclass has more freedom (what to instantiate)
     Choice is given to client
 ###Builder (service)
+    avoid constructor polution
+    avoid telescoping constructor
     Separate the construction of a complex object from its representation so that the same construction process can create different representations
     Build object in steps
     Director and builder
@@ -195,8 +197,6 @@ Three kind of software
        must be a subclass of wrapped interface/object
        example: grahical embellishment
 ###Bridge (handle/body) (service)
-    avoid constructor pollution
-    avoid telescoping constructor
     decouple an abstraction from its implementation so that the two can vary independently (orthogonal)
     allow layering
     abstraction and implementation can be extended differently
