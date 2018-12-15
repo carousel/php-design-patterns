@@ -5,7 +5,6 @@ namespace Creational\AbstractFactory;
 
 class OReillyBookFactory extends AbstractBookFactory
 {
-    private $context = "OReilly";
 
     /**
      * @return OReillyMySQLBook
@@ -14,6 +13,7 @@ class OReillyBookFactory extends AbstractBookFactory
     {
         return new OReillyMySQLBook();
     }
+
 
     /**
      * @return OReillyPHPBook

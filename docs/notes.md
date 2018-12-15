@@ -178,6 +178,8 @@ Three kind of software
        Not transparent to client
 ###Decorator (known as wrapper)(service)
        recursive composition
+       without affecting the behavior of other objects from the same class. 
+       When extension by subclassing is impractical
        open ended number of objects
        change skin
        focus embellishment
@@ -234,6 +236,7 @@ Three kind of software
        share what is common (intrinsic)
        extrinsic
        Flyweight context
+       no identity (only value share)
 
 ##Behavioral (decompositional, external to structure, sender/receiver,find what varies and encapsulate it)
 ###Chain of responsibility(multiple handlers for request/next)(service)
