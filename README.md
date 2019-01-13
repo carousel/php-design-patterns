@@ -27,4 +27,11 @@ PEAA
     
     dto,dao,popo
     vo/money
+    cqrs
+    hexagon
+    collection
+    delegation
+    null object
+    DI
+    aggregate
         
