@@ -17,9 +17,9 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "Creational\\": "src/creational",
-      "Structural\\": "src/structural",
-      "Behavioral\\": "src/behavioral",
+      "Creational\\": "src/gof/creational",
+      "Structural\\": "src/gof/structural",
+      "Behavioral\\": "src/gof/behavioral",
       "Helpers\\": "src/helpers"
     }
   },
