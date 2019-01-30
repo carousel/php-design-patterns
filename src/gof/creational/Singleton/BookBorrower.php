@@ -20,7 +20,7 @@ class BookBorrower
     public function returnBook()
     {
         if($this->borrowedBook){
-            $this->borrowedBook->returnBook($this->borrowedBook);
+            $this->borrowedBook->returnBook();
         }else{
             return null;
         }
