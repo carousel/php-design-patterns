@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+         <!--printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"-->
 <phpunit bootstrap="vendor/autoload.php"
-         printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"
          colors="true"
          verbose="true"
          stopOnFailure="false">
