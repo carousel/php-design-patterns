@@ -3,8 +3,10 @@
 abstract class AbstractBookFactory
 {
     abstract public function makePHPBook();
+
     abstract public function makeMySQLBook();
 }
+
 class OReillyBookFactory extends AbstractBookFactory
 {
     /**
@@ -14,6 +16,7 @@ class OReillyBookFactory extends AbstractBookFactory
     {
         return new OReillyMySQLBook();
     }
+
     /**
      * @return OReillyPHPBook
      */
@@ -22,6 +25,7 @@ class OReillyBookFactory extends AbstractBookFactory
         return new OReillyPHPBook;
     }
 }
+
 class OReillyMySQLBook
 {
     private $author;
@@ -34,6 +38,7 @@ class OReillyMySQLBook
         $this->title = 'Managing and Using MySQL';
     }
 }
+
 class OReillyPHPBook
 {
     private $author;
@@ -47,4 +52,5 @@ class OReillyPHPBook
         $this->title = 'Programming PHP';
     }
 }
+
 $factory = new OReillyBookFactory();
