@@ -359,4 +359,24 @@ UML
     known uses
     related patterns
 
-   
+# Framework
+    IoC
+    Your code is guest (framework is calling your code)
+    Since the framework's main contribution to an application is the architecture it defines. Therefore it's imperative to design the framework to be as flexible and extensible as possible.
+    Design patterns are smaller, more abstract and less specialized then framework
+    Frameworks (design reuse over code reuse,reuse the framework/call the code,inversion of control)
+    nearly every user interface toolkit or framework uses a composite (from original Smalltalk MVC view implementation)
+# Library
+    You are calling library code 
+    Collection of functions
+# Patterns in frameworks
+    IoC
+    MVC 
+        ORM
+        Templating
+        Router
+Important concepts
+-
+    client
+    visual representation
+    execution
