@@ -384,3 +384,15 @@ Important concepts
     client
     visual representation
     execution
+    most patterns have dependencies
+    most patterns are services (no state)
+    software doesn't express context well
+### Limited number of OO constructs:
+    Data types
+    Class (blue print)
+    Instance (object)
+    Inheritance
+    Composition
+    Identity
+    State
+    Behavior
