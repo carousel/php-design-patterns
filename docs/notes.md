@@ -178,18 +178,20 @@ THREE KIND OF SOFTWARE
 ###Prototype 
     __clone to other slot of memory,delegation
 
-##STRUCTURAL(compositional, logic internal to the structure, wrappers)
-###Adapter (known as wrapper)
+##STRUCTURAL(compositional, logic internal to the structure, WRAPPERS, building bigger constructs)
+###Adapter (known as WRAPPER)
+    IMPLEMENTATION PATTERN - AGGREGATION (INSTANCE PASSED)
     convert interface into one that clients expect (for one or many objects)
-    different interface from wrapped class(derived)
+    different interface from WRAPPED class(derived)
     exposes only releveant methods to client
     Participants (Adapter,Adaptee,Target,Client)
     make things work after they are designed
-    True wrapper example (encapsulation)
-    Wrapper for dependency object
-    Client calls wrapper methods which forwards to adapted code
+    True WRAPPER example (encapsulation)
+    WRAPPER for dependency object
+    Client calls WRAPPER methods which forwards to adapted code
     Not transparent to client
-###Decorator (known as wrapper) 
+###Decorator (known as WRAPPER) 
+    IMPLEMENTATION PATTERN - AGGREGATION (INSTANCE PASSED)
     recursive composition
     open ended number of objects
     change skin
@@ -201,48 +203,53 @@ THREE KIND OF SOFTWARE
     lightweight component
     Attach additional responsibilities to an object dynamically
     smart proxy
-    wrapped in constructor
-    inheritance is not feasible because it is static and applies to an entire class
+    WRAPPED in constructor
+    INHERITANCE IS NOT FEASIBLE BECAUSE IT IS STATIC AND APPLIES TO AN ENTIRE CLASS
     decorate object at run-time,
     more flexible then inheritance
-    same interface as wrapped class
+    SAME INTERFACE AS WRAPPED CLASS
     alternative to subclassing
-    must be a subclass of wrapped interface/object
+    must be a subclass of WRAPPED interface/object
     example: grahical embellishment
 ###Bridge (handle/body) 
+    IMPLEMENTATION PATTERN - COMPOSITION (INSTANCE IN CONSTRUCTOR)
     decouple an abstraction from its implementation so that the two can vary independently (orthogonal)
+    implementation details pushed from hierarchy
     allow layering
     abstraction and implementation can be extended differently
     more complex variation of adapter
     run-time binding of the implementation
     adapter makes things work before design 
-    common interface for implementation
     bridge make things work after they are designed
+    common interface for implementation
 ###Proxy 
+    IMPLEMENTATION PATTERN - AGGREGATION (INSTANCE PASSED)
     only one relationship (static?)
     provide a surrogate or placeholder for another object to control access to it
     limit access
     surrogate for another object/
-    same interface as wrapped class
-    wrapped may not exist
+    same interface as WRAPPED class
+    WRAPPED may not exist
     no object in constructor
 ###Facade 
+    IMPLEMENTATION PATTERN - AGGREGATION (STATIC FACADE)
     provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use
     higher level interface (for one or many objects)
-    different interface,new interface
+    different interface, new interface
     unidirectional protocol
 ###Composite (composite/leaf)
+    IMPLEMENTATION PATTERN - AGGREGATION (INSTANCE PASSED)
     recursive composition
     open ended number of objects
     representation
-    compose objects into tree structures to represent whole-part hierarchies. 
+    compose objects into TREE STRUCTURES to represent whole-part hierarchies. 
     composite lets clients treat individual objects and compositions of objects uniformly
     treat primitive and composite objects same
     part-whole hierarchies as object
     client use component class interface
     composite implements component interface
     nearly every user interface toolkit or framework uses a composite (from original Smalltalk MVC view implementation)
-###Flyweight (sharing expensive resources)
+### Flyweight (sharing expensive resources)
     use sharing to support large numbers of fine-grained objects efficiently
     share what is common (intrinsic)
     extrinsic
@@ -396,3 +403,18 @@ Important concepts
     Identity
     State
     Behavior
+### End result of factory is object (creational)
+    multiple ways in which object can be created
+        constructor
+        assembled
+        container...
+        when object is created?
+        who is creating object?
+        in which state object is created?
+### End result of structure (internal logic to structure)
+        a cohesive whole built up of distinct parts
+        create higher constructs
+        Classes can be inherited whereas structures not
+        WRAPPED relation (composition)
+        same interface (decorator,avoid inheritance)
+
