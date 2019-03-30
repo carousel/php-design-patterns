@@ -146,6 +146,7 @@ THREE KIND OF SOFTWARE
 ##CREATIONAL (Creational patterns become important as systems evolve to depend more on object composition than class inheritance)
 ##A class creational pattern uses inheritance to vary the class that's instantiated, whereas an object creational pattern will delegate instantiation to another object.
 ###Abstract Factory
+    IMPLEMENTATION PATTERN 
     Provide an interface for creating families of related or dependent objects without specifying their concrete classes
     Clients manipulate instances through their abstract interfaces
     Participants (Abstract/ConcreteFactory, Abstract/ConcreteProduct,Client)
@@ -418,3 +419,32 @@ Important concepts
         WRAPPED relation (composition)
         same interface (decorator,avoid inheritance)
 
+Relation pattern
+-
+Creational
+=
+    Abstract factory
+        Java - Association
+        PHP
+    Builder
+        Java - Association
+    Factory method
+        Java - Association
+Structural (wrappers)
+=
+    Adapter
+        Java - Association
+    Bridge
+        Java - Association
+    Composite
+        Java - Inheritance
+    Decorator
+        Java - Association
+    Facade
+        Java - Association,Inheritance
+    Proxy
+        Java - Association
+Behavioral
+=
+    Mediator
+        Java - Association,Inheritance
