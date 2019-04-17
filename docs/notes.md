@@ -1,17 +1,47 @@
-DESIGN PATTERNS NOTES
-======================
+#DESIGN PATTERNS NOTES
+## Definition
+    a solution to a problem in context
+##  Describing
+    name
+    intent
+    motivation
+    structure
+    participants
+    collaborators
+    consenquences
+    implementation
+    known uses
+    related patterns
+##  Pattern has four essential elements:
+    name
+    problem in context
+    solution
+    consenquences
+
+## Four essential features
+    context
+    problem
+    forces
+    solution
+
+--------------------------------------------------------------------------------------------------------
 ## Strict modelling
     object-oriented designs often end up with classes that have no counterparts in the real world
     strict modeling of the real world leads to a system that reflects today's realities but not necessarily tomorrow's
 --------------------------------------------------------------------------------------------------------
 ## Type
-    an object may have many types, and widely different objects can share a type.
-    In contrast, an object's type only refers to its interface—the set of requests to which it can respond.
-    A type is a name used to denote a particular interface.
-    An object's interface characterizes the complete set of requests that can be sent to the object
     An object may have many types, and widely different objects can share a type
+    In the terms of type theory, a class is an implementation
+    In contrast, an object's type only refers to its interface—the set of requests to which it can respond.
+    Client depend on interface
+    Public (client) interface
+    Internal interface
+    a class has an implementation (specifically the implementation of the methods), and can create objects of a given type
+    A type is a name used to denote a particular interface.
+    Often only a single implementation of a type is given, in which case the class name is often identical with the type name
+    An object's interface characterizes the complete set of requests that can be sent to the object
     Don't declare variables to be instances of particular concrete classes
-    Type vs implementation - an object's implementation is defined by its class
+    TYPE VS IMPLEMENTATION - AN OBJECT'S IMPLEMENTATION IS DEFINED BY ITS CLASS
     Of course,there's a close relationship between class and type. Because a class defines the operations an object can perform, it also defines the object's type.
 --------------------------------------------------------------------------------------------------------
 ## Reuse
@@ -44,6 +74,7 @@ DESIGN PATTERNS NOTES
     Design patterns are smaller, more abstract and less specialized then framework
     identify (less obvious) abstractions
     object granularity (size)
+    how abstract should pattern be
 --------------------------------------------------------------------------------------------------------
 Functional programming
 ======================
@@ -63,6 +94,7 @@ Heavy reliance on state in object-oriented programming makes references or point
 Since functional programming is more declarative, function names and interfaces tend to be more focused on intent rather than the the underlying mechanics
 Unlike imperative programming, functional programming makes side effects an explicitly designated exception
 Where it fits, define an operation whose return type is the same as the type of its argument(s)
+
 
 Concepts
 --------
@@ -359,17 +391,6 @@ UML
     aggregation/composition (has)
     inheritance
 
-#   Describing
-    name
-    intent
-    motivation
-    structure
-    participants
-    collaborators
-    consenquences
-    implementation
-    known uses
-    related patterns
 
 # Framework
     IoC
@@ -441,10 +462,16 @@ Structural (wrappers)
     Decorator
         Java - Association
     Facade
-        Java - Association,Inheritance
+        Java - Association, Inheritance
     Proxy
         Java - Association
 Behavioral
 =
+    Iterator
+        Java - Delegation
+        Php - Composition
+    Command
+        Java - Association, Inheritance (abstract)
     Mediator
         Java - Association,Inheritance
+        PHP -  Delegation
