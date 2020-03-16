@@ -3,7 +3,7 @@
 use Creational\Singleton\BookSingleton;
 use Creational\Singleton\BookBorrower;
 
-class SingletoneTest extends \PHPUnit\Framework\TestCase
+class SingletonTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @test
@@ -13,7 +13,7 @@ class SingletoneTest extends \PHPUnit\Framework\TestCase
         $bookBorrower = new BookBorrower();
         $firstBook = $bookBorrower->borrowBook();
         $secondBook = $bookBorrower->borrowBook();
-        $this->assertEquals(null, $secondBook);
+        $this->assertEquals($firstBook, $secondBook);
     }
 
 }

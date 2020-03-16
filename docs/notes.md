@@ -1,4 +1,4 @@
-#DESIGN PATTERNS NOTES
+# DESIGN PATTERNS NOTES
 ## Definition
     a solution to a problem in context
 ##  Describing
@@ -31,7 +31,7 @@
 --------------------------------------------------------------------------------------------------------
 ## Type
     An object may have many types, and widely different objects can share a type
-    In the terms of type theory, a class is an implementation
+    In the terms of type theory, A CLASS IS AN IMPLEMENTATION
     In contrast, an object's type only refers to its interface—the set of requests to which it can respond.
     Client depend on interface
     Public (client) interface
@@ -48,21 +48,12 @@
     Implementation inheritance problem
     Inheritance's ability to define families of objects with identical interfaces
     Object composition == more objects, less class hierarchies
+    Composition requires objects to respect each others' interfaces, which in turn requires carefully designed interfaces
     Assembling existing components (never quite rich set of objects)
     Inheritance (new object from old ones, $this)
     Delegation is a way of making composition as powerful for reuse as inheritance (self)
     Delegation (reference to object)
     In delegation, two objects are involved in handling a request: a receiving object delegates operations to its delegate,which is analogous to subclasses deferring requests to parent classes.
---------------------------------------------------------------------------------------------------------
-## Run time
-    run time (dynamic binding)
-    Reuse by composition (run time) is called BLACK-BOX reuse, because no internal details of objects are visible
-    Reuse by subclassing (compile type) is often referred to as WHITE-BOX reuse. The term "white-box" refers to visibility
-    The run-time association of a request to an object and one of its operations is known as dynamic binding
-    The code structure is frozen at compile-time;
-    A program's run-time structure consists of rapidly changing networks of communicating objects
-    The system's run-time structure must be imposed more by the designer than the language.
-    The run-time structures aren't clear from the code until you understand the patterns.
 --------------------------------------------------------------------------------------------------------
 ## Random
     Aggregation implies that an aggregate object and its owner have identical lifetimes.
@@ -75,6 +66,8 @@
     identify (less obvious) abstractions
     object granularity (size)
     how abstract should pattern be
+    Dynamic, highly parameterized software is harder
+to understand than more static software.
 --------------------------------------------------------------------------------------------------------
 Functional programming
 ======================
@@ -159,36 +152,56 @@ Immutability (PHP roundtable)
 --------------------------------------------------------------------------------------------------------
 PATTERNS
 =========
-## Top level patterns clasification
-##By purpose (what pattern does)
+### Top level patterns clasification
+### By purpose (what pattern does)
     Creational (class,object)
+        different creation meaning
+        similar to behavioral?
     Structural (class,object)
+        wrappers
+        objects have something in common
+        different structure meaning
     Behavioral (class,object)
-##By scope (to classes or objects)
-    class scope (inheritance,static)
-    object scope (composition,dynamic,run-time)
+        external to structure
+        different creation meaning
+        variations of command
+### By scope (to classes or objects)
+    class scope 
+        compile time
+        inheritance
+        static
+        compile time error
+    object scope 
+        runtime
+        composition
+        dynamic
+        run time error
+
+---------------------------------------------------
+SCOPE IS NOT PURPOSE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!          
+---------------------------------------------------
 
 
 THREE KIND OF SOFTWARE 
 ======================
-##Application programs (internal reuse)
-##Toolkits (like subroutine libraries, write the code/call toolkit)
-##Frameworks (design reuse over code reuse,reuse the framework/call the code,inversion of control)
+###  Application programs (internal reuse)
+###  Toolkits (like subroutine libraries, write the code/call toolkit)
+###  Frameworks (design reuse over code reuse,reuse the framework/call the code,inversion of control)
 
-##CREATIONAL (Creational patterns become important as systems evolve to depend more on object composition than class inheritance)
-##A class creational pattern uses inheritance to vary the class that's instantiated, whereas an object creational pattern will delegate instantiation to another object.
-###Abstract Factory
+## CREATIONAL (Creational patterns become important as systems evolve to depend more on object composition than class inheritance)
+###  A class creational pattern uses inheritance to vary the class that's instantiated, whereas an object creational pattern will delegate instantiation to another object.
+###  ABSTRACT FACTORY
     IMPLEMENTATION PATTERN 
     Provide an interface for creating families of related or dependent objects without specifying their concrete classes
     Clients manipulate instances through their abstract interfaces
     Participants (Abstract/ConcreteFactory, Abstract/ConcreteProduct,Client)
     the difference is that the intended purpose of the class containing a factory method is not to create objects, while an abstract factory should only be used to create objects.
-    Create objects at run-time
+    Create objects at runtime
     Expose abstract method factory name (to client) 
     Encapsulate creation process (hidden from client)
     Required subclassing
     Client is calling subclass (which encapsulate instantiation of objects)
-###Factory method
+###  FACTORY METHOD
     instantiation logic for dependency is delegeted to subclass
     the difference is that the intended purpose of the class containing a factory method is not to create objects, while an abstract factory should only be used to create objects.
     Define an interface for creating an object, but let subclasses decide which class to instantiate
@@ -196,7 +209,9 @@ THREE KIND OF SOFTWARE
     Similar to abstract factory 
     Subclass has more freedom (what to instantiate)
     Choice is given to client
-###Builder
+###  BUILDER
+    Outsource object data/properties construction
+    Allow flexibility to build in any order and to avoid some properties
     Separate the construction of a complex object from its representation so that the same construction process can create different representations
     Avoid constructor polution
     Telescoping constructor anti-pattern
@@ -205,14 +220,14 @@ THREE KIND OF SOFTWARE
     Builder is calling dependente object (what to build)
     Director is calling builder
     Client is calling director
-###Singleton
+###  Singleton
     Ensure a class has only one instance
     well known, global point of access to it
-###Prototype 
+###  Prototype 
     __clone to other slot of memory,delegation
 
-##STRUCTURAL(compositional, logic internal to the structure, WRAPPERS, building bigger constructs)
-###Adapter (known as WRAPPER)
+## STRUCTURAL(compositional, logic internal to the structure, WRAPPERS, building bigger constructs)
+###  ADAPTER (KNOWN AS WRAPPER)
     IMPLEMENTATION PATTERN - AGGREGATION (INSTANCE PASSED)
     convert interface into one that clients expect (for one or many objects)
     different interface from WRAPPED class(derived)
@@ -223,7 +238,7 @@ THREE KIND OF SOFTWARE
     WRAPPER for dependency object
     Client calls WRAPPER methods which forwards to adapted code
     Not transparent to client
-###Decorator (known as WRAPPER) 
+###  DECORATOR (KNOWN AS WRAPPER) 
     IMPLEMENTATION PATTERN - AGGREGATION (INSTANCE PASSED)
     recursive composition
     open ended number of objects
@@ -238,24 +253,24 @@ THREE KIND OF SOFTWARE
     smart proxy
     WRAPPED in constructor
     INHERITANCE IS NOT FEASIBLE BECAUSE IT IS STATIC AND APPLIES TO AN ENTIRE CLASS
-    decorate object at run-time,
+    decorate object at runtime,
     more flexible then inheritance
     SAME INTERFACE AS WRAPPED CLASS
     alternative to subclassing
     must be a subclass of WRAPPED interface/object
     example: grahical embellishment
-###Bridge (handle/body) 
+###  BRIDGE (HANDLE/BODY) 
     IMPLEMENTATION PATTERN - COMPOSITION (INSTANCE IN CONSTRUCTOR)
     decouple an abstraction from its implementation so that the two can vary independently (orthogonal)
     implementation details pushed from hierarchy
     allow layering
     abstraction and implementation can be extended differently
     more complex variation of adapter
-    run-time binding of the implementation
+    runtime binding of the implementation
     adapter makes things work before design 
     bridge make things work after they are designed
     common interface for implementation
-###Proxy 
+###  PROXY 
     IMPLEMENTATION PATTERN - AGGREGATION (INSTANCE PASSED)
     only one relationship (static?)
     provide a surrogate or placeholder for another object to control access to it
@@ -264,13 +279,13 @@ THREE KIND OF SOFTWARE
     same interface as WRAPPED class
     WRAPPED may not exist
     no object in constructor
-###Facade 
+###  FACADE 
     IMPLEMENTATION PATTERN - AGGREGATION (STATIC FACADE)
     provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use
     higher level interface (for one or many objects)
     different interface, new interface
     unidirectional protocol
-###Composite (composite/leaf)
+###  COMPOSITE (COMPOSITE/LEAF)
     IMPLEMENTATION PATTERN - AGGREGATION (INSTANCE PASSED)
     recursive composition
     open ended number of objects
@@ -282,23 +297,18 @@ THREE KIND OF SOFTWARE
     client use component class interface
     composite implements component interface
     nearly every user interface toolkit or framework uses a composite (from original Smalltalk MVC view implementation)
-### Flyweight (sharing expensive resources)
+###  FLYWEIGHT (SHARING EXPENSIVE RESOURCES)
     use sharing to support large numbers of fine-grained objects efficiently
     share what is common (intrinsic)
     extrinsic
     Flyweight context
 
-##BEHAVIORAL (decompositional, external to structure, sender/receiver,find what varies and encapsulate it)
-###Chain of responsibility(multiple handlers for request/next)
-    avoid coupling the sender of a request to receiver by giving more then one object change to handle request
-    pass the object along the chain
-    successor reference
-    open ended number of objects
-###Command 
+## BEHAVIORAL (decompositional, external to structure, sender/receiver,find what varies and encapsulate it)
+###  COMMAND 
     encapsulate request as object (known as action/transaction)
     request is object
     client sets receiver and insantiate command 
-    absrtact command class which encapsulates interface for executing operations
+    abstract command class which encapsulates interface for executing operations
     attach command to invoker
     invoker issues request by calling execute method
     commands are OO replacement for callbacks
@@ -306,10 +316,34 @@ THREE KIND OF SOFTWARE
     invoker/receiver paradigm
     execute command on receiver
     undo operation (reverse)
-###Iterator (known as cursor)
+### STRATEGY (KNOWN AS POLICY)
+    delegation?
+    vs state
+    interchangeable algorithms
+    many related classes differ only in their behavior
+    change guts
+    code to an interface (different algorithm implementation?)
+    key is to design interfaces for strategy and its context
+###  CHAIN OF RESPONSIBILITY(MULTIPLE HANDLERS FOR REQUEST/NEXT)
+    avoid coupling the sender of a request to receiver by giving more then one object change to handle request
+    pass the object along the chain
+    successor reference
+    open ended number of objects
+###  ITERATOR (KNOWN AS CURSOR)
+    internal and external
     access aggregate object sequentially without exposing internals
     iterator and data structure are coupled
-###Mediator 
+    node is passed to iterator
+### VISITOR (DEFINE NEW OPERATION WITHOUT CHANGING CLASSES/RECURSIVE STRUCTURE)
+    visitor is passed to node
+    similar to internal iterator
+    operation on elements of structure
+    "accepts" the visitor
+    makes adding new operations easy
+    gathers related operatons and separates unrelated
+    is elements class hierarchy stable?
+    double dispatch (depends on two elements, request and receiver)
+###  MEDIATOR 
     encapsulates communication between multiple objects
     avoid system looks like monolithic
     controlling and coordinating the interactions of a group of objects
@@ -317,18 +351,13 @@ THREE KIND OF SOFTWARE
     lozalized behavior
     replaces many-to-many with one-to-many
     mediator encapsulate protocols
-###Memento (known as token)
-    bookmark
-    capture and record objects internal state/for restoring state
-    snapshot
-    memento and originator are tightly coupled
-###Observer (known as publish/subscribe)
+### OBSERVER (KNOWN AS PUBLISH/SUBSCRIBE)
     define one to many dependency
     subject and observer (arent tightly coupled together)
     MVC as example(view is observer, model is subject)
     query for subject state
     push/pull
-###State 
+### STATE 
     in a context
     transition from state to state (defined by context)
     context DELEGATES state specific request to concrete state class
@@ -341,28 +370,18 @@ THREE KIND OF SOFTWARE
     order of state change
     transition to state
     vs strategy
-###Strategy (known as policy)
-    delegation?
-    vs state
-    interchangeable algorithms
-    many related classes differ only in their behavior
-    change guts
-    code to an interface (different algorithm implementation?)
-    key is to design interfaces for strategy and its context
-###Template Method (algorithm skeleton in a base class)
+### TEMPLATE METHOD (ALGORITHM SKELETON IN A BASE CLASS)
     implement invariant part of algorithm
     localize common behavior
     fundamental method for code reuse
     used in frameworks
     "the Hollywood principle," that is, "Don't call us, we'll call you"
-###Visitor (define new operation without changing classes/recursive structure)
-    operation on elements of structure
-    "accepts" the visitor
-    makes adding new operations easy
-    gathers related operatons and separates unrelated
-    is elements class hierarchy stable?
-    double dispatch (depends on two elements, request and receiver)
-###Interpreter
+###  MEMENTO (KNOWN AS TOKEN)
+    bookmark
+    capture and record objects internal state/for restoring state
+    snapshot
+    memento and originator are tightly coupled
+### INTERPRETER
 
 COMPARISON
 ==========
@@ -416,7 +435,7 @@ Important concepts
     most patterns have dependencies
     most patterns are services (no state)
     software doesn't express context well
-### Limited number of OO constructs:
+###  Limited number of OO constructs:
     Data types
     Class (blue print)
     Instance (object)
@@ -425,7 +444,7 @@ Important concepts
     Identity
     State
     Behavior
-### End result of factory is object (creational)
+###  End result of factory is object (creational)
     multiple ways in which object can be created
         constructor
         assembled
@@ -433,16 +452,16 @@ Important concepts
         when object is created?
         who is creating object?
         in which state object is created?
-### End result of structure (internal logic to structure)
+###  End result of structure (internal logic to structure)
         a cohesive whole built up of distinct parts
         create higher constructs
-        Classes can be inherited whereas structures not
+        Classes can be inherited whereas structures not?
         WRAPPED relation (composition)
         same interface (decorator,avoid inheritance)
 
 Relation pattern
 -
-Creational
+Creational patterns ensure that your system is written in terms of interfaces, not implementations.
 =
     Abstract factory
         Java - Association
