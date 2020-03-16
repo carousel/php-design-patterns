@@ -8,7 +8,7 @@ class MementoTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate memento classes
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->bookReader = new BookReader('Core PHP Programming, Third Edition', '103');
         $this->bookMark = new Bookmark($this->bookReader);

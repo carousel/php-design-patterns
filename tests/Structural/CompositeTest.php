@@ -5,7 +5,7 @@ use Structural\Composite\SeveralBooks;
 
 class CompositeTest extends \PHPUnit\Framework\TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         $this->firstBook = new OneBook('Core PHP Programming, Third Edition', 'Atkinson and Suraski');
         $this->secondBook = new OneBook('PHP Bible', 'Converse and Park');

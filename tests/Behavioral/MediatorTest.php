@@ -7,7 +7,7 @@ class MediatorTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate command class class
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->mediator = new BookMediator('Gamma, Helm, Johnson, and Vlissides', 'Design Patterns');
     }

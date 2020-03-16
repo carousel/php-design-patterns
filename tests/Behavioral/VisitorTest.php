@@ -10,7 +10,7 @@ class VisitorTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate state classes
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->book = new BookVisitee('Design Patterns', 'Gamma, Helm, Johnson and Vlissides');
         $this->software = new SoftwareVisitee('Zend Studio', 'Zend Technologies', 'www.zend.com');

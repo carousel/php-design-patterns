@@ -8,7 +8,7 @@ class FacadeTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate PHPDelete class
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->book = new Book("Gamma, Helm, Johnson, and Vlissides", 'Design Patterns');
     }

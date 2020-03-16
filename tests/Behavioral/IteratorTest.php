@@ -11,7 +11,7 @@ class IteratorTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate state classes
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->firstBook = new Book('Core PHP Programming, Third Edition', 'Atkinson and Suraski');
         $this->secondBook = new Book('PHP Bible', 'Converse and Park');

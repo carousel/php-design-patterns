@@ -9,7 +9,7 @@ class TemplateMethodTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate template method setup classes
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->book = new Book('Larry Truett', 'PHP for Cats');
         $this->book1 = new Book(null, 'PHP for Cats');

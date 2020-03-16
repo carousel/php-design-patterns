@@ -5,7 +5,7 @@ use Helpers\Book;
 
 class AdapterTest extends \PHPUnit\Framework\TestCase
 {
-    public function setUp()
+    public function setUp(): void
     {
         $this->book = new Book("Gamma, Helm, Johnson, and Vlissides", "Design Patterns");
         $this->bookAdapter = new BookAdapter($this->book);

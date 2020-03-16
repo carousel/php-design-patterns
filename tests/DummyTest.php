@@ -20,7 +20,7 @@ class Car
 
 class DummyTest extends \PHPUnit\Framework\TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         $mock = $this->getMockBuilder('Engine')
             ->getMock();

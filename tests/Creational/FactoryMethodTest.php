@@ -9,7 +9,7 @@ class FactoryMethodTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate factory method
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->factoryMethod = new OReillyFactoryMethod;
     }

@@ -9,7 +9,7 @@ class BuilderTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate factory method
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->pageBuilder = new HTMLPageBuilder();
         $this->pageDirector = new HTMLPageDirector($this->pageBuilder);

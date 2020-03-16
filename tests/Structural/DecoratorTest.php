@@ -10,7 +10,7 @@ class DecoratorTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate objects
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->patternBook = new Book("Gamma, Helm, Johnson, and Vlissides", 'Design Patterns');
         $this->decorator = new BookTitleDecorator($this->patternBook);

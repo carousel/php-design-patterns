@@ -8,7 +8,7 @@ class ObserverTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate obserser class class
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->patternGossiper = new PatternSubject();
         $this->patternGossipFan = new PatternObserver();

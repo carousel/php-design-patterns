@@ -8,7 +8,7 @@ class ProxyTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate PHPDelete class
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->proxyBookList = new ProxyBookList();
         $this->firstBook = new Book('LARRY TRUETT','PHP for Cats');

@@ -10,7 +10,7 @@ class ChainTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate state classes
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->bookTopic = new BookTopic('PHP for Cats', 'Larry Truett');
         $this->bookSubTopic = new BookSubTopic('Advanced MySql', $this->bookTopic);

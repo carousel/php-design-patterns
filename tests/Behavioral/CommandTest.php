@@ -10,7 +10,7 @@ class CommandTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate command class class
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->book = new BookCommandee('Design Patterns', 'Gamma, Helm, Johnson, and Vlissides');
     }

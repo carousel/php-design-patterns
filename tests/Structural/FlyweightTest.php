@@ -7,7 +7,7 @@ class FlyweightTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate PHPDelete class
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->flyweightFactory = new FlyweightFactory();
     }

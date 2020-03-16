@@ -12,7 +12,7 @@ class StateTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate state classes
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->book = new Book('Larry Truett','PHP book title initial');
         $this->bookContext = new BookContext($this->book,new BookTitleStateStars);

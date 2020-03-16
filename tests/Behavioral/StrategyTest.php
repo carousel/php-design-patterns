@@ -9,7 +9,7 @@ class StrategyTest extends \PHPUnit\Framework\TestCase
     /**
      * Instantiate strategy classes class
      */
-    public function setUp()
+    public function setUp(): void
     {
         $this->book = new Book('Larry Truett','PHP for Cats');
         $this->strategyContextC = new StrategyContext('C');
